@@ -1,0 +1,45 @@
+{
+  "name": "mix-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npm run development",
+    "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js;npm run postdev",
+    "watch-poll": "npm run watch -- --watch-poll",
+    "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "prod": "npm run production",
+    "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "postdev": "del-cli media mix-manifest.json -f"
+  },
+  "devDependencies": {
+    "axios": "^0.15.3",
+    "browser-sync": "^2.18.13",
+    "browser-sync-webpack-plugin": "^1.2.0",
+    "cross-env": "^5.0.1",
+    "eslint": "^4.12.0",
+    "laravel-mix": "^1.7.2",
+    "lodash": "^4.17.4",
+    "svg4everybody": "^2.1.9",
+    "tinysort": "^2.3.6",
+    "vue": "^2.4.2",
+    "zenscroll": "^4.0.0"
+  },
+  "dependencies": {
+    "autoprefixer": "^7.1.5",
+    "babel-loader": "^7.1.1",
+    "bootstrap": "^4.1.3",
+    "del-cli": "^1.1.0",
+    "enter-view": "^1.0.0",
+    "flickity": "^2.0.9",
+    "lazysizes": "^4.0.1",
+    "node-sass": "^4.5.3",
+    "sass-loader": "^6.0.6",
+    "scrolldir": "^1.2.13",
+    "vue-loader": "^12.2.2",
+    "webpack-svgstore-plugin": "^4.0.1"
+  },
+  "author": "",
+  "license": "ISC"
+}
