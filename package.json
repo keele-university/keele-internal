@@ -11,7 +11,9 @@
     "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
     "prod": "npm run production",
     "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
-    "postdev": "del-cli media mix-manifest.json -f"
+    "postdev": "del-cli media mix-manifest.json -f",
+    "//": "following kback is for Keele public folder backup during development.",
+    "kback": "mkdir -pv ~/Dropbox/ki-public-backup && tar czf publiczip-$(date +%Y-%m-%d_%H-%M).tgz public && cp publiczip* ~/Dropbox/ki-public-backup && rm publiczip*"
   },
   "devDependencies": {
     "axios": "^0.15.3",
