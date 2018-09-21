@@ -11,7 +11,18 @@
 .site-header {
     // background: url('/resources/media/keele-hall-960-640.jpg');
     background: url('/media/keele-hall-960-640.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+.layout-card {
+    opacity: .9;
+}
+.site-header .layout-hero {
+    min-height: 50vh;
+}
+
+
 // :root {
 //     --blue: #007bff;
 //     --indigo: #6610f2;
