@@ -28,7 +28,7 @@ const { mix } = require('laravel-mix');
     mix.js('resources/assets/js/app.js', 'public/js')
     .sass('resources/assets/sass/app.scss', 'public/css')
     // .sass('resources/assets/sass/pattern.scss', 'public/css')
-    // .copy('media', 'public/media')
+    .copy('resources/media', 'public/media')
     .copy('mix-manifest.json', 'public/')
     .browserSync({
         // proxy: 'keele.dev'
