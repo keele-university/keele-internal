@@ -91,7 +91,9 @@ typings/
 
 # End of https://www.gitignore.io/api/macos,node
 #
-!public/.gitkeep
-public/
-media/
+#!public/.gitkeep
+public/css/app.css
+public/js/app.js
+# public/
+# media/
 mix-manifest.json
