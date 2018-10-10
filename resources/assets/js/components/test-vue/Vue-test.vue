@@ -13,7 +13,7 @@
 
 <script>
     export default {
-        name: 'Vue test',
+        name: 'Vue-test',
         data(){
             return {
                 test: 'Vue data 🍬'
