@@ -23,8 +23,10 @@
 }
 
 $theme-colors: (
-  "primary": #014c72,
-  "danger": #ff4136
+    "primary": #014c72,
+//   "secondary": #7f7f7f,
+    "success": #16743f, // comment to use default BStrap green
+    "info": #0b9dda
 );
 
 // :root {
