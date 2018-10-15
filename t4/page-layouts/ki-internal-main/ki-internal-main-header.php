@@ -96,7 +96,7 @@
         <div class="container">
             <div class="row">
                 <nav aria-label="breadcrumb">
-                    <ol class="breadcrumb bg-transparent ml-2">
+                    <ol class="breadcrumb bg-transparent ml-2 my-0">
                         <li class="breadcrumb-item"><a href="#">Home</a></li>
                         <li class="breadcrumb-item"><a href="#">Shows</a></li>
                         <li class="breadcrumb-item active" aria-current="page">If there</li>
