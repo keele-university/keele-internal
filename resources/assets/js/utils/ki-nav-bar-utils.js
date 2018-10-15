@@ -8,7 +8,7 @@ function init() {
     var kiNavBarPrimaryParent = kiNavBarPrimary.parentNode;
     
     // now add the custom class to it
-    kiNavBarPrimaryParent.classList.add('ki-currentbranch0-parent');
+    kiNavBarPrimaryParent.classList.add('js-currentbranch0-parent');
 }
 
 module.exports = {
