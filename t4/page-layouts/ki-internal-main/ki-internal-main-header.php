@@ -45,15 +45,16 @@
                 </div> <!-- .container -->
             </header>
 
+        <!-- navigation object : ki-level-5-nav --><t4 type="navigation" id="480"/>
         <div class="navbar bg-primary navbar-dark navbar-expand-sm p-0">
             <div class="container">
-                <div class="navbar-nav">
-                    <a class="nav-item nav-link" href="#">Nav bar one</a>
-                    <a class="nav-item nav-link" href="#">Only</a>
-                    <a class="nav-item nav-link currentbranch0" href="#">Shows</a>
-                    <a class="nav-item nav-link" href="#">On</a>
-                    <a class="nav-item nav-link" href="#">Level 2</a>
-                    <a class="nav-item nav-link" href="#">onwards</a>
+                <div class="navbar-nav ki-nav-bar-primary">
+                <li class="nav-item nav-link"><a href="#"></a>Nav bar one</li>
+                    <li class="nav-item nav-link"><a href="#">Only</a></li>
+                    <li class="nav-item nav-link currentbranch0" href="#"><a href="#">Shows</a></li>
+                    <li class="nav-item nav-link"><a href="#">On</a></li>
+                    <li class="nav-item nav-link"><a href="#">Level 2</a></li>
+                    <li class="nav-item nav-link"><a href="#">onwards</a></li>
                 </div>
             </div>
         </div>

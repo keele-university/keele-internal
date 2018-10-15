@@ -59,7 +59,16 @@ $breadcrumb-divider: quote(">");  // needs replacing with SVG
 @return map-get($grays, $key);
 }
 
-.currentbranch0 {
+// NAVBAR Utils
+.ki-nav-bar-primary a {
+    color: #eee;
+}
+.ki-nav-bar-primary a:hover {
+    text-decoration: none;
+    color: white;
+}
+// .currentbranch0 {
+.ki-currentbranch0-parent {
     background-color: theme-color("info") !important;
     color: white !important;
     // font-weight: lighter;
