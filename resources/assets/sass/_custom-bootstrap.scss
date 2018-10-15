@@ -13,7 +13,14 @@
 .ki-uec__img {
     max-width: 30%;
 }
-
+// RHS homepage
+// .ki-utility-links button {
+//     white-space: normal;
+// }
+// Global -- risky? See target RHS above
+button.btn {
+    white-space: normal;
+}
 .layout-social .layout-icon {
     font-size: 2.5rem;
 }
@@ -38,6 +45,25 @@ $theme-colors: (
     "success": #16743f, // comment to use default BStrap green
     "info": #0b9dda
 );
+
+$breadcrumb-divider: quote(">");  // needs replacing with SVG
+
+// Color functions see: https://getbootstrap.com/docs/4.1/getting-started/theming/#theme-colors
+@function color($key: "blue") {
+    @return map-get($colors, $key);
+}
+@function theme-color($key: "primary") {
+@return map-get($theme-colors, $key);
+}
+@function gray($key: "100") {
+@return map-get($grays, $key);
+}
+
+.currentbranch0 {
+    background-color: theme-color("info") !important;
+    color: white !important;
+    // font-weight: lighter;
+}
 
 // :root {
 //     --blue: #007bff;

@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>keele-grapevine</title>
-    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/app.css?v=ki">
 
     <!-- hide during dev-->
     <meta name="robots" content="noindex" />
@@ -73,14 +73,14 @@
                 <div class="navbar-nav">
                     <a class="nav-item nav-link" href="#">Nav bar one</a>
                     <a class="nav-item nav-link" href="#">Only</a>
-                    <a class="nav-item nav-link" href="#">Shows</a>
+                    <a class="nav-item nav-link currentbranch0" href="#">Shows</a>
                     <a class="nav-item nav-link" href="#">On</a>
                     <a class="nav-item nav-link" href="#">Level 2</a>
                     <a class="nav-item nav-link" href="#">onwards</a>
                 </div>
             </div>
         </div>
-        <div class="navbar bg-info navbar-dark navbar-expand-sm mt-0 mb-4 p-0">
+        <div class="navbar bg-info navbar-dark navbar-expand-sm mt-0 mb-0 p-0">
             <div class="container">
                 <div class="navbar-nav">
                     <a class="nav-item nav-link" href="#">Nav bar two</a>
@@ -93,6 +93,17 @@
             </div>
         </div>
 
+        <div class="container">
+            <div class="row">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb bg-transparent ml-2">
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item"><a href="#">Shows</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">If there</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
         <!-- <div class="container"> -->
             <!-- <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
@@ -224,7 +235,7 @@
 
                 </div> <!-- end col-md-9 -->
                 <div class="col-md-3 mb-3">
-                    <div class="accordion mb-3" id="accordionExample">
+                    <div class="ki-utility-links accordion mb-3" id="accordionUtilityLinks">
                         <div class="card">
                             <div class="card-header" id="headingOne">
                             <h5 class="mb-0">
@@ -234,7 +245,7 @@
                             </h5>
                             </div>
                         
-                            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample"> <!-- collapse show to open on page load -->
+                            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionUtilityLinks"> <!-- collapse show to open on page load -->
                             <div class="card-body">
                                 <ul class="list-unstyled">
                                     <!-- (li>a>{list link $})*25 -->
@@ -253,7 +264,7 @@
                                 </button>
                             </h5>
                             </div>
-                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionUtilityLinks">
                             <div class="card-body">
                                     <ul class="list-unstyled">
                                             <li><a href="http://mail.keele.ac.uk">Email</a></li>
@@ -490,6 +501,6 @@
 
 
     </div> <!-- .#page-wrapper -->
-    <script src="js/app.js"></script>
+    <script src="js/app.js?v=ki"></script>
 </body>
 </html>
