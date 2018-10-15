@@ -46,7 +46,7 @@
             </header>
 
         <!-- navigation object : ki-level-5-nav --><t4 type="navigation" id="480"/>
-        <div class="navbar bg-primary navbar-dark navbar-expand-sm p-0">
+        <!-- <div class="navbar bg-primary navbar-dark navbar-expand-sm p-0">
             <div class="container">
                 <div class="navbar-nav ki-nav-bar-primary">
                 <li class="nav-item nav-link"><a href="#"></a>Nav bar one</li>
@@ -57,7 +57,7 @@
                     <li class="nav-item nav-link"><a href="#">onwards</a></li>
                 </div>
             </div>
-        </div>
+        </div> -->
         <div class="navbar bg-info navbar-dark navbar-expand-sm mt-0 mb-0 p-0">
             <div class="container">
                 <div class="navbar-nav">
