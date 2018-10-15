@@ -37,36 +37,13 @@
                             STAFF INTRANET
                     </span>
 
-                    <!-- <form class="form-inline">
-                            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                    </form> -->
-
                     <div class="ml-auto d-flex">
                         <form class="form-inline"><input type="search" placeholder="Search" aria-label="Search" class="form-control mr-sm-2"><button type="submit" class="btn btn-outline-success my-2 my-sm-0">Search</button></form>
                         
-                        <!-- <ul class="navbar-nav px-3">
-                            <li class="nav-item text-nowrap">
-                                <a href="#" class="nav-link">Sign out</a>
-                            </li>
-                        </ul> -->
                     </div>
                 </nav>
                 </div> <!-- .container -->
             </header>
-        
-        
-
-<!-- 
-        <div class="jumbotron jumbotron-fluid text-center bg-primary text-white">
-            <div class="container">
-                <h1 class="display-5">STAFF INTRANET</h1>
-                <!- - <p class="lead">Optional lead in text. 'Information for staff' aka News and events</p> - ->
-            </div>
-        </div> 
--->
-
-
 
         <div class="navbar bg-primary navbar-dark navbar-expand-sm p-0">
             <div class="container">
@@ -93,7 +70,8 @@
             </div>
         </div>
 
-        <div class="container">
+        <!-- navigation object : ki-breadcrumbs --><t4 type="navigation" id="477"/>
+        <!-- <div class="container">
             <div class="row">
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb bg-transparent ml-2 my-0">
@@ -103,4 +81,4 @@
                     </ol>
                 </nav>
             </div>
-        </div>
+        </div> -->
