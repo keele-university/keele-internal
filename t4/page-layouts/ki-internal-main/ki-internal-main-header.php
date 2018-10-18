@@ -14,10 +14,10 @@
 <body class="bg-light">
 
     <div id="page-wrapper">
-        
 
             <div class="ki-auth-bar container-fluid bg-light sticky-top">
                 <div class="container d-flex">
+                        <div class="pl-2 my-0 py-1 align-left d-block d-lg-none "><small>STAFF INTRANET</small></div>
                         <div class="ml-auto my-0 py-1 align-middle"><a href="#"><small>Logout</small></a></div>
                 </div>
             </div>
@@ -33,13 +33,33 @@
                         <h1><a class="blog-header-logo text-dark" href="#">grapevine-project</a></h1>
                     </div> -->
 
-                    <span class="ki-header__title navbar-text mx-auto text-primary">
+                    <span class="ki-header__title navbar-text mx-auto text-primary d-none d-lg-block">
                             STAFF INTRANET
                     </span>
 
+                    <!-- <form class="form-inline">
+                            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    </form> -->
+
                     <div class="ml-auto d-flex">
-                        <form class="form-inline"><input type="search" placeholder="Search" aria-label="Search" class="form-control mr-sm-2"><button type="submit" class="btn btn-outline-success my-2 my-sm-0">Search</button></form>
-                        
+                        <!-- desktop has search input, mobile just a link to search page and select input on load -->
+                            <form class="form-inline d-none d-md-block">
+                                <input type="search" placeholder="Search" aria-label="Search" class="form-control">
+                                <button type="submit" class="btn bg-transparent my-2 my-sm-0">
+                                    <i class="fas fa-search"></i>
+                                </button>
+                            </form>
+                            <form class="form-inline d-block d-md-none">
+                                <button type="submit" class="btn bg-transparent my-2 my-sm-0 btn-outline-primary">
+                                    <i class="fas fa-search"></i>
+                                </button>
+                            </form>
+                        <!-- <ul class="navbar-nav px-3">
+                            <li class="nav-item text-nowrap">
+                                <a href="#" class="nav-link">Sign out</a>
+                            </li>
+                        </ul> -->
                     </div>
                 </nav>
                 </div> <!-- .container -->
