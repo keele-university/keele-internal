@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Merriweather:300|Source+Sans+Pro:200,400,600');
 
 .navbar {
+    //
 }
 .ki-auth-bar {
     border-bottom: 1px #eee solid;
@@ -60,6 +61,17 @@ $breadcrumb-divider: quote(">");  // needs replacing with SVG
 }
 
 // NAVBAR Utils
+
+.ki-nav-bar-primary .nav-link, .ki-nav-bar-secondary .nav-link {
+    transition: .3s ease-out;
+}
+
+.ki-nav-bar-primary .nav-link:hover, .ki-nav-bar-secondary .nav-link:hover {
+    transition: .3s ease-in;
+    background-color: #333 !important;
+    color: white !important;
+}
+
 .ki-nav-bar-primary a {
     color: #eee;
 }
@@ -67,6 +79,17 @@ $breadcrumb-divider: quote(">");  // needs replacing with SVG
     text-decoration: none;
     color: white;
 }
+
+.ki-nav-bar-secondary {
+    background-color: theme-color("info");
+    a {
+        color: #eee;
+    }
+}
+.ki-nav-bar-secondary a:hover {
+    color: white;
+}
+
 // .currentbranch0 {
 .js-currentbranch0-parent {
     background-color: theme-color("info") !important;
