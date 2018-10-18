@@ -87,7 +87,7 @@ $breadcrumb-divider: quote(">");  // needs replacing with SVG
     }
 }
 .ki-nav-bar-secondary a:hover {
-    color: white;
+    color: white !important;
 }
 
 // .currentbranch0 {
@@ -95,6 +95,13 @@ $breadcrumb-divider: quote(">");  // needs replacing with SVG
     background-color: theme-color("info") !important;
     color: white !important;
     // font-weight: lighter;
+}
+// level 2
+.js-currentbranch0-parent-secondary {
+    // background-color: greenyellow;
+    // a{
+    //     color: hotpink !important;
+    // }
 }
 
 // :root {
