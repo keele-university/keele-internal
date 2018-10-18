@@ -17,6 +17,7 @@
     "kback": "mkdir -pv ~/Dropbox/ki-public-backup && tar czf publiczip-$(date +%Y-%m-%d_%H-%M).tgz public && cp publiczip* ~/Dropbox/ki-public-backup && rm publiczip*"
   },
   "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.4.1",
     "axios": "^0.15.3",
     "browser-sync": "^2.18.13",
     "browser-sync-webpack-plugin": "^1.2.0",
