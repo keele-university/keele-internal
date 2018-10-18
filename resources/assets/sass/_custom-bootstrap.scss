@@ -68,7 +68,7 @@ $breadcrumb-divider: quote(">");  // needs replacing with SVG
 
 .ki-nav-bar-primary .nav-link:hover, .ki-nav-bar-secondary .nav-link:hover {
     transition: .3s ease-in;
-    background-color: #333 !important;
+    background-color: #343a40;
     color: white !important;
 }
 
@@ -98,10 +98,12 @@ $breadcrumb-divider: quote(">");  // needs replacing with SVG
 }
 // level 2
 .js-currentbranch0-parent-secondary {
-    // background-color: greenyellow;
-    // a{
-    //     color: hotpink !important;
-    // }
+    background-color: theme-color("info");
+    color: white !important;
+    font-weight: 600;
+    &:hover {
+        background-color: theme-color("info") !important;
+    }
 }
 
 // :root {
