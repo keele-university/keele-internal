@@ -78,9 +78,10 @@
                 </div>
             </div>
         </div> -->
-        <div class="navbar bg-info navbar-dark navbar-expand-sm mt-0 mb-0 p-0">
+        <!-- navigation object : ki-level-6-nav --><t4 type="navigation" id="481"/>
+        <!-- <div class="navbar bg-info navbar-dark navbar-expand-sm mt-0 mb-0 p-0">
             <div class="container">
-                <div class="navbar-nav">
+                <div class="navbar-nav ki-nav-bar-secondary">
                     <a class="nav-item nav-link" href="#">Nav bar two</a>
                     <a class="nav-item nav-link" href="#">Only shows</a>
                     <a class="nav-item nav-link active" href="#">If there</a>
@@ -89,7 +90,7 @@
                     <a class="nav-item nav-link" href="#">level 4</a>
                 </div>
             </div>
-        </div>
+        </div> -->
 
         <!-- navigation object : ki-breadcrumbs --><t4 type="navigation" id="477"/>
         <!-- <div class="container">
