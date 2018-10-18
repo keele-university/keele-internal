@@ -63,11 +63,11 @@ $breadcrumb-divider: quote(">");  // needs replacing with SVG
 // NAVBAR Utils
 
 .ki-nav-bar-primary .nav-link, .ki-nav-bar-secondary .nav-link {
-    transition: .3s ease-out;
+    transition: background-color .2s ease-out;
 }
 
 .ki-nav-bar-primary .nav-link:hover, .ki-nav-bar-secondary .nav-link:hover {
-    transition: .3s ease-in;
+    transition: background-color .2s ease-in;
     background-color: #343a40;
     color: white !important;
 }
