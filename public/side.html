@@ -77,40 +77,53 @@
 
 
     <div class="ki-main-navs">
-        <div class="navbar bg-primary navbar-dark navbar-expand-sm p-0">
+        <div class="navbar bg-primary navbar-dark navbar-expand-sm p-0 nav-fill">
             <div class="container">
-                <div class="navbar-nav ki-nav-bar-primary">
-                    <li class="nav-item">
-                        <a href="#">Nav bar one</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#">Only</a>
-                    </li>
-                    <li class="nav-item">
-                        <span href="#" class="currentbranch0">Shows</span>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#">On</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#">Level 2</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#">onwards</a>
-                    </li>
-                </div>
+                    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navBarTogglePrimary" aria-controls="navBarTogglePrimary" aria-expanded="false" aria-label="Toggle primary navigation">
+                    <!-- <span class="navbar-toggler-icon"></span> -->
+                    <i class="fas fa-angle-down fa-lg"></i>
+                    </button>
+                <div class="collapse navbar-collapse" id="navBarTogglePrimary">
+                    <div class="navbar-nav ki-nav-bar-primary">
+                        <li class="nav-item">
+                            <a href="#">Nav bar one</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#">Only</a>
+                        </li>
+                        <li class="nav-item">
+                            <span href="#" class="currentbranch0">Shows</span>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#">On</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#">Level 2</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#">onwards</a>
+                        </li>
+                    </div> 
+                </div> <!-- navBarTogglePrimary -->
             </div>
         </div>
-        <div class="navbar bg-info navbar-dark navbar-expand-sm mt-0 mb-0 p-0">
+        <div class="navbar bg-info navbar-dark navbar-expand-sm mt-0 mb-0 p-0 nav-fill">
             <div class="container">
-                <div class="navbar-nav ki-nav-bar-secondary">
-                    <li class="nav-item"><a href="#">Something</a></li>
-                    <li class="nav-item"><a href="#">More links</a></li>
-                    <li class="nav-item" href="#"><span href="#" class="currentbranch0">Currentbranch0 class</span></li>
-                    <li class="nav-item"><a href="#">More</a></li>
-                    <li class="nav-item"><a href="#">Level</a></li>
-                    <li class="nav-item"><a href="#">onwards</a></li>
-                </div>
+                    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navBarToggleSecondary" aria-controls="navBarToggleSecondary" aria-expanded="false" aria-label="Toggle secondary navigation">
+                    <!-- <span class="navbar-toggler-icon"></span> -->
+                    <i class="fas fa-angle-double-down fa-lg"></i>
+                    </button>
+
+                <div class="collapse navbar-collapse" id="navBarToggleSecondary">
+                    <div class="navbar-nav ki-nav-bar-secondary">
+                        <li class="nav-item"><a href="#">Something</a></li>
+                        <li class="nav-item"><a href="#">More links</a></li>
+                        <li class="nav-item" href="#"><span href="#" class="currentbranch0">Currentbranch0 class</span></li>
+                        <li class="nav-item"><a href="#">More</a></li>
+                        <li class="nav-item"><a href="#">Level</a></li>
+                        <li class="nav-item"><a href="#">onwards</a></li>
+                    </div>
+                </div> <!-- navBarToggleSecondary -->
             </div>
         </div>
     </div> <!-- ki-main-navs -->

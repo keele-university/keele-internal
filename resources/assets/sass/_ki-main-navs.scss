@@ -41,3 +41,10 @@ span.currentbranch0.nav-link a {
         background-color:#343a40 !important;
     }
 }
+
+
+// MOBILE
+// toggler full width. Note that centering of section names is done with .nav-fill in the markup (nav object markup)
+.ki-main-navs button.navbar-toggler {
+    width: 100%;
+}
