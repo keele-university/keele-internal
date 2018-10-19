@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Merriweather:300|Source+Sans+Pro:200,400,600');
 
-// .navbar {
-//     //
-// }
 .ki-auth-bar {
     border-bottom: 1px #eee solid;
 }
@@ -10,12 +7,38 @@
     font-size: 2.25rem;
     font-family: 'Source Sans Pro', sans-serif !important;
 }
+////////////////////
+////////////////////
+// NAVBAR MAIN
 
-// nav surrounder
+// nav bar main
 .ki-main-navs {
     visibility: hidden;
 }
+// NAVBAR transition
+.ki-nav-bar-primary .nav-link, .ki-nav-bar-secondary .nav-link {
+    transition: background-color .2s ease-out;
+}
+// nav normal state
+.ki-nav-bar-primary a.nav-link, .ki-nav-bar-secondary a.nav-link {
+    color: #eee !important;
+    opacity: .9;
+}
+.ki-nav-bar-primary span.nav-link, .ki-nav-bar-secondary span.nav-link {
+    color: white !important;
+}
+// nav hover
+.ki-nav-bar-primary .nav-link, .ki-nav-bar-secondary .nav-link {
+    transition: background-color .2s ease-out;
+}
+.ki-nav-bar-primary .nav-link:hover, .ki-nav-bar-secondary .nav-link:hover {
+    transition: background-color .2s ease-in;
+    background-color: #343a40;
+    opacity: 1;
+}
 
+
+// UEC
 .ki-uec__img {
     max-width: 30%;
 }
@@ -24,9 +47,11 @@
 //     white-space: normal;
 // }
 // Global -- risky? See target RHS above
+
 button.btn {
     white-space: normal;
 }
+
 .layout-social .layout-icon {
     font-size: 2.5rem;
 }
@@ -65,53 +90,7 @@ $breadcrumb-divider: quote(">");  // needs replacing with SVG
 @return map-get($grays, $key);
 }
 
-// NAVBAR Utils
 
-.ki-nav-bar-primary .nav-link, .ki-nav-bar-secondary .nav-link {
-    transition: background-color .2s ease-out;
-}
-
-.ki-nav-bar-primary .nav-link:hover, .ki-nav-bar-secondary .nav-link:hover {
-    transition: background-color .2s ease-in;
-    background-color: #343a40;
-    color: white !important;
-}
-
-.ki-nav-bar-primary a {
-    color: #eee;
-}
-.ki-nav-bar-primary a:hover {
-    text-decoration: none;
-    color: white;
-}
-
-.ki-nav-bar-secondary {
-    background-color: theme-color("info");
-    a {
-        color: #eee;
-    }
-}
-.ki-nav-bar-secondary a:hover {
-    color: white !important;
-    text-decoration: none;
-}
-
-// .currentbranch0 {
-.js-currentbranch0-parent {
-    background-color: theme-color("info") !important;
-    color: hotpink !important;
-    font-weight: 600;
-    // font-weight: lighter;
-}
-// level 2
-.js-currentbranch0-parent-secondary {
-    background-color: theme-color("info");
-    color: white !important;
-    font-weight: 600;
-    &:hover {
-        background-color: theme-color("info") !important;
-    }
-}
 
 // :root {
 //     --blue: #007bff;
