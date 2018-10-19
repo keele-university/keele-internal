@@ -1,14 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Merriweather:300|Source+Sans+Pro:200,400,600');
 
-.navbar {
-    //
-}
+// .navbar {
+//     //
+// }
 .ki-auth-bar {
     border-bottom: 1px #eee solid;
 }
 .ki-header__title {
     font-size: 2.25rem;
     font-family: 'Source Sans Pro', sans-serif !important;
+}
+
+// nav surrounder
+.ki-main-navs {
+    visibility: hidden;
 }
 
 .ki-uec__img {
@@ -94,7 +99,7 @@ $breadcrumb-divider: quote(">");  // needs replacing with SVG
 // .currentbranch0 {
 .js-currentbranch0-parent {
     background-color: theme-color("info") !important;
-    color: white !important;
+    color: hotpink !important;
     font-weight: 600;
     // font-weight: lighter;
 }

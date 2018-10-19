@@ -14,7 +14,8 @@
     "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
     "postdev": "del-cli media mix-manifest.json -f",
     "//": "following kback is for Keele public folder backup during development.",
-    "kback": "mkdir -pv ~/Dropbox/ki-public-backup && tar czf publiczip-$(date +%Y-%m-%d_%H-%M).tgz public && cp publiczip* ~/Dropbox/ki-public-backup && rm publiczip*"
+    "kback": "mkdir -pv ~/Dropbox/ki-public-backup && tar czf publiczip-$(date +%Y-%m-%d_%H-%M).tgz public && cp publiczip* ~/Dropbox/ki-public-backup && rm publiczip*",
+    "t4proxy": "npm run development && node t4-proxy.js"
   },
   "devDependencies": {
     "@fortawesome/fontawesome-free": "^5.4.1",
