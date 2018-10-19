@@ -13,7 +13,7 @@
 </head>
 <body class="bg-light">
 
-    <div id="page-wrapper">
+    <div id="page-wrapper" class="v-cloak">
 
             <div class="ki-auth-bar container-fluid bg-light sticky-top">
                 <div class="container d-flex">
