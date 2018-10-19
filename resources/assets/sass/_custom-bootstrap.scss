@@ -7,36 +7,6 @@
     font-size: 2.25rem;
     font-family: 'Source Sans Pro', sans-serif !important;
 }
-////////////////////
-////////////////////
-// NAVBAR MAIN
-
-// nav bar main
-.ki-main-navs {
-    visibility: hidden;
-}
-// NAVBAR transition
-.ki-nav-bar-primary .nav-link, .ki-nav-bar-secondary .nav-link {
-    transition: background-color .2s ease-out;
-}
-// nav normal state
-.ki-nav-bar-primary a.nav-link, .ki-nav-bar-secondary a.nav-link {
-    color: #eee !important;
-    opacity: .9;
-}
-.ki-nav-bar-primary span.nav-link, .ki-nav-bar-secondary span.nav-link {
-    color: white !important;
-}
-// nav hover
-.ki-nav-bar-primary .nav-link, .ki-nav-bar-secondary .nav-link {
-    transition: background-color .2s ease-out;
-}
-.ki-nav-bar-primary .nav-link:hover, .ki-nav-bar-secondary .nav-link:hover {
-    transition: background-color .2s ease-in;
-    background-color: #343a40;
-    opacity: 1;
-}
-
 
 // UEC
 .ki-uec__img {
