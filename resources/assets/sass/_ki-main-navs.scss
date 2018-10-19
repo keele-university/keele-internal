@@ -15,12 +15,29 @@
 .ki-nav-bar-primary span.nav-link, .ki-nav-bar-secondary span.nav-link {
     color: white !important;
 }
-// nav hover
-.ki-nav-bar-primary .nav-link, .ki-nav-bar-secondary .nav-link {
+// nav hover. note this doesn't target spans. This is good so they have no hover state
+.ki-nav-bar-primary a.nav-link, .ki-nav-bar-secondary a.nav-link {
     transition: background-color .2s ease-out;
 }
-.ki-nav-bar-primary .nav-link:hover, .ki-nav-bar-secondary .nav-link:hover {
+.ki-nav-bar-primary a.nav-link:hover, .ki-nav-bar-secondary a.nav-link:hover {
     transition: background-color .2s ease-in;
     background-color: #343a40;
     opacity: 1;
+}
+
+// target current path in nav
+// note first is current page, second is in path but with a link in it
+span.currentbranch0.nav-link, span.currentbranch0.nav-link a {
+    // background-color:#6c757d;
+    color: #eee !important;
+    font-weight: 600;
+}
+span.currentbranch0.nav-link a {
+    text-decoration: none;
+}
+.js-currentbranch0-parent span.currentbranch0.nav-link {
+    background-color:#0b9dda !important;
+    &:hover{
+        background-color:#343a40 !important;
+    }
 }
