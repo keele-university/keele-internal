@@ -3,15 +3,16 @@
             <div class="row">
                 <div class="col-md-9">
 
-                    <div class="card text-white bg-primary mb-3">
+                    <!-- navigation object : ki-home-9-3-hero-card --><t4 type="navigation" id="482"/>
+                    <!-- <div class="card text-white bg-primary mb-3">
                         <img class="card-img-top" src="https://picsum.photos/960/220?image=776" alt="Card image cap">
-                        <!-- <div class="card-header">Optional header</div> -->
+                        <!- - <div class="card-header">Optional header</div> - ->
                         <div class="card-body">
                             <h5 class="card-title">Optional card title</h5>
                             <p class="card-text">The image above can have any height but width must be 960px and
                                 recommended height is 220px</p>
                         </div>
-                    </div>
+                    </div> -->
 
                     <!-- <a href="#">
                         <img src="https://picsum.photos/800/400" class="img-fluid rounded" alt="Responsive image">
