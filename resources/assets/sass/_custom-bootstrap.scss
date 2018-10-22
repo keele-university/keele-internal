@@ -7,7 +7,10 @@
     font-size: 2.25rem;
     font-family: 'Source Sans Pro', sans-serif !important;
 }
-
+.ki-pinned-list img {
+    max-width: 120px;
+    object-fit: cover;
+}
 // UEC
 .ki-uec__img {
     max-width: 30%;
