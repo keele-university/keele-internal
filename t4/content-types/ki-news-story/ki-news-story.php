@@ -5,7 +5,7 @@
             <h2 class="mb-3"><t4 type="content" name="News title" output="normal" modifiers=""  /></h2>
             <p class="font-weight-light">
                 <small>
-                    <time class="date-label" datetime="<t4 type="content" output="normal" modifiers="nav_sections" name="Date released" date_format="yyyy-MM-dd HH:mm" />"><t4 type="content" output="normal" modifiers="nav_sections" name="Date released" date_format="dd MMMM yyyy" /></time>
+                    <time class="date-label" datetime="<t4 type="content" output="normal" modifiers="nav_sections" name="Display date released" date_format="yyyy-MM-dd HH:mm" />"><t4 type="content" output="normal" modifiers="nav_sections" name="Display date released" date_format="dd MMMM yyyy" /></time>
                 </small>
                 </p>
 
