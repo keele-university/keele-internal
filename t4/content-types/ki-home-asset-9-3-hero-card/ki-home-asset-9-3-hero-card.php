@@ -4,7 +4,7 @@
                         <t4 type="content" output="selective-output" process-format="true" modifiers="medialibrary, nav_sections" name="Section link" format="<a href=&quot;<t4 type=&quot;content&quot; name=&quot;Section link&quot; output=&quot;linkurl&quot; />&quot;>" />
                         <t4 type="content" output="selective-output" name="URL link" format="<a href=&quot;$value&quot;>" />
     
-                            <div class="card text-white bg-primary mb-3">
+                            <div class="card text-white bg-primary mb-5">
                                 <img class="card-img-top" src="<t4 type="content" name="Image: 960px x (220)px)" output="file" modifiers="" />" alt="<t4 type="content" name="Card title" output="normal" modifiers=""  />">
                                 <!-- <div class="card-header">Optional header</div> -->
                                 <div class="card-body">

@@ -18,7 +18,12 @@
                         <img src="https://picsum.photos/800/400" class="img-fluid rounded" alt="Responsive image">
                     </a> -->
 
-                    <div class="row my-5">
+
+
+                    <!-- navigation object : ki-core-staff-pinned-news-and-events --><t4 type="navigation" id="489"/>
+
+
+                    <div class="row mb-5">
                         <!-- navigation object : ki-core-latest-updates-news-homepage --><t4 type="navigation" id="483"/>
                         <!-- <div class="col-sm-6">
                             <h2 class="mb-3">Latest updates</h2>
