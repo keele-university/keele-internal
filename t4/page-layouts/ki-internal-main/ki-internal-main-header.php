@@ -71,7 +71,17 @@
                 </nav>
                 </div> <!-- .container -->
             </header>
+
+
+        <div class="ki-section-header bg-dark">
+            <div class="container my-0 py-1">
+                <div class="row">
+                    <h1 class="pl-3"><a class="text-light" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Section two link</a></h1>
+                </div>
+            </div>
+        </div>
         
+
     <div class="ki-main-navs">
         <!-- navigation object : ki-level-5-nav --><t4 type="navigation" id="480"/>
 
