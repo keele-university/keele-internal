@@ -110,7 +110,7 @@
                     </div> <!-- .row UEC -->
 
 
-                    <div class="card mb-4 p-3 bg-white">
+                    <div class="card mb-4 p-md-3 bg-white">
                         <div class="card-body">
                             <h1 class="card-title">Forums</h1>
                             <p class="lead">Direct links to the Keele discussion boards.</p>
