@@ -6,7 +6,7 @@
                                 <h5 class="mt-0 mb-1">
                                     <t4 type="content" name="Event title" output="normal" />
                                 </h5>
-                                <t4 type="content" output="selective-output" name="Event summary snippet" format="<p class=&quot;mb-0&quot;>
+                                <t4 type="content" output="selective-output" name="Event summary snippet" format="<p class=&quot;mb-0 d-none d-md-block&quot;>
                                     $value
                                 </p>" />
                                 <p class="font-weight-light">
