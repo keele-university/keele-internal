@@ -110,19 +110,21 @@
                     </div> <!-- .row UEC -->
 
 
-                    <div class="jumbotron">
-                        <h1 class="display-4">Forums</h1>
-                        <p class="lead">Direct links to the Keele discussion boards.</p>
-                        <div class="row mt-4">
-                            <div class="col-lg-6 mb-3"><a href="" class="btn btn-primary">General chat and
-                                    announcements</a></div>
-                            <div class="col-lg-6 mb-3"><a href="" class="btn btn-primary">Job vacancies</a></div>
-                            <div class="col-lg-6 mb-3"><a href="" class="btn btn-primary">For sale or wanted</a></div>
-                            <div class="col-lg-6 mb-3"><a href="" class="btn btn-primary">Accommodation</a></div>
+                    <div class="card mb-4 p-3 bg-white">
+                        <div class="card-body">
+                            <h1 class="card-title">Forums</h1>
+                            <p class="lead">Direct links to the Keele discussion boards.</p>
+                            <div class="row mt-4">
+                                <div class="col-lg-6 mb-3"><a href="" class="btn btn-primary btn-block">General chat and
+                                        announcements</a></div>
+                                <div class="col-lg-6 mb-3"><a href="" class="btn btn-primary btn-block">Job vacancies</a></div>
+                                <div class="col-lg-6 mb-3"><a href="" class="btn btn-primary btn-block">For sale or wanted</a></div>
+                                <div class="col-lg-6 mb-3"><a href="" class="btn btn-primary btn-block">Accommodation</a></div>
+                            </div>
+                            <!-- <hr class="my-4"> -->
+                            <!-- <p>Keele University discussion boards</p> -->
+                            <!-- <a class="btn btn-primary btn-lg" href="https://forums.keele.ac.uk" role="button">Forums homepage</a> -->
                         </div>
-                        <!-- <hr class="my-4"> -->
-                        <!-- <p>Keele University discussion boards</p> -->
-                        <!-- <a class="btn btn-primary btn-lg" href="https://forums.keele.ac.uk" role="button">Forums homepage</a> -->
                     </div>
 
 
