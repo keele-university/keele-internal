@@ -10,6 +10,13 @@
     <!-- hide during dev-->
     <meta name="robots" content="noindex" />
     
+    <link rel="apple-touch-icon" sizes="180x180" href="https://www.keele.ac.uk/k-core/media/favicons/apple-touch-icon.png">
+	<link rel="icon" type="image/png" href="https://www.keele.ac.uk/k-core/media/favicons/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="https://www.keele.ac.uk/k-core/media/favicons/favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="https://www.keele.ac.uk/k-core/media/favicons/manifest.json">
+	<link rel="mask-icon" href="https://www.keele.ac.uk/k-core/media/favicons/safari-pinned-tab.svg" color="#f05422">
+	<link rel="shortcut icon" href="https://www.keele.ac.uk/k-core/media/favicons/favicon.ico">
+
 </head>
 <body class="bg-light">
 
