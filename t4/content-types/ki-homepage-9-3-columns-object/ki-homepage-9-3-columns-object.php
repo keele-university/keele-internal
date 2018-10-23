@@ -136,12 +136,13 @@
                             <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionUtilityLinks">
                                 <!-- collapse show to open on page load -->
                                 <div class="card-body pb-1">
-                                    <ul class="list-unstyled">
-                                        <!-- (li>a>{list link $})*25 -->
+                                    <!-- navigation object : ki-home-9-3-popular-links --><t4 type="navigation" id="484"/>
+                                    <!-- <ul class="list-unstyled">
+                                        <!- - (li>a>{list link $})*25 - ->
                                         <li><a href="">list link 1</a></li>
                                         <li><a href="">list link 2</a></li>
                                         <li><a href="">list link 3</a></li>
-                                    </ul>
+                                    </ul> -->
                                 </div>
                             </div>
                         </div>
@@ -156,12 +157,13 @@
                             </div>
                             <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionUtilityLinks">
                                 <div class="card-body pb-1">
-                                    <ul class="list-unstyled">
+                                    <!-- navigation object : ki-home-9-3-systems-and-portals --><t4 type="navigation" id="485"/>
+                                    <!-- <ul class="list-unstyled">
                                         <li><a href="http://mail.keele.ac.uk">Email</a></li>
                                         <li><a href="https://maillists.keele.ac.uk">Mailing lists</a></li>
                                         <li><a href="https://servicedesk.keele.ac.uk">Service Desk</a></li>
                                         <li><a href="https://publications.keele.ac.uk">Symplectic</a></li>
-                                    </ul>
+                                    </ul> -->
                                 </div>
                             </div>
                         </div>
