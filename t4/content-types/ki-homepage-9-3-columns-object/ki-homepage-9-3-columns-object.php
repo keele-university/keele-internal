@@ -53,7 +53,9 @@
                                 </li>
                             </ul>
                         </div> -->
-                        <div class="col-sm-6">
+
+                        <!-- navigation object : ki-core-staff-events-homepage --><t4 type="navigation" id="488"/>
+                        <!-- <div class="col-sm-6">
                             <h2 class="mb-3">Staff events</h2>
                             <ul class="list-unstyled">
                                 <li>
@@ -83,7 +85,7 @@
                                     <p class="font-weight-light"><small>12 June 2018</small></p>
                                 </li>
                             </ul>
-                        </div>
+                        </div> -->
 
                     </div> <!-- .row  -->
 
