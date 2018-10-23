@@ -19,7 +19,8 @@ $(function () {
 
 Vue.component('vuetest', require('./components/test-vue/Vue-test.vue'));
 
-
+// Vanilla JS imports
+const col3bullets = require('../js/components/ki-col-3-bulleted-lists/ki-col-3-bulleted-lists');
 const navBarUtils = require('./utils/ki-nav-bar-utils');
 
 // force devtools to load in prod
@@ -49,6 +50,7 @@ const app = new Vue({
         common: {
             init: function() {
                 navBarUtils.init();
+                col3bullets.init();
                 // shieldbannerfix.init();
                 // window.scrollTo(0,0);
             }
