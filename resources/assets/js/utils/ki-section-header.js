@@ -14,7 +14,7 @@ function init() {
         } else {
             console.log('removing kiSectionHeader: ');
             console.log(kiSectionHeader);
-            kiSectionHeader.remove();
+            kiSectionHeader.outerHTML = (""); // can't use remove() because of IE.
         }
     }
 
