@@ -22,6 +22,7 @@ Vue.component('vuetest', require('./components/test-vue/Vue-test.vue'));
 // Vanilla JS imports
 const col3bullets = require('../js/components/ki-col-3-bulleted-lists/ki-col-3-bulleted-lists');
 const navBarUtils = require('./utils/ki-nav-bar-utils');
+const sectionHeader = require('./utils/ki-section-header');
 
 // force devtools to load in prod
 // Vue.config.debug = true;
@@ -51,6 +52,7 @@ const app = new Vue({
             init: function() {
                 navBarUtils.init();
                 col3bullets.init();
+                sectionHeader.init();
                 // shieldbannerfix.init();
                 // window.scrollTo(0,0);
             }

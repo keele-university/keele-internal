@@ -72,14 +72,21 @@
                 </div> <!-- .container -->
             </header>
 
-
-        <div class="ki-section-header bg-dark">
+        <!-- nav 490 path, name 491, id 192 -->
+        <div class="ki-section-header bg-dark d-none" data-t4-section-id="<t4 type="navigation" id="492"/>">
+            <div class="container my-0 py-1">
+                <div class="row">
+                    <h2 class="pl-3"><a class="text-light" href="<t4 type="navigation" id="490"/>"><t4 type="navigation" id="491"/></a></h2>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="ki-section-header bg-dark">
             <div class="container my-0 py-1">
                 <div class="row">
                     <h2 class="pl-3"><a class="text-light" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Section two link</a></h2>
                 </div>
             </div>
-        </div>
+        </div> -->
         
 
     <div class="ki-main-navs">
