@@ -138,7 +138,12 @@
         </div> <!-- end 9 / 3 container -->
 
 
-
+        <div class="jumbotron jumbotron-fluid text-center">
+            <div class="container">
+                <h1 class="display-4">University developments</h1>
+                <p class="lead">Details on the strategic development of the University.</p>
+            </div>
+        </div>
 
         <!-- Full width start -->
 
@@ -146,12 +151,12 @@
             <div class="row">
                 
                 <div class="js-ki-home-3-1 col-lg-4 mb-3">
-                    <h2 class="mb-5">Campus developments</h2>
+                    <h2 class="mb-3">Campus developments</h2>
                     <!-- navigation object : ki-col-9-strategy-developments --><t4 type="navigation" id="493"/>
                 </div>
                 
                 <div class="js-ki-home-3-2 col-lg-4 mb-3">
-                    <h2 class="mb-5">Strategy developments</h2>
+                    <h2 class="mb-3">Strategy developments</h2>
                     <!-- navigation object : ki-col-9-campus-developments --><t4 type="navigation" id="494"/>
                 </div>
 
