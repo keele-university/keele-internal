@@ -136,3 +136,32 @@
 
             </div> <!-- end 9 / 3 row -->
         </div> <!-- end 9 / 3 container -->
+
+
+
+
+        <!-- Full width start -->
+
+        <div class="ki-home-3-full-width container">
+            <div class="row">
+                
+                <div class="js-ki-home-3-1 col-lg-4 mb-3">
+                    <h2 class="mb-5">Campus developments</h2>
+                    <!-- navigation object : ki-col-9-strategy-developments --><t4 type="navigation" id="493"/>
+                </div>
+                
+                <div class="js-ki-home-3-2 col-lg-4 mb-3">
+                    <h2 class="mb-5">Strategy developments</h2>
+                    <!-- navigation object : ki-col-9-campus-developments --><t4 type="navigation" id="494"/>
+                </div>
+
+                <div class="js-ki-home-3-3 col-lg-4 mb-3">
+                    <!-- <h2 class="mb-5">Twitter feed</h2> -->
+                    <div class="pt-1">
+                        <a class="twitter-timeline" data-width="" data-height="725" data-theme="light" href="https://twitter.com/KeeleStaff?ref_src=twsrc%5Etfw">Tweets
+                            by KeeleStaff</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>        
