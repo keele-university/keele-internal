@@ -3,6 +3,11 @@
 .ki-main-navs {
     visibility: hidden;
 }
+
+.ki-nav-bar-primary, .ki-nav-bar-secondary {
+    white-space: nowrap;
+}
+
 // NAVBAR transition
 .ki-nav-bar-primary .nav-link, .ki-nav-bar-secondary .nav-link {
     transition: background-color .2s ease-out;
