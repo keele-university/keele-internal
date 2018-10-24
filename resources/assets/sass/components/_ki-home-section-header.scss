@@ -1,0 +1,26 @@
+.ki-section-header h2 a {
+    display: inline-block;
+    position: relative;
+}
+.ki-section-header h2 a:hover {
+    text-decoration: none;
+}
+.ki-section-header h2 a::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    background-color: #0b9dda;
+    transform-origin: bottom right;
+    transition: transform 0.2s ease-out;
+}
+.ki-section-header h2 a:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+// credit https://flatuicolors.com/
+// and 30 seconds of CSS
