@@ -1,5 +1,5 @@
 const vh = require('../../utils/vanilla-helper');
-const svg = '<svg viewBox="0 0 16 16" width="16" height="16" class="icon-arrow"><path d="M7.2 12.73l-1.41-1.41 3.29-3.29-3.29-3.29L7.2 3.32l4.71 4.71-4.71 4.7z"/></svg>';
+const svg = '&nbsp;<svg viewBox="0 0 16 16" width="16" height="16" class="icon-arrow"><path d="M7.2 12.73l-1.41-1.41 3.29-3.29-3.29-3.29L7.2 3.32l4.71 4.71-4.71 4.7z"/></svg>';
 // const svg = '<i class="fas fa-angle-right"></i>';
 
 function init() {
