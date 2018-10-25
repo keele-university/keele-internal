@@ -4,14 +4,14 @@
             <!-- ki-content-module -->
             <div class="ki-content-module uniq<t4 type="meta" meta="content_id" />">
 
+                <div class="mb-4">
                 <t4 type="content" output="selective-output" name="Title" format="<h2 class=&quot;mb-2&quot;>$value</h2>" />
-                <!-- <h2 class="mb-2">Title</h2> -->
 
-                <t4 type="content" output="selective-output" name="Subtitle" format="<p class=&quot;text-muted mb-3 h4&quot;>$value</p>" />
-                <!-- <p class="text-muted mb-3 h4">Subtitle</p> -->
+                <t4 type="content" output="selective-output" name="Subtitle" format="<p class=&quot;text-muted h4&quot;>$value</p>" />
+                </div>
 
                 <t4 type="content" output="selective-output" modifiers="medialibrary, nav_sections" name="Main body" format="$value" />
-                <!-- output tinymce content -->
+
 
             </div>
             <!-- .ki-content-module -->
