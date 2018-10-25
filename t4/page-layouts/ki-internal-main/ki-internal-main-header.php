@@ -32,7 +32,8 @@
             <header class="py-3 bg-white">
                 <div class="container">
                 <nav class="navbar navbar-light">
-                    <a class="navbar-brand" href="file-DARWIN.txt">
+                    <!-- navigation object : ki-homepage-path -->
+                    <a class="navbar-brand" href="<t4 type="navigation" id="495"/>">
                         <img src="https://www.keele.ac.uk/media/header/logo.svg" width="" height="" class="d-inline-block align-top" alt="">
                     </a>
 
