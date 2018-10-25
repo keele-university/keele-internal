@@ -1,9 +1,12 @@
 .ki-section-header h2 a {
     display: inline-block;
     position: relative;
+    // transition: color .4s ease-out;
 }
 .ki-section-header h2 a:hover {
     text-decoration: none;
+    transition: color .2s ease-out;
+    color: var(--info) !important;
 }
 .ki-section-header h2 a::after {
     content: "";
