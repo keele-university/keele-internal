@@ -1,0 +1,9 @@
+// Almost identical to utility-links. So if you change here, change there too
+.accordion button.btn[aria-expanded="false"] svg {
+    transform: rotate(0deg);
+    transition: .2s all ease-out;
+}
+.accordion button.btn[aria-expanded="true"] svg {
+    transform: rotate(180deg);
+    transition: .2s all ease-in;
+}
