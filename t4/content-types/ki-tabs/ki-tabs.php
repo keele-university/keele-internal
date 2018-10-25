@@ -16,6 +16,7 @@
                             $value
                             </a>
                         </li>" />
+                        <!-- orig with show -->
                         <!-- <li class="nav-item">
                             <a class="nav-link" id="tab-2-unique<t4 type="meta" meta="content_id" />" data-toggle="pill" href="#tabs-two-unique<t4 type="meta" meta="content_id" />" role="tab" aria-controls="tabs-two-unique<t4 type="meta" meta="content_id" />" aria-selected="false">
                             <t4 type="content" name="Tab title 2" output="normal" />
@@ -28,11 +29,60 @@
                             $value
                             </a>
                         </li>" />
+                        <!-- orig for all other tabs with no show -->
                         <!-- <li class="nav-item">
                             <a class="nav-link" id="tab-3-unique<t4 type="meta" meta="content_id" />" data-toggle="pill" href="#tabs-three-unique<t4 type="meta" meta="content_id" />" role="tab" aria-controls="tabs-three-unique<t4 type="meta" meta="content_id" />" aria-selected="false">
                             $value
                             </a>
                         </li> -->
+
+
+                        <t4 type="content" output="selective-output" process-format="true" modifiers="medialibrary, nav_sections" name="Tab title 4" format="<li class=&quot;nav-item&quot;>
+                            <a class=&quot;nav-link&quot; id=&quot;tab-4-unique<t4 type=&quot;meta&quot; meta=&quot;content_id&quot; />&quot; data-toggle=&quot;pill&quot; href=&quot;#tabs-four-unique<t4 type=&quot;meta&quot; meta=&quot;content_id&quot; />&quot; role=&quot;tab&quot; aria-controls=&quot;tabs-four-unique<t4 type=&quot;meta&quot; meta=&quot;content_id&quot; />&quot; aria-selected=&quot;false&quot;>
+                            $value
+                            </a>
+                        </li>" />
+
+
+                        <t4 type="content" output="selective-output" process-format="true" modifiers="medialibrary, nav_sections" name="Tab title 5" format="<li class=&quot;nav-item&quot;>
+                            <a class=&quot;nav-link&quot; id=&quot;tab-5-unique<t4 type=&quot;meta&quot; meta=&quot;content_id&quot; />&quot; data-toggle=&quot;pill&quot; href=&quot;#tabs-five-unique<t4 type=&quot;meta&quot; meta=&quot;content_id&quot; />&quot; role=&quot;tab&quot; aria-controls=&quot;tabs-five-unique<t4 type=&quot;meta&quot; meta=&quot;content_id&quot; />&quot; aria-selected=&quot;false&quot;>
+                            $value
+                            </a>
+                        </li>" />
+
+
+                        <t4 type="content" output="selective-output" process-format="true" modifiers="medialibrary, nav_sections" name="Tab title 6" format="<li class=&quot;nav-item&quot;>
+                            <a class=&quot;nav-link&quot; id=&quot;tab-6-unique<t4 type=&quot;meta&quot; meta=&quot;content_id&quot; />&quot; data-toggle=&quot;pill&quot; href=&quot;#tabs-six-unique<t4 type=&quot;meta&quot; meta=&quot;content_id&quot; />&quot; role=&quot;tab&quot; aria-controls=&quot;tabs-six-unique<t4 type=&quot;meta&quot; meta=&quot;content_id&quot; />&quot; aria-selected=&quot;false&quot;>
+                            $value
+                            </a>
+                        </li>" />
+
+
+                        <t4 type="content" output="selective-output" process-format="true" modifiers="medialibrary, nav_sections" name="Tab title 7" format="<li class=&quot;nav-item&quot;>
+                            <a class=&quot;nav-link&quot; id=&quot;tab-7-unique<t4 type=&quot;meta&quot; meta=&quot;content_id&quot; />&quot; data-toggle=&quot;pill&quot; href=&quot;#tabs-seven-unique<t4 type=&quot;meta&quot; meta=&quot;content_id&quot; />&quot; role=&quot;tab&quot; aria-controls=&quot;tabs-seven-unique<t4 type=&quot;meta&quot; meta=&quot;content_id&quot; />&quot; aria-selected=&quot;false&quot;>
+                            $value
+                            </a>
+                        </li>" />
+
+
+                        <t4 type="content" output="selective-output" process-format="true" modifiers="medialibrary, nav_sections" name="Tab title 8" format="<li class=&quot;nav-item&quot;>
+                            <a class=&quot;nav-link&quot; id=&quot;tab-8-unique<t4 type=&quot;meta&quot; meta=&quot;content_id&quot; />&quot; data-toggle=&quot;pill&quot; href=&quot;#tabs-eight-unique<t4 type=&quot;meta&quot; meta=&quot;content_id&quot; />&quot; role=&quot;tab&quot; aria-controls=&quot;tabs-eight-unique<t4 type=&quot;meta&quot; meta=&quot;content_id&quot; />&quot; aria-selected=&quot;false&quot;>
+                            $value
+                            </a>
+                        </li>" />
+
+
+                        <t4 type="content" output="selective-output" process-format="true" modifiers="medialibrary, nav_sections" name="Tab title 9" format="<li class=&quot;nav-item&quot;>
+                            <a class=&quot;nav-link&quot; id=&quot;tab-9-unique<t4 type=&quot;meta&quot; meta=&quot;content_id&quot; />&quot; data-toggle=&quot;pill&quot; href=&quot;#tabs-nine-unique<t4 type=&quot;meta&quot; meta=&quot;content_id&quot; />&quot; role=&quot;tab&quot; aria-controls=&quot;tabs-nine-unique<t4 type=&quot;meta&quot; meta=&quot;content_id&quot; />&quot; aria-selected=&quot;false&quot;>
+                            $value
+                            </a>
+                        </li>" />                                                                                                                                                                        
+
+                        <t4 type="content" output="selective-output" process-format="true" modifiers="medialibrary, nav_sections" name="Tab title 10" format="<li class=&quot;nav-item&quot;>
+                            <a class=&quot;nav-link&quot; id=&quot;tab-10-unique<t4 type=&quot;meta&quot; meta=&quot;content_id&quot; />&quot; data-toggle=&quot;pill&quot; href=&quot;#tabs-ten-unique<t4 type=&quot;meta&quot; meta=&quot;content_id&quot; />&quot; role=&quot;tab&quot; aria-controls=&quot;tabs-ten-unique<t4 type=&quot;meta&quot; meta=&quot;content_id&quot; />&quot; aria-selected=&quot;false&quot;>
+                            $value
+                            </a>
+                        </li>" />                                                                                                                                                                        
 
                     </ul> <!-- end titles -->
                     <div class="tab-content" id="unique<t4 type="meta" meta="content_id" />Content">
@@ -49,6 +99,34 @@
 
                         <div class="tab-pane fade" id="tabs-three-unique<t4 type="meta" meta="content_id" />" role="tabpanel" aria-labelledby="tab-3-unique<t4 type="meta" meta="content_id" />">
                             <t4 type="content" name="Tab content 3" output="normal" modifiers="medialibrary, nav_sections"  />
+                        </div>
+
+                        <div class="tab-pane fade" id="tabs-four-unique<t4 type="meta" meta="content_id" />" role="tabpanel" aria-labelledby="tab-4-unique<t4 type="meta" meta="content_id" />">
+                            <t4 type="content" name="Tab content 4" output="normal" modifiers="medialibrary, nav_sections"  />
+                        </div>                        
+
+                        <div class="tab-pane fade" id="tabs-five-unique<t4 type="meta" meta="content_id" />" role="tabpanel" aria-labelledby="tab-5-unique<t4 type="meta" meta="content_id" />">
+                            <t4 type="content" name="Tab content 5" output="normal" modifiers="medialibrary, nav_sections"  />
+                        </div>
+
+                        <div class="tab-pane fade" id="tabs-six-unique<t4 type="meta" meta="content_id" />" role="tabpanel" aria-labelledby="tab-6-unique<t4 type="meta" meta="content_id" />">
+                            <t4 type="content" name="Tab content 6" output="normal" modifiers="medialibrary, nav_sections"  />
+                        </div>
+
+                        <div class="tab-pane fade" id="tabs-seven-unique<t4 type="meta" meta="content_id" />" role="tabpanel" aria-labelledby="tab-7-unique<t4 type="meta" meta="content_id" />">
+                            <t4 type="content" name="Tab content 7" output="normal" modifiers="medialibrary, nav_sections"  />
+                        </div>
+
+                        <div class="tab-pane fade" id="tabs-eight-unique<t4 type="meta" meta="content_id" />" role="tabpanel" aria-labelledby="tab-8-unique<t4 type="meta" meta="content_id" />">
+                            <t4 type="content" name="Tab content 8" output="normal" modifiers="medialibrary, nav_sections"  />
+                        </div>
+
+                        <div class="tab-pane fade" id="tabs-nine-unique<t4 type="meta" meta="content_id" />" role="tabpanel" aria-labelledby="tab-9-unique<t4 type="meta" meta="content_id" />">
+                            <t4 type="content" name="Tab content 9" output="normal" modifiers="medialibrary, nav_sections"  />
+                        </div>
+
+                        <div class="tab-pane fade" id="tabs-ten-unique<t4 type="meta" meta="content_id" />" role="tabpanel" aria-labelledby="tab-10-unique<t4 type="meta" meta="content_id" />">
+                            <t4 type="content" name="Tab content 10" output="normal" modifiers="medialibrary, nav_sections"  />
                         </div>
 
                     </div> <!-- .tab-content -->
