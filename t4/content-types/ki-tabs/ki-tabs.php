@@ -3,16 +3,16 @@
         <div class="col-12">
             <div class="card mb-3">
                 <div class="card-body">
-                    <ul class="nav nav-pills mb-3 rounded p-2 border border-light" id="unique<t4 type="meta" meta="content_id" />" role="tablist">
+                    <ul class="nav nav-pills mb-3 rounded border border-light" id="unique<t4 type="meta" meta="content_id" />" role="tablist">
 
                         <li class="nav-item">
-                            <a class="nav-link active" id="tab-1-unique<t4 type="meta" meta="content_id" />" data-toggle="pill" href="#tabs-one-unique<t4 type="meta" meta="content_id" />" role="tab" aria-controls="tabs-one-unique<t4 type="meta" meta="content_id" />" aria-selected="true">
+                            <a class="nav-link border mr-1 mb-1 active" id="tab-1-unique<t4 type="meta" meta="content_id" />" data-toggle="pill" href="#tabs-one-unique<t4 type="meta" meta="content_id" />" role="tab" aria-controls="tabs-one-unique<t4 type="meta" meta="content_id" />" aria-selected="true">
                             <t4 type="content" name="Tab title 1" output="normal" />
                             </a>
                         </li>
 
                         <t4 type="content" output="selective-output" process-format="true" modifiers="medialibrary, nav_sections" name="Tab title 2" format="<li class=&quot;nav-item&quot;>
-                            <a class=&quot;nav-link&quot; id=&quot;tab-2-unique<t4 type=&quot;meta&quot; meta=&quot;content_id&quot; />&quot; data-toggle=&quot;pill&quot; href=&quot;#tabs-two-unique<t4 type=&quot;meta&quot; meta=&quot;content_id&quot; />&quot; role=&quot;tab&quot; aria-controls=&quot;tabs-two-unique<t4 type=&quot;meta&quot; meta=&quot;content_id&quot; />&quot; aria-selected=&quot;false&quot;>
+                            <a class=&quot;nav-link border mr-1 mb-1&quot; id=&quot;tab-2-unique<t4 type=&quot;meta&quot; meta=&quot;content_id&quot; />&quot; data-toggle=&quot;pill&quot; href=&quot;#tabs-two-unique<t4 type=&quot;meta&quot; meta=&quot;content_id&quot; />&quot; role=&quot;tab&quot; aria-controls=&quot;tabs-two-unique<t4 type=&quot;meta&quot; meta=&quot;content_id&quot; />&quot; aria-selected=&quot;false&quot;>
                             $value
                             </a>
                         </li>" />
@@ -25,7 +25,7 @@
 
 
                         <t4 type="content" output="selective-output" process-format="true" modifiers="medialibrary, nav_sections" name="Tab title 3" format="<li class=&quot;nav-item&quot;>
-                            <a class=&quot;nav-link&quot; id=&quot;tab-3-unique<t4 type=&quot;meta&quot; meta=&quot;content_id&quot; />&quot; data-toggle=&quot;pill&quot; href=&quot;#tabs-three-unique<t4 type=&quot;meta&quot; meta=&quot;content_id&quot; />&quot; role=&quot;tab&quot; aria-controls=&quot;tabs-three-unique<t4 type=&quot;meta&quot; meta=&quot;content_id&quot; />&quot; aria-selected=&quot;false&quot;>
+                            <a class=&quot;nav-link border mr-1 mb-1&quot; id=&quot;tab-3-unique<t4 type=&quot;meta&quot; meta=&quot;content_id&quot; />&quot; data-toggle=&quot;pill&quot; href=&quot;#tabs-three-unique<t4 type=&quot;meta&quot; meta=&quot;content_id&quot; />&quot; role=&quot;tab&quot; aria-controls=&quot;tabs-three-unique<t4 type=&quot;meta&quot; meta=&quot;content_id&quot; />&quot; aria-selected=&quot;false&quot;>
                             $value
                             </a>
                         </li>" />
@@ -38,48 +38,48 @@
 
 
                         <t4 type="content" output="selective-output" process-format="true" modifiers="medialibrary, nav_sections" name="Tab title 4" format="<li class=&quot;nav-item&quot;>
-                            <a class=&quot;nav-link&quot; id=&quot;tab-4-unique<t4 type=&quot;meta&quot; meta=&quot;content_id&quot; />&quot; data-toggle=&quot;pill&quot; href=&quot;#tabs-four-unique<t4 type=&quot;meta&quot; meta=&quot;content_id&quot; />&quot; role=&quot;tab&quot; aria-controls=&quot;tabs-four-unique<t4 type=&quot;meta&quot; meta=&quot;content_id&quot; />&quot; aria-selected=&quot;false&quot;>
+                            <a class=&quot;nav-link border mr-1 mb-1&quot; id=&quot;tab-4-unique<t4 type=&quot;meta&quot; meta=&quot;content_id&quot; />&quot; data-toggle=&quot;pill&quot; href=&quot;#tabs-four-unique<t4 type=&quot;meta&quot; meta=&quot;content_id&quot; />&quot; role=&quot;tab&quot; aria-controls=&quot;tabs-four-unique<t4 type=&quot;meta&quot; meta=&quot;content_id&quot; />&quot; aria-selected=&quot;false&quot;>
                             $value
                             </a>
                         </li>" />
 
 
                         <t4 type="content" output="selective-output" process-format="true" modifiers="medialibrary, nav_sections" name="Tab title 5" format="<li class=&quot;nav-item&quot;>
-                            <a class=&quot;nav-link&quot; id=&quot;tab-5-unique<t4 type=&quot;meta&quot; meta=&quot;content_id&quot; />&quot; data-toggle=&quot;pill&quot; href=&quot;#tabs-five-unique<t4 type=&quot;meta&quot; meta=&quot;content_id&quot; />&quot; role=&quot;tab&quot; aria-controls=&quot;tabs-five-unique<t4 type=&quot;meta&quot; meta=&quot;content_id&quot; />&quot; aria-selected=&quot;false&quot;>
+                            <a class=&quot;nav-link border mr-1 mb-1&quot; id=&quot;tab-5-unique<t4 type=&quot;meta&quot; meta=&quot;content_id&quot; />&quot; data-toggle=&quot;pill&quot; href=&quot;#tabs-five-unique<t4 type=&quot;meta&quot; meta=&quot;content_id&quot; />&quot; role=&quot;tab&quot; aria-controls=&quot;tabs-five-unique<t4 type=&quot;meta&quot; meta=&quot;content_id&quot; />&quot; aria-selected=&quot;false&quot;>
                             $value
                             </a>
                         </li>" />
 
 
                         <t4 type="content" output="selective-output" process-format="true" modifiers="medialibrary, nav_sections" name="Tab title 6" format="<li class=&quot;nav-item&quot;>
-                            <a class=&quot;nav-link&quot; id=&quot;tab-6-unique<t4 type=&quot;meta&quot; meta=&quot;content_id&quot; />&quot; data-toggle=&quot;pill&quot; href=&quot;#tabs-six-unique<t4 type=&quot;meta&quot; meta=&quot;content_id&quot; />&quot; role=&quot;tab&quot; aria-controls=&quot;tabs-six-unique<t4 type=&quot;meta&quot; meta=&quot;content_id&quot; />&quot; aria-selected=&quot;false&quot;>
+                            <a class=&quot;nav-link border mr-1 mb-1&quot; id=&quot;tab-6-unique<t4 type=&quot;meta&quot; meta=&quot;content_id&quot; />&quot; data-toggle=&quot;pill&quot; href=&quot;#tabs-six-unique<t4 type=&quot;meta&quot; meta=&quot;content_id&quot; />&quot; role=&quot;tab&quot; aria-controls=&quot;tabs-six-unique<t4 type=&quot;meta&quot; meta=&quot;content_id&quot; />&quot; aria-selected=&quot;false&quot;>
                             $value
                             </a>
                         </li>" />
 
 
                         <t4 type="content" output="selective-output" process-format="true" modifiers="medialibrary, nav_sections" name="Tab title 7" format="<li class=&quot;nav-item&quot;>
-                            <a class=&quot;nav-link&quot; id=&quot;tab-7-unique<t4 type=&quot;meta&quot; meta=&quot;content_id&quot; />&quot; data-toggle=&quot;pill&quot; href=&quot;#tabs-seven-unique<t4 type=&quot;meta&quot; meta=&quot;content_id&quot; />&quot; role=&quot;tab&quot; aria-controls=&quot;tabs-seven-unique<t4 type=&quot;meta&quot; meta=&quot;content_id&quot; />&quot; aria-selected=&quot;false&quot;>
+                            <a class=&quot;nav-link border mr-1 mb-1&quot; id=&quot;tab-7-unique<t4 type=&quot;meta&quot; meta=&quot;content_id&quot; />&quot; data-toggle=&quot;pill&quot; href=&quot;#tabs-seven-unique<t4 type=&quot;meta&quot; meta=&quot;content_id&quot; />&quot; role=&quot;tab&quot; aria-controls=&quot;tabs-seven-unique<t4 type=&quot;meta&quot; meta=&quot;content_id&quot; />&quot; aria-selected=&quot;false&quot;>
                             $value
                             </a>
                         </li>" />
 
 
                         <t4 type="content" output="selective-output" process-format="true" modifiers="medialibrary, nav_sections" name="Tab title 8" format="<li class=&quot;nav-item&quot;>
-                            <a class=&quot;nav-link&quot; id=&quot;tab-8-unique<t4 type=&quot;meta&quot; meta=&quot;content_id&quot; />&quot; data-toggle=&quot;pill&quot; href=&quot;#tabs-eight-unique<t4 type=&quot;meta&quot; meta=&quot;content_id&quot; />&quot; role=&quot;tab&quot; aria-controls=&quot;tabs-eight-unique<t4 type=&quot;meta&quot; meta=&quot;content_id&quot; />&quot; aria-selected=&quot;false&quot;>
+                            <a class=&quot;nav-link border mr-1 mb-1&quot; id=&quot;tab-8-unique<t4 type=&quot;meta&quot; meta=&quot;content_id&quot; />&quot; data-toggle=&quot;pill&quot; href=&quot;#tabs-eight-unique<t4 type=&quot;meta&quot; meta=&quot;content_id&quot; />&quot; role=&quot;tab&quot; aria-controls=&quot;tabs-eight-unique<t4 type=&quot;meta&quot; meta=&quot;content_id&quot; />&quot; aria-selected=&quot;false&quot;>
                             $value
                             </a>
                         </li>" />
 
 
                         <t4 type="content" output="selective-output" process-format="true" modifiers="medialibrary, nav_sections" name="Tab title 9" format="<li class=&quot;nav-item&quot;>
-                            <a class=&quot;nav-link&quot; id=&quot;tab-9-unique<t4 type=&quot;meta&quot; meta=&quot;content_id&quot; />&quot; data-toggle=&quot;pill&quot; href=&quot;#tabs-nine-unique<t4 type=&quot;meta&quot; meta=&quot;content_id&quot; />&quot; role=&quot;tab&quot; aria-controls=&quot;tabs-nine-unique<t4 type=&quot;meta&quot; meta=&quot;content_id&quot; />&quot; aria-selected=&quot;false&quot;>
+                            <a class=&quot;nav-link border mr-1 mb-1&quot; id=&quot;tab-9-unique<t4 type=&quot;meta&quot; meta=&quot;content_id&quot; />&quot; data-toggle=&quot;pill&quot; href=&quot;#tabs-nine-unique<t4 type=&quot;meta&quot; meta=&quot;content_id&quot; />&quot; role=&quot;tab&quot; aria-controls=&quot;tabs-nine-unique<t4 type=&quot;meta&quot; meta=&quot;content_id&quot; />&quot; aria-selected=&quot;false&quot;>
                             $value
                             </a>
                         </li>" />                                                                                                                                                                        
 
                         <t4 type="content" output="selective-output" process-format="true" modifiers="medialibrary, nav_sections" name="Tab title 10" format="<li class=&quot;nav-item&quot;>
-                            <a class=&quot;nav-link&quot; id=&quot;tab-10-unique<t4 type=&quot;meta&quot; meta=&quot;content_id&quot; />&quot; data-toggle=&quot;pill&quot; href=&quot;#tabs-ten-unique<t4 type=&quot;meta&quot; meta=&quot;content_id&quot; />&quot; role=&quot;tab&quot; aria-controls=&quot;tabs-ten-unique<t4 type=&quot;meta&quot; meta=&quot;content_id&quot; />&quot; aria-selected=&quot;false&quot;>
+                            <a class=&quot;nav-link border mr-1 mb-1&quot; id=&quot;tab-10-unique<t4 type=&quot;meta&quot; meta=&quot;content_id&quot; />&quot; data-toggle=&quot;pill&quot; href=&quot;#tabs-ten-unique<t4 type=&quot;meta&quot; meta=&quot;content_id&quot; />&quot; role=&quot;tab&quot; aria-controls=&quot;tabs-ten-unique<t4 type=&quot;meta&quot; meta=&quot;content_id&quot; />&quot; aria-selected=&quot;false&quot;>
                             $value
                             </a>
                         </li>" />                                                                                                                                                                        
