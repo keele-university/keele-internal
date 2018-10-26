@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Merriweather:300|Source+Sans+Pro:200,400,600');
 
+
+
+// targeting imgs only in cols to try and minimise over spill
+[class*='col-'] img {
+    max-width: 100%;
+    height: auto !important;
+}
+
+
+
 .ki-auth-bar {
     border-bottom: 1px #eee solid;
 }
