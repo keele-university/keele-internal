@@ -20,7 +20,8 @@
 
 // UEC
 .ki-uec__img {
-    max-width: 30%;
+    // max-width: 30%; // confuses IE
+    max-width: 220px !important;
 }
 // RHS homepage
 // .ki-utility-links button {
