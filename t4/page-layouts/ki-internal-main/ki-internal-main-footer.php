@@ -24,6 +24,20 @@
         <div class="col-2"><a href="#">top</a></div>
     </div>
 
+
+    <footer class="container-fluid bg-primary">
+        
+        <div class="container">
+            <div class="row">
+                <div class="col-12 my-5 text-white">
+                    CONTENT FOR THE FOOTER
+                </div>
+            </div>
+        </div>
+    
+    </footer>
+
+    
     </div> <!-- .#page-wrapper -->
     <script src="/k-core/intra/js/app.js?v=ki"></script>
     <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
