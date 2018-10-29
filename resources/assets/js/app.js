@@ -23,6 +23,7 @@ Vue.component('vuetest', require('./components/test-vue/Vue-test.vue'));
 const bullets = require('../js/components/ki-bulleted-lists/ki-bulleted-lists');
 const navBarUtils = require('./utils/ki-nav-bar-utils');
 const sectionHeader = require('./utils/ki-section-header');
+const kiNavboxGridAutoChildren = require('./components/ki-navbox-grid-auto-children/ki-navbox-grid-auto-children');
 
 // force devtools to load in prod
 // Vue.config.debug = true;
@@ -53,6 +54,7 @@ const app = new Vue({
                 navBarUtils.init();
                 bullets.init();
                 sectionHeader.init();
+                kiNavboxGridAutoChildren.init();
                 // shieldbannerfix.init();
                 // window.scrollTo(0,0);
             }
