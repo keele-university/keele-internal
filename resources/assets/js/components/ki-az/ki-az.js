@@ -4,21 +4,30 @@ const vh = require('../../utils/vanilla-helper');
 function init() {
     // x.charAt(0)
     console.log('testing kiAZ file is loaded')
-        function myFunction() {
-            var input, filter, ul, li, a, i;
-            input = document.getElementById("kiAzInput");
-            filter = input.value.toUpperCase();
-            ul = document.getElementById("myUL");
-            li = ul.getElementsByTagName("li");
-            for (i = 0; i < li.length; i++) {
-                a = li[i].getElementsByTagName("a")[0];
-                if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
-                    li[i].style.display = "";
-                } else {
-                    li[i].style.display = "none";
-                }
+
+    var input = document.getElementById("kiAzInput");
+
+    input.addEventListener('keyup',function(){
+        filterText(input);
+    });
+
+
+    function filterText() {
+        console.log(input.value);
+        var filter, ul, li, a, i;
+        // input = document.getElementById("kiAzInput");
+        filter = input.value.toUpperCase();
+        ul = document.getElementById("myUL");
+        li = ul.getElementsByTagName("li");
+        for (i = 0; i < li.length; i++) {
+            a = li[i].getElementsByTagName("a")[0];
+            if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+                li[i].style.display = "";
+            } else {
+                li[i].style.display = "none";
             }
         }
+    }
 
         //  MOVE THIS TO EXTERNAL SCRIPT
         // perhaps wrap the above with a span around the content type
