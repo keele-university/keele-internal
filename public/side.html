@@ -177,7 +177,14 @@
 <div class="container">
     <div class="row">
         <div class="col-12 mb-3">
-            <input type="text" id="kiAzInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name">
+            <!-- <input type="text" id="kiAzInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name"> -->
+
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <!-- <span class="input-group-text">Filter list</span> -->
+                </div>
+                <input type="text" id="kiAzInput" onkeyup="myFunction()" class="form-control" placeholder="Filter" aria-label="Filter" aria-describedby="kiAzInput">
+            </div>
 
             <ul id="myUL" class="list-unstyled">
                 <li><a href="#">Apple</a></li>
