@@ -34,8 +34,10 @@ const app = new Vue({
 });
 
 
-
-
+// Safe INIT
+// See https://www.viget.com/articles/extending-paul-irishs-comprehensive-dom-ready-execution/
+// and https://www.paulirish.com/2009/markup-based-unobtrusive-comprehensive-dom-ready-execution/
+// for history + explanation. This approach was recommended by our digital agency Absolute agency on the main site.
 (function (window, document, undefined) {
 
     'use strict';
