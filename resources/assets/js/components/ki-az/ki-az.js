@@ -11,6 +11,8 @@ function init() {
         filterText(input);
     });
 
+// SIMPLY ADD A LETTER BEFORE EACH GROUP AND SCROLL TO IT
+
 
     function filterText() {
         console.log(input.value);
