@@ -1,0 +1,5 @@
+// stop paragraphs from having unecessary padding within alerts
+
+.alert p:last-of-type {
+    margin-bottom: 0px;
+}
