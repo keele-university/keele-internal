@@ -13,9 +13,11 @@ function init() {
     // now get the input and listen on it.
     var inputElement = document.getElementById("kiAzInput");
 
-    inputElement.addEventListener('keyup',function(){
-        filterText(inputElement);
-    });
+    if (inputElement){
+        inputElement.addEventListener('keyup',function(){
+            filterText(inputElement);
+        });
+    }
 
 // SIMPLY ADD A LETTER BEFORE EACH GROUP AND SCROLL TO IT
 
