@@ -1,21 +1,27 @@
 
 const vh = require('../../utils/vanilla-helper');
+const tinysort = require('tinysort');
 
 function init() {
     // x.charAt(0)
     console.log('testing kiAZ file is loaded')
 
-    var input = document.getElementById("kiAzInput");
+    // sort the items in the DOM first
+    var toSort = document.querySelectorAll('#myUL li');
+    tinysort(toSort);
+    
+    // now get the input and listen on it.
+    var inputElement = document.getElementById("kiAzInput");
 
-    input.addEventListener('keyup',function(){
-        filterText(input);
+    inputElement.addEventListener('keyup',function(){
+        filterText(inputElement);
     });
 
 // SIMPLY ADD A LETTER BEFORE EACH GROUP AND SCROLL TO IT
 
 
-    function filterText() {
-        console.log(input.value);
+    function filterText(input) { // input could be called anything
+        // console.log(input);
         var filter, ul, li, a, i;
         // input = document.getElementById("kiAzInput");
         filter = input.value.toUpperCase();
