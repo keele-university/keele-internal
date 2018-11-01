@@ -23,8 +23,13 @@ function init() {
         var uniqueId = azWrapperInstance.dataset.unique;
         initUl.id = uniqueId;
 
-        // bootstrap class the LIs
-        _.forEach(initLi, (li) => vh.addClass(li, 'list-group-item'));
+        // bootstrap class the LIs, group items and add flex for full width click zones
+        _.forEach(initLi, (li) => {
+                vh.addClass(li, 'list-group-item d-flex');
+                let innerLink = li.querySelector('a')
+                vh.addClass(innerLink, 'flex-fill');
+            }
+        );
 
         // sort the items in the DOM first
         var toSort = initLi;
