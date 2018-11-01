@@ -4,7 +4,7 @@
             <!-- <input type="text" id="kiAzInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name"> -->
 
             <div class="input-group mb-3">
-                <input type="text" id="<t4 type="meta" meta="content_id" />" class="form-control" placeholder="Filter" aria-label="Filter" aria-describedby="kiAzInput">
+                <input type="text" class="form-control" placeholder="Filter" aria-label="Filter" aria-describedby="kiAzInput">
                 <!-- <div class="input-group-append">
                     <span class="input-group-text"><i class="fas fa-search"></i></span>
                 </div> -->
