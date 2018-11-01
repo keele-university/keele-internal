@@ -111,6 +111,10 @@ $breadcrumb-divider: quote(">");  // needs replacing with SVG
     z-index: 1;
 }
 
+.back-to-top-button:focus {
+    outline: none;
+}
+
 
 
 
