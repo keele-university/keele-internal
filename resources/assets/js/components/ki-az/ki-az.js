@@ -7,13 +7,23 @@ function init() {
     // console.log('testing kiAZ file is loaded');
 
     const azWrapper = document.querySelector('.js-ki-az-wrapper');
+    // const azWrapper = document.querySelectorAll('.js-ki-az-wrapper');
+
+    // for(var i = 0; i < azWrapper.length; i++){
+    //     const azWrapperInstance = azWrapper[i];
+    //     console.log(azWrapperInstance);
+
+    // }
+
     const initUl = azWrapper.querySelector('ul');
     const initLi = initUl.querySelectorAll('li');
+    
     
     // bootstrap class the UL
     vh.addClass(initUl, 'list-unstyled list-group');
     // add id for the filter function to hook into
-    initUl.id = 'myUL';
+    var uniqueId = azWrapper.dataset.unique;
+    initUl.id = uniqueId;
 
     // bootstrap class the LIs
     _.forEach(initLi, (li) => vh.addClass(li, 'list-group-item'));
@@ -22,15 +32,16 @@ function init() {
     var toSort = initLi;
     tinysort(toSort);
     
-    // now get the input and listen on it.
-    var inputElement = document.getElementById("kiAzInput");
-    
-    if (inputElement){
-        console.log(inputElement.value);
-        inputElement.addEventListener('keyup',function(){
-            filterText(inputElement);
-        });
-    }
+    // now get the input and listen on it. Note that the class here just outputs
+    // e.g. '.unique217336 input'. uniqueXXXXXX is on the wrapper
+    const inputElement = document.querySelector(`.unique${uniqueId} input`);
+    console.log(inputElement)
+
+    // console.log(inputElement.value);
+    inputElement.addEventListener('keyup',function(){
+        filterText(inputElement);
+    });
+
 
 // SIMPLY ADD A LETTER BEFORE EACH GROUP AND SCROLL TO IT
 
@@ -40,7 +51,8 @@ function init() {
         var filter, ul, li, a, i;
         // input = document.getElementById("kiAzInput");
         filter = input.value.toUpperCase();
-        ul = document.getElementById("myUL");
+        ul = document.getElementById(uniqueId);
+        console.log(uniqueId)
         li = ul.getElementsByTagName("li");
         for (i = 0; i < li.length; i++) {
             a = li[i].getElementsByTagName("a")[0];
