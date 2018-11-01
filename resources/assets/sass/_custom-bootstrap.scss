@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Merriweather:300|Source+Sans+Pro:200,400,600');
 
 
+// need this to override the t4 links for editing the page as they don't allow classes
+#footer a {
+    color: white;
+}
 
 // targeting imgs only in cols to try and minimise over spill
 [class*='col-'] img {
