@@ -4,7 +4,7 @@
             <!-- ki-content-module -->
             <div class="ki-content-module uniq<t4 type="meta" meta="content_id" />">
 
-                <div class="mb-4">
+                <div class="mb-3">
                 <t4 type="content" output="selective-output" name="Title" format="<h2 class=&quot;mb-2&quot;>$value</h2>" />
 
                 <t4 type="content" output="selective-output" name="Subtitle" format="<p class=&quot;text-muted h4&quot;>$value</p>" />
