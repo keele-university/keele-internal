@@ -4,7 +4,7 @@ const tinysort = require('tinysort');
 
 function init() {
     // x.charAt(0)
-    console.log('testing kiAZ file is loaded');
+    // console.log('testing kiAZ file is loaded');
 
     const azWrapper = document.querySelector('.js-ki-az-wrapper');
     const initUl = azWrapper.querySelector('ul');
