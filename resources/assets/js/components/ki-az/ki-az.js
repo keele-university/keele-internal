@@ -4,16 +4,29 @@ const tinysort = require('tinysort');
 
 function init() {
     // x.charAt(0)
-    console.log('testing kiAZ file is loaded')
+    console.log('testing kiAZ file is loaded');
+
+    const azWrapper = document.querySelector('.js-ki-az-wrapper');
+    const initUl = azWrapper.querySelector('ul');
+    const initLi = initUl.querySelectorAll('li');
+    
+    // bootstrap class the UL
+    vh.addClass(initUl, 'list-unstyled list-group');
+    // add id for the filter function to hook into
+    initUl.id = 'myUL';
+
+    // bootstrap class the LIs
+    _.forEach(initLi, (li) => vh.addClass(li, 'list-group-item'));
 
     // sort the items in the DOM first
-    var toSort = document.querySelectorAll('#myUL li');
+    var toSort = initLi;
     tinysort(toSort);
     
     // now get the input and listen on it.
     var inputElement = document.getElementById("kiAzInput");
-
+    
     if (inputElement){
+        console.log(inputElement.value);
         inputElement.addEventListener('keyup',function(){
             filterText(inputElement);
         });
