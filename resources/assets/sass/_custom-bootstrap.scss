@@ -79,11 +79,15 @@ $breadcrumb-divider: quote(">");  // needs replacing with SVG
 // BACK TO TOP CSS
 
 .back-to-top-button.is-visible {
+    transform:  rotateX(0deg) translateY(0px);
+    
     opacity: 1;
     visibility: visible;
 }
 
 .back-to-top-button {
+    transform:  rotateX(-90deg) translateY(68px);
+
     align-items: center;
     background: #fff;
     border: 1px solid rgba(0,32,128,.1);
