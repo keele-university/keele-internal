@@ -29,6 +29,7 @@ const sectionHeader = require('./utils/ki-section-header');
 const kiNavboxGridAutoChildren = require('./components/ki-navbox-grid-auto-children/ki-navbox-grid-auto-children');
 const kiAlert = require('./components/ki-alert/ki-alert');
 const kiAZ = require('./components/ki-az/ki-az');
+const topButton = require('./utils/ki-scroll-to-top-button');
 
 // force devtools to load in prod
 // Vue.config.debug = true;
@@ -64,6 +65,7 @@ const app = new Vue({
                 kiNavboxGridAutoChildren.init();
                 kiAlert.init();
                 kiAZ.init();
+                topButton.init();
                 // shieldbannerfix.init();
                 // window.scrollTo(0,0);
             }
