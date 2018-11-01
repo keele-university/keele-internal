@@ -5,9 +5,13 @@ function init() {
     // console.log(kiAlerts); // nodelist
     
     // spread to make nodelist a true array then forEach.
-    [...kiAlerts].forEach( alert => {
+    // [...kiAlerts].forEach( alert => {
+    //     vh.addClass(alert, 'alert-link');
+    // });
+    _.forEach(kiAlerts, function(alert){
         vh.addClass(alert, 'alert-link');
-    });
+    })
+
 }
 
 module.exports = {
