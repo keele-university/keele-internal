@@ -1,3 +1,4 @@
+window.noZensmooth = true
 import 'bootstrap';
 window._ = require('lodash');
 window.Vue = require('vue');
