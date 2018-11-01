@@ -24,12 +24,8 @@ function init() {
         initUl.id = uniqueId;
 
         // bootstrap class the LIs, group items and add flex for full width click zones
-        _.forEach(initLi, (li) => {
-                vh.addClass(li, 'list-group-item d-flex');
-                let innerLink = li.querySelector('a')
-                vh.addClass(innerLink, 'flex-fill');
-            }
-        );
+        _.forEach(initLi, (li) => vh.addClass(li, 'list-group-item'));
+
 
         // sort the items in the DOM first
         var toSort = initLi;
