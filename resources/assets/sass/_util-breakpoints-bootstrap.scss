@@ -1,0 +1,22 @@
+// BOOTSTRAP CLASSES SHOULD BE USED AND NOT THIS FILE
+// THIS FILE IS FOR EDGE CASES e.g. Breaking 'word' or 'all' on
+// Jumbotron display-4 text.
+
+/* xs */
+.jumbotron .display-4 {
+    word-break: break-all;
+}
+/* sm */
+@media (min-width: 768px) {
+    .jumbotron .display-4 {
+        word-break: break-word;
+    }
+}
+/* md */
+@media (min-width: 992px) {
+
+}
+/* lg */
+@media (min-width: 1200px) {
+
+}
