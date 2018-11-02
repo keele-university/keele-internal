@@ -3,14 +3,14 @@
 // Jumbotron display-4 text.
 
 /* xs */
+// jumbotron global for long words on small screens
 .jumbotron .display-4 {
-    word-break: break-all;
+    word-break: break-word;
+    overflow: scroll;
 }
 /* sm */
 @media (min-width: 768px) {
-    .jumbotron .display-4 {
-        word-break: break-word;
-    }
+
 }
 /* md */
 @media (min-width: 992px) {
