@@ -97,7 +97,7 @@
                     <div class="row">
                         <div class="col-12 mb-5">
                             <div class="media">
-                                <img class="ki-uec__img mr-3 rounded" src="https://picsum.photos/960/640?image=502" alt="Generic placeholder image">
+                                <img class="ki-uec__img mr-3 rounded d-none d-md-block" src="https://picsum.photos/960/640?image=502" alt="Generic placeholder image">
                                 <div class="media-body">
                                     <h2 class="mt-0 mb-1">Latest UEC blog</h2>
                                     Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
