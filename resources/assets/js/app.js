@@ -1,5 +1,5 @@
-import 'zenscroll';
 window.noZensmooth = true
+import 'zenscroll';
 
 import 'bootstrap';
 window._ = require('lodash');
