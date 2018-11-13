@@ -7,7 +7,7 @@ window.Vue = require('vue');
 
 
 console.log(
-    '%cKeele University%c!%cOoooh ⊙.☉, well, ... hello there! Looks as though you may want to speak to the web team\? support\.web\@keele\.\ac\.uk',
+    '%cKeele University%c!%cOoooh ⊙.☉, ... hello there! Looks as though you may want to speak to the web team\? support\.web\@keele\.\ac\.uk',
     'color: #008f68; font-weight: bold; font-size: 3rem; text-shadow: 0 0 5px rgba(0,0,0,0.2);',
     'color: hotpink; font-weight: bold; font-size: 3rem; text-shadow: 0 0 5px rgba(0,0,0,0.2);',
     'color: yellowgreen; font-weight: bold; font-size: 3rem; text-shadow: 0 0 5px rgba(0,0,0,0.2);'
