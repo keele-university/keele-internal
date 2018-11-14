@@ -32,7 +32,8 @@ function init() {
             if(devLis) {
                 _.forEach(devLis, (devLi) => {
                     devLi.classList.add('mb-3');
-
+                    var hz = document.createElement("hr");
+                    devLi.appendChild(hz);
                 })
             }
 
