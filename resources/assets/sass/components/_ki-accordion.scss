@@ -7,3 +7,8 @@
     transform: rotate(180deg);
     transition: .2s all ease-in;
 }
+
+// Specific to Accordions
+.accordion button {
+    text-align: left;
+}
