@@ -45,9 +45,9 @@
                         <h1><a class="blog-header-logo text-dark" href="#">grapevine-project</a></h1>
                     </div> -->
 
-                    <span class="ki-header__title navbar-text mx-auto text-primary d-none d-lg-block">
+                    <a class="ki-header__title navbar-text mx-auto text-primary d-none d-lg-block" href="<t4 type="navigation" id="495"/>">
                             STAFF INTRANET
-                    </span>
+                    </a>
 
                     <!-- <form class="form-inline">
                             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
