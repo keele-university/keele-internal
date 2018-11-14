@@ -1,11 +1,11 @@
-                    <!-- set up for the homepage pinned stories -->
+                    <!-- set up for the homepage pinned UEC story. Works in a similar way to standard ki- News story -->
                     <a href="<t4 type="content" output="fulltext" modifiers="nav_sections" use-element="true" filename-element="hyphenated-page-slug-name" name="News title" />">
                         <li class="media">
-                            <img class="mr-3 mb-4" src="<t4 type="content" name="Lead image: 960px x 640px" output="file" modifiers="" />" alt="<t4 type="content" name="Image caption" output="normal" modifiers=""  />">
+                            <img class="ki-uec__img mr-3 rounded d-none d-md-block" src="<t4 type="content" name="Lead image: 960px x 640px" output="file" modifiers="" />" alt="<t4 type="content" name="Image caption" output="normal" modifiers=""  />">
                             <div class="media-body">
-                                <h5 class="mt-0 mb-1">
+                                <h2 class="mt-0 mb-1">
                                     <t4 type="content" name="News title" output="normal" />
-                                </h5>
+                                </h2>
                                 <t4 type="content" output="selective-output" name="News summary snippet" format="<p class=&quot;mb-0 d-none d-md-block&quot;>
                                     $value
                                 </p>" />
