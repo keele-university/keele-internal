@@ -94,6 +94,11 @@
 
                     </div> <!-- .row  -->
 
+
+                    <!-- navigation object : ki-core-latest-update-UEC-homepage --><t4 type="navigation" id="498"/>
+                    
+                    <!-- UEC dev now in nav object above
+
                     <div class="row">
                         <div class="col-12 mb-5">
                             <div class="media">
@@ -107,8 +112,8 @@
                                 </div>
                             </div>
                         </div>
-                    </div> <!-- .row UEC -->
-
+                    </div> <!- - .row UEC - ->
+                    -->
 
                     <div class="card mb-4 p-md-3 bg-white">
                         <div class="card-body">
