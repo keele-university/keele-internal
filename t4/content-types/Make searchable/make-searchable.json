@@ -10,14 +10,17 @@ try {
     
     var urlPathTag = '<t4 type="navigation" id="501"/>';
     var sectionNameTag = '<t4 type="navigation" id="502"/>';
+    var metaInfoTag = '<t4 type="navigation" id="503"/>';
 
     var urlPath = BrokerUtils.processT4Tags (dbStatement, publishCache, section, content, language, isPreview, urlPathTag);
     var sectionName = BrokerUtils.processT4Tags (dbStatement, publishCache, section, content, language, isPreview, sectionNameTag);
+    var metaInfo = BrokerUtils.processT4Tags (dbStatement, publishCache, section, content, language, isPreview, metaInfoTag);
 
 	// Output json to page
     document.write("{");
+    document.write('"sectionName": \"' + escapeString(sectionName) + '",');
     document.write('"urlPath": \"' + escapeString(urlPath) + '",');
-    document.write('"sectionName": \"' + escapeString(sectionName) + '"');
+    document.write('"metaInfo": \"' + escapeString(metaInfo) + '"');
 	document.write("},");
 
 }
