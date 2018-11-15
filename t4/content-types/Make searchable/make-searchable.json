@@ -1,0 +1,26 @@
+try {
+
+    importClass(com.terminalfour.publish.utils.BrokerUtils); // Needed for certain versions of SM to enable BrokerUtils
+    // importClass(com.terminalfour.utils.DateUtils);
+  
+	function escapeString(origContent){
+		var esc = org.apache.commons.lang.StringEscapeUtils;
+		return esc.escapeJava(origContent);
+    }
+    
+    var urlPathTag = '<t4 type="navigation" id="501"/>';
+    var sectionNameTag = '<t4 type="navigation" id="502"/>';
+
+    var urlPath = BrokerUtils.processT4Tags (dbStatement, publishCache, section, content, language, isPreview, urlPathTag);
+    var sectionName = BrokerUtils.processT4Tags (dbStatement, publishCache, section, content, language, isPreview, sectionNameTag);
+
+	// Output json to page
+    document.write("{");
+    document.write('"urlPath": \"' + escapeString(urlPath) + '",');
+    document.write('"sectionName": \"' + escapeString(sectionName) + '"');
+	document.write("},");
+
+}
+	catch (err) {
+	document.write(err);
+}
