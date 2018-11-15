@@ -7,6 +7,14 @@
     <title>keele-grapevine</title>
     <link rel="stylesheet" href="/k-core/intra/css/app.css?v=ki">
 
+    <!-- ki-internal-search -->
+    <!-- 501 - urlPathTag for internal search -->
+    <!-- 502 - sectionNameTag for internal search -->
+    <!-- 503 - keywordsTag for internal search -->
+    <meta name="urlPathSearch" content="<t4 type="navigation" id="501"/>">
+    <meta name="sectionNameSearch" content="<t4 type="navigation" id="502"/>">
+    <meta name="keywordsSearch" content="<t4 type="navigation" id="503"/>">
+    
     <!-- hide during dev-->
     <meta name="robots" content="noindex" />
     
