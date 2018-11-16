@@ -8,15 +8,15 @@ function init(){
     const overLay = document.getElementById("myOverlay");
     // Open the full screen search box 
     function openSearch() {
-        overLay.style.display = "block";
-        overLay.style.opacity = ".95";
+        // overLay.style.display = "block";
+        // overLay.style.opacity = ".95";
         vh.addClass(overLay, 'overlay-active');
     }
 
     // Close the full screen search box 
     function closeSearch() {
-        overLay.style.display = "none";
-        overLay.style.opacity = "0";
+        // overLay.style.display = "none";
+        // overLay.style.opacity = "0";
         vh.removeClass(overLay, 'overlay-active');
     }
 
