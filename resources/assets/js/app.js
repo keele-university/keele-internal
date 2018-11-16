@@ -77,7 +77,9 @@ const app = new Vue({
                 kiAlert.init();
                 kiAZ.init();
                 topButton.init();
-                searchMain.init();
+                if (document.querySelector('.js-ki-trigger-main-searchmain')){
+                    searchMain.init();
+                }
                 // shieldbannerfix.init();
                 // window.scrollTo(0,0);
             }
