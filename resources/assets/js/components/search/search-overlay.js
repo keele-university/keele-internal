@@ -10,14 +10,14 @@ function init(){
     function openSearch() {
         overLay.style.display = "block";
         overLay.style.opacity = ".95";
-        vh.addClass(overLay, 'testerbod');
+        vh.addClass(overLay, 'overlay-active');
     }
 
     // Close the full screen search box 
     function closeSearch() {
         overLay.style.display = "none";
         overLay.style.opacity = "0";
-        vh.removeClass(overLay, 'testerbod');
+        vh.removeClass(overLay, 'overlay-active');
     }
 
     searchButton.addEventListener('click', function(e){
