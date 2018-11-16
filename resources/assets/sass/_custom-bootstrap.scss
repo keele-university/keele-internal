@@ -182,7 +182,7 @@ $breadcrumb-divider: quote(">");  // needs replacing with SVG
 }
 
 .closebtn:hover {
-    transform: rotate(12deg);
+    transform: rotate(12deg)  scale(1.12);
     // color: #007bff !important;
     // color: theme-color(primary) !important;
     color: #0b9dda;
