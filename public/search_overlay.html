@@ -162,15 +162,24 @@
 
 
 
-
+        <!-- <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2">
+                <div class="input-group-append">
+                  <button class="btn btn-outline-secondary" type="button" id="button-addon2">Button</button>
+                </div>
+              </div> -->
 
 
         <div id="myOverlay" class="overlay">
             <span class="closebtn" title="Close Overlay"><i class="fas fa-times"></i></span>
             <div class="overlay-content">
                 <form action="action_page.php">
-                    <input type="text" placeholder="Search.." name="search" autocomplete="off">
-                    <button type="submit"><i class="fa fa-search"></i></button>
+                        <div class="input-group mb-3">
+                            <input type="text" placeholder="Search.." name="search" autocomplete="off" aria-label="Search.." aria-describedby="button-main-search">
+                            <div class="input-group-append"></div>
+                                <button type="submit" id="button-main-search"><i class="fa fa-search"></i></button>
+                            </div>
+                        </div>
                 </form>
             </div>
         </div>

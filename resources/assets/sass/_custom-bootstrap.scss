@@ -197,6 +197,7 @@ $breadcrumb-divider: quote(">");  // needs replacing with SVG
     float: left;
     width: 80%;
     background: white;
+    border-radius: 4px 0px 0px 4px;
 }
 .overlay input[type=text]:hover {
     background: #f1f1f1;
@@ -207,15 +208,19 @@ $breadcrumb-divider: quote(">");  // needs replacing with SVG
     float: left;
     width: 80px;
     padding: 15px;
-    // background: #ddd;
-    background-color: theme-color(info);
+    background: #ddd;
+    // background-color: theme-color(info);
     font-size: 17px;
     border: none;
     cursor: pointer;
+    border-radius: 0px 4px 4px 0px;
+    transition: .2s all ease-out;
 }
 
 .overlay button:hover {
     background: #bbb;
+    background-color: theme-color(success);
+    color: white;
 }
 
 // :root {
