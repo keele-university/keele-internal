@@ -1,0 +1,1002 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>keele-grapevine</title>
+    <link rel="stylesheet" href="css/app.css?v=ki">
+
+    <!-- hide during dev-->
+    <meta name="robots" content="noindex" />
+
+</head>
+
+<body class="bg-light">
+
+    <a href="#">
+    <button class="back-to-top-button" aria-label="back to top"> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-up" style="letter-spacing: -0.3px;"><line x1="12" y1="19" x2="12" y2="5"></line><polyline points="5 12 12 5 19 12"></polyline></svg> </button>
+    </a>
+
+    <div id="page-wrapper" class="v-cloak">
+
+        <div class="ki-auth-bar container-fluid bg-light sticky-top">
+            <div class="container d-flex">
+                <div class="pl-2 my-0 py-1 align-left d-block d-lg-none">STAFF INTRANET</div>
+                <div class="ml-auto my-0 py-1 align-middle"><a href="#"><small>Logout</small></a></div>
+            </div>
+        </div>
+
+        <header class="py-3 bg-white">
+            <div class="container">
+                <nav class="navbar navbar-light">
+                    <a class="navbar-brand" href="/internal-dev">
+                        <img src="https://www.keele.ac.uk/media/header/logo.svg" width="" height="" class="d-inline-block align-top"
+                            alt="">
+                    </a>
+
+                    <!-- <div class="col-4 text-center">
+                        <h1><a class="blog-header-logo text-dark" href="#">grapevine-project</a></h1>
+                    </div> -->
+
+                    <a class="ki-header__title navbar-text text-primary d-none d-lg-block" href="/internal-dev">
+
+                            STAFF INTRANET
+
+                    </a>
+
+                    <!-- <form class="form-inline">
+                            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    </form> -->
+
+                    <div class="ml-auto d-flex">
+                        <!-- desktop has search input, mobile just a link to search page and select input on load -->
+                        <form class="form-inline d-none d-lg-block">
+                            <input type="search" placeholder="Search" aria-label="Search" class="form-control">
+                            <button type="submit" class="js-ki-search-overlay btn bg-transparent my-2 my-sm-0">
+                                <i class="fas fa-search"></i>
+                            </button>
+                        </form>
+                        <button type="submit" class="btn bg-transparent my-2 my-sm-0 d-block d-lg-none">
+                            <i class="fas fa-search"></i>
+                        </button>
+
+                        <!-- <ul class="navbar-nav px-3">
+                            <li class="nav-item text-nowrap">
+                                <a href="#" class="nav-link">Sign out</a>
+                            </li>
+                        </ul> -->
+                    </div>
+                </nav>
+            </div> <!-- .container -->
+        </header>
+
+        <!-- Note that this is d-none and based on whether there is text in the link, it will either delete the section-header or remove the d-none -->
+        <div class="ki-section-header bg-dark d-none">
+            <div class="container my-0 py-1">
+                <div class="row">
+                    <h2 class="pl-3 pt-1"><a class="text-light" href="#">Level two section title and link</a></h2>
+                </div>
+            </div>
+        </div>
+
+        <!-- 
+        <div class="jumbotron jumbotron-fluid text-center bg-primary text-white">
+            <div class="container">
+                <h1 class="display-5">STAFF INTRANET</h1>
+                <!- - <p class="lead">Optional lead in text. 'Information for staff' aka News and events</p> - ->
+            </div>
+        </div> 
+-->
+
+
+        <div class="ki-main-navs">
+            <div class="navbar bg-primary navbar-dark navbar-expand-sm p-0 nav-fill">
+                <div class="container">
+                    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navBarTogglePrimary"
+                        aria-controls="navBarTogglePrimary" aria-expanded="false" aria-label="Toggle primary navigation">
+                        <!-- <span class="navbar-toggler-icon"></span> -->
+                        <i class="fas fa-angle-down fa-lg"></i>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navBarTogglePrimary">
+                        <div class="navbar-nav ki-nav-bar-primary flex-wrap">
+                            <li class="nav-item">
+                                <a href="#">Nav bar one</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#">Only</a>
+                            </li>
+                            <li class="nav-item">
+                                <span href="#" class="currentbranch0">Shows</span>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#">On</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#">Level 2</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#">onwards</a>
+                            </li>
+                        </div>
+                    </div> <!-- navBarTogglePrimary -->
+                </div>
+            </div>
+            <div class="navbar bg-info navbar-dark navbar-expand-sm mt-0 mb-0 p-0 nav-fill">
+                <div class="container">
+                    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navBarToggleSecondary"
+                        aria-controls="navBarToggleSecondary" aria-expanded="false" aria-label="Toggle secondary navigation">
+                        <!-- <span class="navbar-toggler-icon"></span> -->
+                        <i class="fas fa-angle-double-down fa-lg"></i>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navBarToggleSecondary">
+                        <div class="navbar-nav ki-nav-bar-secondary flex-wrap">
+                            <li class="nav-item"><a href="#">Something</a></li>
+                            <li class="nav-item"><a href="#">More links</a></li>
+                            <li class="nav-item" href="#"><span href="#" class="currentbranch0">Currentbranch0 class</span></li>
+                            <li class="nav-item"><a href="#">More</a></li>
+                            <li class="nav-item"><a href="#">Level</a></li>
+                            <li class="nav-item"><a href="#">onwards</a></li>
+                        </div>
+                    </div> <!-- navBarToggleSecondary -->
+                </div>
+            </div>
+        </div> <!-- ki-main-navs -->
+
+        <div class="container">
+            <div class="row mb-2">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb bg-transparent ml-2 my-0">
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item"><a href="#">Shows</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">If there</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+
+
+
+
+
+
+        <div id="myOverlay" class="overlay">
+            <span class="closebtn" title="Close Overlay">x</span>
+            <div class="overlay-content">
+                <form action="action_page.php">
+                    <input type="text" placeholder="Search.." name="search">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row mb-3">
+
+                <div class="col-4">
+                    <p>Font awesome now included using JS and SVG</p>
+                </div>
+                <div class="col-1">
+                    <i class="fas fa-arrow-right"></i>
+                </div>
+                <div class="col-1">
+                    <span class="fas fa-ghost"></span> <!-- using a <span> element to reference the icon -->
+                    <span class="fas fa-ghost"></span>
+                    <span class="fas fa-ghost"></span>
+                    <span class="fas fa-ghost"></span>
+                    <span class="fas fa-ghost"></span>
+                    <span class="fas fa-ghost"></span>                                                                                
+                </div>
+
+            </div>
+        </div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-12 mb-3">
+
+
+        <h3>Test t4 output x2 with unique data-attributes</h3>
+
+        </div>
+    </div>
+</div>
+        <div class="container"><div class="row"><div data-unique="217336" class="js-ki-az-wrapper col-12 mb-4 unique217336"><div class="input-group mb-1"><input type="text"  placeholder="Filter" aria-label="Filter" aria-describedby="kiAzInput" class="form-control"></div> <ul class=" " id="myUL">           <li class=""><a href="SiteManager?ctfn=publish&amp;fnno=30&amp;chid=2&amp;lang=en&amp;sid=47803">Aero</a></li>  <li class=""><a href="#" target="_blank">10</a></li> <li class=""><a href="#" target="_blank">Artificial intelligence</a></li><li class=""><a href="#">Cartridges</a></li><li class=""><a href="SiteManager?ctfn=publish&amp;fnno=30&amp;chid=2&amp;lang=en&amp;sid=47801">Discover</a></li><li class=""><a href="#">Ferrari</a></li><li class=""><a href="https://forums.keele.ac.uk" target="_blank">Forums</a></li><li class=""><a href="#">Garage</a></li><li class=""><a href="SiteManager?ctfn=publish&amp;fnno=30&amp;chid=2&amp;lang=en&amp;sid=47803">Mongoose</a></li><li class=""><a href="SiteManager?ctfn=publish&amp;fnno=30&amp;chid=2&amp;lang=en&amp;sid=58719">Posters</a></li> <li class=""><a href="#" target="_blank">01</a></li> <li class=""><a href="https://forums.keele.ac.uk">Pudding Lane</a></li><li class=""><a href="SiteManager?ctfn=publish&amp;fnno=30&amp;chid=2&amp;lang=en&amp;sid=47801">Shoes</a></li><li class=""><a href="#">Travel expenses</a></li></ul></div></div></div>
+
+
+        <div class="container"><div class="row"><div data-unique="217341" class="js-ki-az-wrapper col-12 mb-4 unique217341"><div class="input-group mb-1"><input type="text"  placeholder="Filter" aria-label="Filter" aria-describedby="kiAzInput" class="form-control"></div> <ul><li><a href="#">Travel expenses</a></li> <li><a href="SiteManager?ctfn=publish&amp;fnno=30&amp;chid=2&amp;lang=en&amp;sid=47801">Shoes</a></li> <li><a href="SiteManager?ctfn=publish&amp;fnno=30&amp;chid=2&amp;lang=en&amp;sid=47801">Discover</a></li> <li><a href="#">Ferrari</a></li> <li><a href="#">Garage</a></li> <li><a href="SiteManager?ctfn=publish&amp;fnno=30&amp;chid=2&amp;lang=en&amp;sid=47803">Mongoose</a></li> <li><a href="https://forums.keele.ac.uk">Pudding Lane</a></li> <li><a href="https://forums.keele.ac.uk" target="_blank">Forums</a></li> <li><a href="#" target="_blank">Artificial intelligence</a></li> <li><a href="SiteManager?ctfn=publish&amp;fnno=30&amp;chid=2&amp;lang=en&amp;sid=47803">Aero</a></li></ul></div></div></div>
+
+
+<!-- 
+<div class="container">
+    <div class="row">
+        <div class="js-ki-az-wrapper col-12 mb-3">
+            <!- - <input type="text" id="kiAzInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name"> - ->
+
+            <div class="input-group mb-3">
+                <input type="text" id="kiAzInput" class="form-control" placeholder="Filter" aria-label="Filter" aria-describedby="kiAzInput">
+                <!- - <div class="input-group-append">
+                    <span class="input-group-text"><i class="fas fa-search"></i></span>
+                </div> - ->
+            </div>
+
+            <ul id="myUL" class="list-unstyled list-group">
+                <li class="list-group-item"><a href="#">Apple</a></li>
+                <li class="list-group-item"><a href="#">Bulletin</a></li>
+            
+                <li class="list-group-item"><a href="#">Crisp</a></li>
+                <li class="list-group-item"><a href="#">Turkey</a></li>
+                
+                <li class="list-group-item"><a href="#">Umbrella</a></li>
+                <li class="list-group-item"><a href="#">Zoid</a></li>
+                <li class="list-group-item"><a href="#">Crisp at end should be re-ordered</a></li>
+            </ul>
+        </div> <!- - .cols-x - ->
+    </div> <!- - .row - ->
+</div><!- - .container - ->
+ -->
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-12 mb-3">
+
+            <div class="js-ki-alert alert alert-success" role="alert">
+                <span class="sr-only">Important notification: </span>
+                <p>A simple success alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like. :last-of-type paragraph will have no margin bottom.</p>
+
+                <p>Some text in a paragraph as t4 will present it.</p>
+            </div>
+            <div class="js-ki-alert alert alert-danger" role="alert">
+                <span class="sr-only">Important notification: </span>
+                <p>A simple danger alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.</p>
+            </div>
+            <div class="js-ki-alert alert alert-warning" role="alert">
+                <span class="sr-only">Important notification: </span>
+                <p>A simple warning alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.</p>
+            </div>
+            <div class="js-ki-alert alert alert-info" role="alert">
+                <span class="sr-only">Important notification: </span>
+                <p>A simple info alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.</p>
+            </div>
+
+        </div> <!-- .col-x -->
+    </div> <!-- .row -->
+</div> <!-- .container -->
+
+<!-- TESTING AUTO CHILDREN LIST. FOLLOWING IS THE STANDARD OUTPUT FROM T4 NAV OBJECT CHILDREN -->
+        <div class="container"><div class="row ki-auto-child-sections"><a href="SiteManager?ctfn=publish&amp;fnno=30&amp;sid=59003&amp;chid=2&amp;lang=en">These sections are plain output</a><a href="SiteManager?ctfn=publish&amp;fnno=30&amp;sid=59004&amp;chid=2&amp;lang=en">From t4</a><a href="SiteManager?ctfn=publish&amp;fnno=30&amp;sid=59005&amp;chid=2&amp;lang=en">And converted to cards and links with </a><a href="SiteManager?ctfn=publish&amp;fnno=30&amp;sid=59006&amp;chid=2&amp;lang=en">SVG arrows with JavaScript</a><a href="SiteManager?ctfn=publish&amp;fnno=30&amp;sid=59007&amp;chid=2&amp;lang=en">Student Recruitment Marketing</a><a href="SiteManager?ctfn=publish&amp;fnno=30&amp;sid=59008&amp;chid=2&amp;lang=en">Marketing and Communications Contacts</a></div></div>
+<!-- .TESTING AUTO CHILDREN LIST. FOLLOWING IS THE STANDARD OUTPUT FROM T4 NAV OBJECT CHILDREN -->
+
+
+<!-- TESTING AUTO CHILDREN LIST. FOLLOWING IS THE STANDARD OUTPUT FROM T4 NAV OBJECT CHILDREN -->
+        <div class="container"><div class="row ki-auto-child-sections"><a href="SiteManager?ctfn=publish&amp;fnno=30&amp;sid=59003&amp;chid=2&amp;lang=en">Marketing</a><a href="SiteManager?ctfn=publish&amp;fnno=30&amp;sid=59004&amp;chid=2&amp;lang=en">Communications</a><a href="SiteManager?ctfn=publish&amp;fnno=30&amp;sid=59005&amp;chid=2&amp;lang=en">International Recruitment and Development</a><a href="SiteManager?ctfn=publish&amp;fnno=30&amp;sid=59006&amp;chid=2&amp;lang=en">Market Insight</a><a href="SiteManager?ctfn=publish&amp;fnno=30&amp;sid=59007&amp;chid=2&amp;lang=en">Student Recruitment Marketing</a><a href="SiteManager?ctfn=publish&amp;fnno=30&amp;sid=59008&amp;chid=2&amp;lang=en">Marketing and Communications Contacts</a></div></div>
+<!-- .TESTING AUTO CHILDREN LIST. FOLLOWING IS THE STANDARD OUTPUT FROM T4 NAV OBJECT CHILDREN -->
+
+        <div class="container">
+            <div class="row">
+
+
+                <div class="col-sm-6 col-md-4 mb-3">
+                    <div class="card">
+                        <a class="h-100" href="#"> <!-- v-100 required for IE 11 -->
+                            <img class="card-img-top" src="https://picsum.photos/960/640?187" alt="Card image cap">
+                            <div class="card-body">
+                                <div class="card-title">
+                                    <h5 class="card-title">Nav card title is always required <svg viewBox="0 0 16 16" width="16" height="16" class="icon-arrow d-none d-md-inline-block"><path d="M7.2 12.73l-1.41-1.41 3.29-3.29-3.29-3.29L7.2 3.32l4.71 4.71-4.71 4.7z"/></svg></h5>
+                                    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div> <!-- .card -->
+                </div> <!-- .col -->
+
+                <div class="col-sm-6 col-md-4 mb-3">
+                    <div class="card">
+                        <a class="h-100" href="#"> <!-- v-100 required for IE 11 -->
+                            <img class="card-img-top" src="https://picsum.photos/960/640?187" alt="Card image cap">
+                            <div class="card-body">
+                                <div class="card-title">
+                                    <h5 class="card-title">Nav card title is always required <svg viewBox="0 0 16 16" width="16" height="16" class="icon-arrow d-none d-md-inline-block"><path d="M7.2 12.73l-1.41-1.41 3.29-3.29-3.29-3.29L7.2 3.32l4.71 4.71-4.71 4.7z"/></svg></h5>
+                                    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div> <!-- .card -->
+                </div> <!-- .col -->
+
+                <div class="col-sm-6 col-md-4 mb-3">
+                    <div class="card">
+                        <a class="h-100" href="#"> <!-- v-100 required for IE 11 -->
+                            <img class="card-img-top" src="https://picsum.photos/960/640?187" alt="Card image cap">
+                            <div class="card-body">
+                                <div class="card-title">
+                                    <h5 class="card-title">Nav card title is always required <svg viewBox="0 0 16 16" width="16" height="16" class="icon-arrow d-none d-md-inline-block"><path d="M7.2 12.73l-1.41-1.41 3.29-3.29-3.29-3.29L7.2 3.32l4.71 4.71-4.71 4.7z"/></svg></h5>
+                                    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div> <!-- .card -->
+                </div> <!-- .col -->
+
+                <div class="col-sm-6 col-md-4 mb-3">
+                    <div class="card">
+                        <a class="h-100" href="#"> <!-- v-100 required for IE 11 -->
+                            <img class="card-img-top" src="https://picsum.photos/960/640?187" alt="Card image cap">
+                            <div class="card-body">
+                                <div class="card-title">
+                                    <h5 class="card-title">Nav card title is always required <svg viewBox="0 0 16 16" width="16" height="16" class="icon-arrow d-none d-md-inline-block"><path d="M7.2 12.73l-1.41-1.41 3.29-3.29-3.29-3.29L7.2 3.32l4.71 4.71-4.71 4.7z"/></svg></h5>
+                                    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div> <!-- .card -->
+                </div> <!-- .col -->
+
+                <div class="col-sm-6 col-md-4 mb-3">
+                    <div class="card">
+                        <a class="h-100" href="#"> <!-- v-100 required for IE 11 -->
+                            <img class="card-img-top" src="https://picsum.photos/960/640?187" alt="Card image cap">
+                            <div class="card-body">
+                                <div class="card-title">
+                                    <h5 class="card-title">Nav card title is always required <svg viewBox="0 0 16 16" width="16" height="16" class="icon-arrow d-none d-md-inline-block"><path d="M7.2 12.73l-1.41-1.41 3.29-3.29-3.29-3.29L7.2 3.32l4.71 4.71-4.71 4.7z"/></svg></h5>
+                                    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div> <!-- .card -->
+                </div> <!-- .col -->
+
+
+
+                
+                <!-- <div class="col-sm-6 col-md-4 mb-3">
+                    <div class="card">
+                        <a href="#">
+                            <img class="card-img-top" src="https://picsum.photos/960/640?187" alt="Card image cap">
+                            <div class="card-body">
+                                <div class="card-title">
+                                    <h5 class="card-title">Nav card title is always required <svg viewBox="0 0 16 16" width="16" height="16" class="icon-arrow d-none d-md-inline-block"><path d="M7.2 12.73l-1.41-1.41 3.29-3.29-3.29-3.29L7.2 3.32l4.71 4.71-4.71 4.7z"/></svg></h5>
+                                    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div> <!- - .card - ->
+                </div> <!- - .col - -> -->
+
+
+            </div> <!-- .row -->
+        </div> <!-- .container -->
+
+<div class="container">
+    <div class="row">
+        <div class="col-12 mb-3">
+            <div class="accordion" id="uniq-accordion-">
+                    <div class="card">
+                        <div class="card-header bg-primary" id="uniq-headingOne">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link btn-block text-white d-flex align-items-center" type="button" data-toggle="collapse" data-target="#uniq-collapseOne" aria-expanded="true" aria-controls="uniq-collapseOne">
+                            Collapsible Group Item #1  <i class="fas fa-angle-down ml-auto"></i>
+                            </button>
+                        </h5>
+                        </div>
+                    
+                        <div id="uniq-collapseOne" class="collapse show" aria-labelledby="uniq-headingOne" data-parent="#uniq-accordion-">
+                        <div class="card-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                        </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header bg-primary" id="uniq-headingTwo">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link btn-block text-white d-flex align-items-center collapsed" type="button" data-toggle="collapse" data-target="#uniq-collapseTwo" aria-expanded="false" aria-controls="uniq-collapseTwo">
+                            Collapsible Group Item #2  <i class="fas fa-angle-down ml-auto"></i>
+                            </button>
+                        </h5>
+                        </div>
+                        <div id="uniq-collapseTwo" class="collapse" aria-labelledby="uniq-headingTwo" data-parent="#uniq-accordion-">
+                        <div class="card-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                        </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header bg-primary" id="uniq-headingThree">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link btn-block text-white d-flex align-items-center collapsed" type="button" data-toggle="collapse" data-target="#uniq-collapseThree" aria-expanded="false" aria-controls="uniq-collapseThree">
+                            Collapsible Group Item #3  <i class="fas fa-angle-down ml-auto"></i>
+                            </button>
+                        </h5>
+                        </div>
+                        <div id="uniq-collapseThree" class="collapse" aria-labelledby="uniq-headingThree" data-parent="#uniq-accordion-">
+                        <div class="card-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                        </div>
+                        </div>
+                    </div>
+                </div> <!-- .accordion -->
+        </div> <!-- .col-12 -->
+    </div> <!-- .row -->
+</div> <!-- .container-->
+
+    
+        <!-- 9 / 3 -->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9">
+
+                    <a href="#">
+                        <div class="card text-white bg-primary mb-5">
+                            <img class="card-img-top" src="https://picsum.photos/960/220?image=776" alt="Card image cap">
+                            <!-- <div class="card-header">Optional header</div> -->
+                            <div class="card-body">
+                                <h5 class="card-title">Optional card title</h5>
+                                <p class="card-text">The image above can have any height but width must be 960px and
+                                    recommended height is 220px</p>
+                            </div>
+                        </div>
+                    </a>
+
+                    <!-- <a href="#">
+                        <img src="https://picsum.photos/800/400" class="img-fluid rounded" alt="Responsive image">
+                    </a> -->
+
+
+                    <div class="container">
+                        <div class="row">
+                                <ul class="ki-pinned-list list-unstyled">
+                                    <a href="#">
+                                        <li class="media">
+                                            <img class="mr-3 mb-4" src="https://picsum.photos/960/640?310" alt="Generic placeholder image">
+                                            <div class="media-body">
+                                                <h5 class="mt-0 mb-1">Pinned story - Keele University remembers: World War One Centenary events</h5>
+                                                <p class="d-none d-md-block mb-0">Snippet hidden on mobile as per popular news site</p>
+                                                <time><small>09 October - 15 October</small></time>
+                                            </div>
+                                        </li>
+                                    </a>
+                                    <a href="#">
+                                            <li class="media">
+                                            <img class="mr-3 mb-4" src="https://picsum.photos/960/640?20" alt="Generic placeholder image">
+                                                <div class="media-body">
+                                                    <h5 class="mt-0 mb-1">Pinned story - Another story that is not ordered automatically as below</h5>
+                                                    <p class="d-none d-md-block mb-0">Snippet hidden on mobile as per BBC news site etc</p>
+                                                    <time><small>09 October - 15 October</small></time>
+                                                </div>
+                                            </li>
+                                        </a>
+                                         <a href="#">
+                                            <li class="media">
+                                            <img class="mr-3 mb-4" src="https://picsum.photos/960/640?210" alt="Generic placeholder image">
+                                                <div class="media-body">
+                                                    <h5 class="mt-0 mb-1">These three items are manually added and maintained to highlight certain stories</h5>
+                                                    <p class="d-none d-md-block mb-0">Snippet hidden on mobile as per BBC news site etc</p>
+                                                    <time><small>09 October - 15 October</small></time>
+                                                </div>
+                                            </li>
+                                            </a>
+                                    </ul>
+                        </div>
+                    </div>
+
+                    <div class="row mb-5">
+                        
+                        <div class="col-sm-6">
+                            <h2 class="mb-3">Latest updates</h2>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <h5 class="mt-0 mb-1"><a href="#">Keele University remembers: World War One
+                                            Centenary events</h5>
+                                    </a>
+                                    <p class="font-weight-light"><small>09 October 2018</small></p>
+                                </li>
+                                <li>
+                                    <h5 class="mt-0 mb-1"><a href="#">Keele announces Chief Information Officer
+                                            appointment</h5>
+                                    </a>
+                                    <p class="font-weight-light"><small>11 October 2018</small></p>
+                                </li>
+                                <li>
+                                    <h5 class="mt-0 mb-1"><a href="#">School of Psychology opens state-of-the-art human
+                                            brain electrophysiology facility</h5>
+                                    </a>
+                                    <p class="font-weight-light"><small>09 September 2018</small></p>
+                                </li>
+                                <li>
+                                    <h5 class="mt-0 mb-1"><a href="#">Keele shortlisted for ‘University of the Year’</h5>
+                                    </a>
+                                    <p class="font-weight-light"><small>25 August 2018</small></p>
+                                </li>
+                                <li>
+                                    <h5 class="mt-0 mb-1"><a href="#">Keele supports UKRI scheme for Future Leaders</h5>
+                                    </a>
+                                    <p class="font-weight-light"><small>12 June 2018</small></p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-6">
+                            <h2 class="mb-3">Staff events</h2>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <h5 class="mt-0 mb-1"><a href="#">Erasmus workshop</h5>
+                                    </a>
+                                    <p class="font-weight-light"><small>09 October 2018</small></p>
+                                </li>
+                                <li>
+                                    <h5 class="mt-0 mb-1"><a href="#">Equality and Diversity group workshop</h5>
+                                    </a>
+                                    <p class="font-weight-light"><small>11 October 2018</small></p>
+                                </li>
+                                <li>
+                                    <h5 class="mt-0 mb-1"><a href="#">Open days</h5>
+                                    </a>
+                                    <p class="font-weight-light"><small>09 September 2018</small></p>
+                                </li>
+                                <li>
+                                    <h5 class="mt-0 mb-1"><a href="#">Vice Chancellor's address</h5>
+                                    </a>
+                                    <p class="font-weight-light"><small>25 August 2018</small></p>
+                                </li>
+                                <li>
+                                    <h5 class="mt-0 mb-1"><a href="#">Staff gathering at Keele hall to celebrate
+                                            nomination in awards</h5>
+                                    </a>
+                                    <p class="font-weight-light"><small>12 June 2018</small></p>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div> <!-- .row  -->
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 mb-5">
+                                <div class="media">
+                                    <img class="ki-uec__img mr-3 rounded d-none d-md-block" src="https://picsum.photos/960/640?image=502" alt="Generic placeholder image">
+                                    <div class="media-body">
+                                        <h2 class="mt-0 mb-1">Updates from UEC</h2>
+                                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                                        sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
+                                        Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in
+                                        faucibus.
+                                    </div>
+                                </div>
+                            </div>
+                        </div> <!-- .row UEC -->
+                    </div>
+
+                    <div class="jumbotron">
+                        <h1 class="display-4">Forums</h1>
+                        <p class="lead">Direct links to the Keele discussion boards.</p>
+                        <div class="row mt-4">
+                            <div class="col-lg-6 mb-3"><a href="" class="btn btn-primary">General chat and
+                                    announcements</a></div>
+                            <div class="col-lg-6 mb-3"><a href="" class="btn btn-primary">Job vacancies</a></div>
+                            <div class="col-lg-6 mb-3"><a href="" class="btn btn-primary">For sale or wanted</a></div>
+                            <div class="col-lg-6 mb-3"><a href="" class="btn btn-primary">Accommodation</a></div>
+                        </div>
+                        <!-- <hr class="my-4"> -->
+                        <!-- <p>Keele University discussion boards</p> -->
+                        <!-- <a class="btn btn-primary btn-lg" href="https://forums.keele.ac.uk" role="button">Forums homepage</a> -->
+                    </div>
+
+
+                </div> <!-- end col-md-9 of 9 / 3 -->
+
+                <div class="col-md-3 mb-3">
+                    <div class="ki-utility-links accordion mb-3" id="accordionUtilityLinks">
+                        <div class="card">
+                            <div class="card-header p-0 text-left" id="headingOne">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link btn-block d-flex align-items-center" type="button" data-toggle="collapse" data-target="#collapseOne"
+                                        aria-expanded="false" aria-controls="collapseOne">
+                                        Popular links <i class="fas fa-angle-down ml-auto"></i>
+                                    </button>
+                                </h5>
+                            </div>
+
+                            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionUtilityLinks">
+                                <!-- collapse show to open on page load -->
+                                <div class="card-body pb-1">
+                                    <ul class="list-unstyled">
+                                        <!-- (li>a>{list link $})*25 -->
+                                        <li><a href="">list link 1</a></li>
+                                        <li><a href="">list link 2</a></li>
+                                        <li><a href="">list link 3</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header p-0 text-left" id="headingTwo">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link btn-block d-flex align-items-center collapsed" type="button" data-toggle="collapse"
+                                        data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        Systems and portals <i class="fas fa-angle-down ml-auto"></i>
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionUtilityLinks">
+                                <div class="card-body pb-1">
+                                    <ul class="list-unstyled">
+                                        <li><a href="http://mail.keele.ac.uk">Email</a></li>
+                                        <li><a href="https://maillists.keele.ac.uk">Mailing lists</a></li>
+                                        <li><a href="https://servicedesk.keele.ac.uk">Service Desk</a></li>
+                                        <li><a href="https://publications.keele.ac.uk">Symplectic</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="mb-3">
+                        <button type="button" class="btn btn-primary btn-block mb-2 text-left">Central services</button>
+                        <button type="button" class="btn btn-primary btn-block mb-2 text-left">A-Z</button>
+                        <button type="button" class="btn btn-primary btn-block mb-2 text-left">Policies and guidelines</button>
+                    </div>
+
+                    <div class="card text-white bg-info mb-3">
+                        <!-- <div class="card-header">Filler header optional</div> -->
+                        <img class="card-img-top" src="https://picsum.photos/960/640?image=767" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Info filler title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the
+                                bulk of the card's content.</p>
+                        </div>
+                    </div>
+                    <div class="card text-white bg-info mb-3">
+                        <!-- <div class="card-header">Filler header</div> -->
+                        <img class="card-img-top" src="https://picsum.photos/960/640?image=363" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Info card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the
+                                bulk of the card's content.</p>
+                        </div>
+                    </div>
+                    <div class="card text-white bg-info mb-3">
+                        <div class="card-header">Header and title on this one</div>
+                        <img class="card-img-top" src="https://picsum.photos/960/640?image=242" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Here is the title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the
+                                bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div> <!-- end col-md-3 in 9 / 3 -->
+
+            </div> <!-- end 9 / 3 row -->
+        </div> <!-- end 9 / 3 container -->
+        
+
+
+        <div class="jumbotron jumbotron-fluid text-center">
+            <div class="container">
+                <h1 class="display-4">University developments</h1>
+                <p class="lead">Details on the strategic development of the University.</p>
+            </div>
+        </div>
+
+        <div class="ki-home-3-full-width container">
+            <div class="row">
+                <div class="js-ki-home-3-1 col-lg-4 mb-3">
+                    <h2 class="mb-3">Campus developments</h2>
+                    <ul class="list-unstyled">
+                                    <li><a href="https://staff.keele.ac.uk">Link name</a></li>
+                                    <li><a href="https://forums.keele.ac.uk">Another item</a></li>
+                                    <li><a href="https://forums.keele.ac.uk">Another item</a></li>
+                                    <li><a href="https://forums.keele.ac.uk">Another item</a></li>
+                                    <li><a href="https://forums.keele.ac.uk">Another item</a></li>
+                                    <li><a href="https://forums.keele.ac.uk">Another item</a></li>
+                                    <li><a href="#">Keele University remembers: World War One Centenary events</a></li>
+                    </ul>
+                </div>
+                <div class="js-ki-home-3-2 col-lg-4 mb-3">
+                    <h2 class="mb-3">Strategy developments</h2>
+                    <ul class="list-unstyled">
+                        <li><a href="https://staff.keele.ac.uk">Link name</a></li>
+                        <li><a href="https://forums.keele.ac.uk">Another item</a></li>
+                        <li><a href="https://forums.keele.ac.uk">Another item</a></li>
+                        <li><a href="https://forums.keele.ac.uk">Another item</a></li>
+                        <li><a href="https://forums.keele.ac.uk">Another item</a></li>
+                        <li><a href="https://forums.keele.ac.uk">Another item</a></li>
+                        <li><a href="#">Keele University remembers: World War One Centenary events</a></li>
+                    </ul>
+
+                </div>
+                <div class="js-ki-home-3-3 col-lg-4 mb-3">
+                    <!-- <h2 class="mb-5">Twitter feed</h2> -->
+                    <div class="pt-1">
+                        <a class="twitter-timeline" data-width="" data-height="725" data-theme="light" href="https://twitter.com/KeeleStaff?ref_src=twsrc%5Etfw">Tweets
+                            by KeeleStaff</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+
+
+        <div class="container">
+                <div class="row">
+                    <div class="card mb-3">
+                        <div class="card-body">
+                            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active  noZensmooth" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Tab title text 1</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link noZensmooth" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Tab title text 2</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link noZensmooth" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Tab title text 3</a>
+                                </li>
+                            </ul>
+                            <div class="tab-content" id="pills-tabContent">
+                                <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                                    Tabset 1 tab 1. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia, suscipit aliquam soluta at tempora consectetur, nemo quas incidunt illo dolores cumque vel asperiores doloribus consequatur sed voluptas, provident possimus totam!Ad dolore minima voluptates temporibus magni ab id voluptatibus vero soluta provident ullam accusamus dolorum sequi, officiis, odit fugiat maiores velit eveniet at tempore. Laudantium temporibus assumenda exercitationem veniam alias?
+                                </div>
+                                <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                                    Tabset 1 tab 2. Dicta similique adipisci nihil repellat quia voluptate quam, necessitatibus cum laborum accusantium quisquam, nobis aliquam facere, voluptas itaque? Molestiae sed, dolor itaque quia dignissimos culpa non ad odio officia nisi.
+                                    Dolore repellendus hic autem ab sapiente natus corrupti officia, excepturi voluptates adipisci nulla deserunt blanditiis, culpa praesentium incidunt qui! Mollitia, libero! Impedit, fuga expedita. Eius velit odit facilis nostrum dolore?
+                                    Ipsum amet provident maxime officiis odio, at beatae quibusdam unde officia hic! At totam quisquam cupiditate distinctio similique ducimus, accusamus earum quo fuga debitis recusandae unde aliquam cum est modi.
+                                    Provident eligendi, itaque a iure labore cum. Deserunt error iure maxime vero perferendis suscipit, voluptatum vitae porro magni rem eos voluptatem impedit ipsum ratione inventore earum eveniet recusandae. Deleniti, architecto.
+                                </div>
+                                <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                                    Tabset 1 tab 3. Provident eligendi, itaque a iure labore cum. Deserunt error iure maxime vero perferendis suscipit, voluptatum vitae porro magni rem eos voluptatem impedit ipsum ratione inventore earum eveniet recusandae. Deleniti, architecto.
+                                </div>
+                            </div>
+                        </div> <!-- .card-body -->
+                    </div> <!-- .card -->
+                </div><!-- .row -->
+            </div><!-- .container -->
+    
+            <div class="container">
+                <div class="row">
+                    <div class="card mb-3">
+                        <div class="card-body">
+                            <ul class="nav nav-pills mb-3" id="pills-tab2" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active noZensmooth" id="pills-home-tab2" data-toggle="pill" href="#pills-home2" role="tab" aria-controls="pills-home2" aria-selected="true">Tab title text 1</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link  noZensmooth" id="pills-profile-tab2" data-toggle="pill" href="#pills-profile2" role="tab" aria-controls="pills-profile2" aria-selected="false">Tab title text 2</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link  noZensmooth" id="pills-contact-tab2" data-toggle="pill" href="#pills-contact2" role="tab" aria-controls="pills-contact2" aria-selected="false">Tab title text 3</a>
+                                </li>
+                            </ul>
+                            <div class="tab-content" id="pills-tab2Content">
+                                <div class="tab-pane fade  active" id="pills-home2" role="tabpanel" aria-labelledby="pills-home-tab2">
+                                    Tabset 2 tab 1. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia, suscipit aliquam soluta at tempora consectetur, nemo quas incidunt illo dolores cumque vel asperiores doloribus consequatur sed voluptas, provident possimus totam!Ad dolore minima voluptates temporibus magni ab id voluptatibus vero soluta provident ullam accusamus dolorum sequi, officiis, odit fugiat maiores velit eveniet at tempore. Laudantium temporibus assumenda exercitationem veniam alias?
+                                </div>
+                                <div class="tab-pane fade" id="pills-profile2" role="tabpanel" aria-labelledby="pills-profile-tab2">
+                                    Tabset 2 tab 2. Dicta similique adipisci nihil repellat quia voluptate quam, necessitatibus cum laborum accusantium quisquam, nobis aliquam facere, voluptas itaque? Molestiae sed, dolor itaque quia dignissimos culpa non ad odio officia nisi.
+                                    Dolore repellendus hic autem ab sapiente natus corrupti officia, excepturi voluptates adipisci nulla deserunt blanditiis, culpa praesentium incidunt qui! Mollitia, libero! Impedit, fuga expedita. Eius velit odit facilis nostrum dolore?
+                                    Ipsum amet provident maxime officiis odio, at beatae quibusdam unde officia hic! At totam quisquam cupiditate distinctio similique ducimus, accusamus earum quo fuga debitis recusandae unde aliquam cum est modi.
+                                    Provident eligendi, itaque a iure labore cum. Deserunt error iure maxime vero perferendis suscipit, voluptatum vitae porro magni rem eos voluptatem impedit ipsum ratione inventore earum eveniet recusandae. Deleniti, architecto.
+                                </div>
+                                <div class="tab-pane fade" id="pills-contact2" role="tabpanel" aria-labelledby="pills-contact-tab2">
+                                    Tabset 2 tab 3. Provident eligendi, itaque a iure labore cum. Deserunt error iure maxime vero perferendis suscipit, voluptatum vitae porro magni rem eos voluptatem impedit ipsum ratione inventore earum eveniet recusandae. Deleniti, architecto.
+                                </div>
+                            </div>
+                        </div> <!-- .card-body -->
+                    </div> <!-- .card -->
+                </div><!-- .row -->
+            </div><!-- .container -->
+            
+            
+
+
+        <!-- <div class="container mt-4">
+            <div class="alert alert-danger alert-dismissible fade show">
+                <button type="button" class="close" data-dismiss="alert" aria-label="close" ><span aria-hidden="true">&times;</span></button>
+                <h4 class="alert-heading">h4 alert</h4>
+                <p class="mb-2">Paragraph alert. Alert does not require any initialisation in JS.</p>
+                <a href="#" class="alert-link">More info</a>
+            </div>
+        </div>
+ -->
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="mb-4">Colour palette during development</h2>
+                
+                <div class="p-3 mb-2 bg-primary text-white">.bg-primary</div>
+                <div class="p-3 mb-2 bg-secondary text-white">.bg-secondary</div>
+                <div class="p-3 mb-2 bg-success text-white">.bg-success</div>
+                <div class="p-3 mb-2 bg-danger text-white">.bg-danger</div>
+                <div class="p-3 mb-2 bg-warning text-dark">.bg-warning</div>
+                <div class="p-3 mb-2 bg-info text-white">.bg-info</div>
+                <div class="p-3 mb-2 bg-light text-dark">.bg-light</div>
+                <div class="p-3 mb-2 bg-dark text-white">.bg-dark</div>
+                <div class="p-3 mb-2 bg-white text-dark">.bg-white</div>
+                <div class="p-3 mb-2 bg-transparent text-dark">.bg-transparent</div>
+            </div> <!-- col-12 -->
+        </div> <!-- row -->
+    </div> <!-- container -->
+
+
+
+    <!-- <footer class="container-fluid bg-primary">
+        
+        <div class="container">
+            <div class="row">
+                <div class="col-12 my-5 text-white">
+                    CONTENT FOR THE FOOTER
+                </div>
+            </div>
+        </div>
+    
+    </footer> -->
+
+
+    <div class="container d-flex justify-content-center">
+            <a href="#" class="col-2 my-4 flex-column d-flex justify-content-center">
+                <i class="fas fa-angle-up align-self-center"></i>
+                <div class="align-self-center">top</div>
+            </a>
+    </div>
+
+
+
+
+    <!-- Footer -->
+    <footer id="footer" class="page-footer font-small mdb-color pt-4 bg-primary text-white">
+
+            <!-- Footer Links -->
+            <div class="container text-center text-md-left">
+    
+                <!-- Footer links -->
+                <div class="row text-center text-md-left mt-3 pb-3">
+    
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                        <h6 class="text-uppercase mb-4 font-weight-bold">Short message</h6>
+                        <p>Here you can use rows and columns in the footer as required. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    </div>
+                    <!-- Grid column -->
+    
+                    <hr class="w-100 clearfix d-md-none">
+    
+                    <!-- Grid column -->
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                        <h6 class="text-uppercase mb-4 font-weight-bold">Content tasks</h6>
+
+
+                        <ul class="list-unstyled">
+                                <li><a href="#!" class="text-white">Add new content to this page </a></li>
+                                <li><a href="#!" class="text-white">Modify content on this page"  </a></li>
+                            </ul>
+                    </div>
+                    <!-- Grid column -->
+    
+                    <hr class="w-100 clearfix d-md-none">
+    
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                        <h6 class="text-uppercase mb-4 font-weight-bold">Useful links</h6>
+                        <p>
+                            <a href="#!" class="text-white">Useful link</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-white">Useful link</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-white">Useful link</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-white">Useful link</a>
+                        </p>
+                    </div>
+    
+                    <!-- Grid column -->
+                    <hr class="w-100 clearfix d-md-none">
+    
+                    <!-- Grid column -->
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                        <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+                        <p>
+                            <a href="https://www.keele.ac.uk" class="text-white">
+                                <i class="fas fa-home mr-2"></i>External website
+                            </a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-white">
+                                <i class="fas fa-envelope mr-2"></i>Staff directory
+                            </a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-white">
+                                <i class="fas fa-share-square mr-2"></i>Social media directory
+                            </a>
+                        </p>
+    
+                    </div>
+                    <!-- Grid column -->
+    
+                </div>
+                <!-- Footer links -->
+    
+                <hr>
+    
+                <!-- Grid row -->
+                <div class="row d-flex align-items-center">
+    
+                    <!-- Grid column -->
+                    <div class="col-md-7 col-lg-8">
+    
+                        <!--Copyright-->
+                        <p class="text-center text-md-left">
+                            <a href="#!" class="text-white">
+                                <strong> Keele University</strong>, Keele, Staffordshire, ST5 5BG. United Kingdom
+                            </a>
+                        </p>
+    
+                    </div>
+                    <!-- Grid column -->
+    
+                    <!-- Grid column -->
+                    <div class="col-md-5 col-lg-4 ml-lg-0">
+    
+                        <!-- Social buttons -->
+                        <div class="text-center text-md-right">
+                            <ul class="list-unstyled list-inline">
+                                <li class="list-inline-item">
+                                    <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                                        <i class="fas fa-sun"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                                        <i class="fas fa-umbrella"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                                        <i class="fas fa-cloud-sun"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                                        <i class="fas fa-swimmer"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+    
+                    </div>
+                    <!-- Grid column -->
+    
+                </div>
+                <!-- Grid row -->
+    
+            </div>
+            <!-- Footer Links -->
+    
+        </footer>
+        <!-- Footer -->   
+
+        
+
+
+
+    </div> <!-- .#page-wrapper -->
+    <script src="js/app.js?v=ki"></script>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</body>
+
+</html>

@@ -40,6 +40,7 @@ const kiAlert = require('./components/ki-alert/ki-alert');
 const kiAZ = require('./components/ki-az/ki-az');
 const topButton = require('./utils/ki-scroll-to-top-button');
 // Search imports
+const searchOverlay = require('./components/search/search-overlay');
 const searchMain = require('./components/search/search-main');
 
 // force devtools to load in prod
@@ -77,6 +78,9 @@ const app = new Vue({
                 kiAlert.init();
                 kiAZ.init();
                 topButton.init();
+                if (document.querySelector('.js-ki-search-overlay ')){
+                    searchOverlay.init();
+                }
                 if (document.querySelector('.js-ki-trigger-main-searchmain')){
                     searchMain.init();
                 }
