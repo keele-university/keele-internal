@@ -1,3 +1,4 @@
+// added using a script tag in t4 rather than codesplitting this out for one page
 // const instantsearch = require('instantsearch.js');
 
 
@@ -30,6 +31,7 @@ function init() {
                     <div class="card-body">
                         <h3 class="card-title">{{{_highlightResult.sectionName.value}}}</h3>
                         <small>https://www.keele.ac.uk{{urlPath}}</small>
+                        <div class="d-none">{{keywords}}</div>
                     </div>
                 </div>
             </a>
