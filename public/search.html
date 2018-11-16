@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>keele-grapevine</title>
+    <link rel="stylesheet" href="css/app.css?v=ki">
+
+    <!-- hide during dev-->
+    <meta name="robots" content="noindex" />
+
+</head>
+
+<body class="bg-light">
+
+    <a href="#">
+    <button class="back-to-top-button" aria-label="back to top"> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-up" style="letter-spacing: -0.3px;"><line x1="12" y1="19" x2="12" y2="5"></line><polyline points="5 12 12 5 19 12"></polyline></svg> </button>
+    </a>
+
+    <div id="page-wrapper" class="v-cloak">
+
+        <div class="ki-auth-bar container-fluid bg-light sticky-top">
+            <div class="container d-flex">
+                <div class="pl-2 my-0 py-1 align-left d-block d-lg-none">STAFF INTRANET</div>
+                <div class="ml-auto my-0 py-1 align-middle"><a href="#"><small>Logout</small></a></div>
+            </div>
+        </div>
+
+        <header class="py-3 bg-white">
+            <div class="container">
+                <nav class="navbar navbar-light">
+                    <a class="navbar-brand" href="/internal-dev">
+                        <img src="https://www.keele.ac.uk/media/header/logo.svg" width="" height="" class="d-inline-block align-top"
+                            alt="">
+                    </a>
+
+                    <!-- <div class="col-4 text-center">
+                        <h1><a class="blog-header-logo text-dark" href="#">grapevine-project</a></h1>
+                    </div> -->
+
+                    <a class="ki-header__title navbar-text mx-auto text-primary d-none d-lg-block" href="/internal-dev">
+
+                            STAFF INTRANET
+
+                    </a>
+
+                    <!-- <form class="form-inline">
+                            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    </form> -->
+
+                    <div class="ml-auto d-flex">
+                        <!-- desktop has search input, mobile just a link to search page and select input on load -->
+                        <form class="form-inline d-none d-lg-block">
+                            <input type="search" placeholder="Search" aria-label="Search" class="form-control">
+                            <button type="submit" class="btn bg-transparent my-2 my-sm-0">
+                                <i class="fas fa-search"></i>
+                            </button>
+                        </form>
+                        <button type="submit" class="btn bg-transparent my-2 my-sm-0 d-block d-lg-none">
+                            <i class="fas fa-search"></i>
+                        </button>
+
+                        <!-- <ul class="navbar-nav px-3">
+                            <li class="nav-item text-nowrap">
+                                <a href="#" class="nav-link">Sign out</a>
+                            </li>
+                        </ul> -->
+                    </div>
+                </nav>
+            </div> <!-- .container -->
+        </header>
+
+        <!-- Note that this is d-none and based on whether there is text in the link, it will either delete the section-header or remove the d-none -->
+        <div class="ki-section-header bg-dark d-none">
+            <div class="container my-0 py-1">
+                <div class="row">
+                    <h2 class="pl-3 pt-1"><a class="text-light" href="#">Level two section title and link</a></h2>
+                </div>
+            </div>
+        </div>
+
+        <!-- 
+        <div class="jumbotron jumbotron-fluid text-center bg-primary text-white">
+            <div class="container">
+                <h1 class="display-5">STAFF INTRANET</h1>
+                <!- - <p class="lead">Optional lead in text. 'Information for staff' aka News and events</p> - ->
+            </div>
+        </div> 
+-->
+
+
+        <div class="ki-main-navs">
+            <div class="navbar bg-primary navbar-dark navbar-expand-sm p-0 nav-fill">
+                <div class="container">
+                    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navBarTogglePrimary"
+                        aria-controls="navBarTogglePrimary" aria-expanded="false" aria-label="Toggle primary navigation">
+                        <!-- <span class="navbar-toggler-icon"></span> -->
+                        <i class="fas fa-angle-down fa-lg"></i>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navBarTogglePrimary">
+                        <div class="navbar-nav ki-nav-bar-primary flex-wrap">
+                            <li class="nav-item">
+                                <a href="#">Nav bar one</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#">Only</a>
+                            </li>
+                            <li class="nav-item">
+                                <span href="#" class="currentbranch0">Shows</span>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#">On</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#">Level 2</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#">onwards</a>
+                            </li>
+                        </div>
+                    </div> <!-- navBarTogglePrimary -->
+                </div>
+            </div>
+            <div class="navbar bg-info navbar-dark navbar-expand-sm mt-0 mb-0 p-0 nav-fill">
+                <div class="container">
+                    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navBarToggleSecondary"
+                        aria-controls="navBarToggleSecondary" aria-expanded="false" aria-label="Toggle secondary navigation">
+                        <!-- <span class="navbar-toggler-icon"></span> -->
+                        <i class="fas fa-angle-double-down fa-lg"></i>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navBarToggleSecondary">
+                        <div class="navbar-nav ki-nav-bar-secondary flex-wrap">
+                            <li class="nav-item"><a href="#">Something</a></li>
+                            <li class="nav-item"><a href="#">More links</a></li>
+                            <li class="nav-item" href="#"><span href="#" class="currentbranch0">Currentbranch0 class</span></li>
+                            <li class="nav-item"><a href="#">More</a></li>
+                            <li class="nav-item"><a href="#">Level</a></li>
+                            <li class="nav-item"><a href="#">onwards</a></li>
+                        </div>
+                    </div> <!-- navBarToggleSecondary -->
+                </div>
+            </div>
+        </div> <!-- ki-main-navs -->
+
+        <div class="container">
+            <div class="row mb-2">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb bg-transparent ml-2 my-0">
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item"><a href="#">Shows</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">If there</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12 py-4">
+                    <div id="search-box">
+                        <!-- SearchBox widget will appear here -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row mb-3">
+
+                <div class="col-12">
+                    <div id="hits">
+                        <!-- Hits widget will appear here -->
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <div id="pagination">
+                        <!-- Pagination widget will appear here -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+<!-- 
+
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="mb-4">Colour palette during development</h2>
+                
+                <div class="p-3 mb-2 bg-primary text-white">.bg-primary</div>
+                <div class="p-3 mb-2 bg-secondary text-white">.bg-secondary</div>
+                <div class="p-3 mb-2 bg-success text-white">.bg-success</div>
+                <div class="p-3 mb-2 bg-danger text-white">.bg-danger</div>
+                <div class="p-3 mb-2 bg-warning text-dark">.bg-warning</div>
+                <div class="p-3 mb-2 bg-info text-white">.bg-info</div>
+                <div class="p-3 mb-2 bg-light text-dark">.bg-light</div>
+                <div class="p-3 mb-2 bg-dark text-white">.bg-dark</div>
+                <div class="p-3 mb-2 bg-white text-dark">.bg-white</div>
+                <div class="p-3 mb-2 bg-transparent text-dark">.bg-transparent</div>
+            </div> <!- - col-12 - ->
+        </div> <!- - row - ->
+    </div> <!- - container - ->
+ -->
+
+
+    <!-- <footer class="container-fluid bg-primary">
+        
+        <div class="container">
+            <div class="row">
+                <div class="col-12 my-5 text-white">
+                    CONTENT FOR THE FOOTER
+                </div>
+            </div>
+        </div>
+    
+    </footer> -->
+
+
+    <div class="container d-flex justify-content-center">
+            <a href="#" class="col-2 my-4 flex-column d-flex justify-content-center">
+                <i class="fas fa-angle-up align-self-center"></i>
+                <div class="align-self-center">top</div>
+            </a>
+    </div>
+
+
+
+
+    <!-- Footer -->
+    <footer id="footer" class="page-footer font-small mdb-color pt-4 bg-primary text-white">
+
+            <!-- Footer Links -->
+            <div class="container text-center text-md-left">
+    
+                <!-- Footer links -->
+                <div class="row text-center text-md-left mt-3 pb-3">
+    
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                        <h6 class="text-uppercase mb-4 font-weight-bold">Short message</h6>
+                        <p>Here you can use rows and columns in the footer as required. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    </div>
+                    <!-- Grid column -->
+    
+                    <hr class="w-100 clearfix d-md-none">
+    
+                    <!-- Grid column -->
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                        <h6 class="text-uppercase mb-4 font-weight-bold">Content tasks</h6>
+
+
+                        <ul class="list-unstyled">
+                                <li><a href="#!" class="text-white">Add new content to this page </a></li>
+                                <li><a href="#!" class="text-white">Modify content on this page"  </a></li>
+                            </ul>
+                    </div>
+                    <!-- Grid column -->
+    
+                    <hr class="w-100 clearfix d-md-none">
+    
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                        <h6 class="text-uppercase mb-4 font-weight-bold">Useful links</h6>
+                        <p>
+                            <a href="#!" class="text-white">Useful link</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-white">Useful link</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-white">Useful link</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-white">Useful link</a>
+                        </p>
+                    </div>
+    
+                    <!-- Grid column -->
+                    <hr class="w-100 clearfix d-md-none">
+    
+                    <!-- Grid column -->
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                        <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+                        <p>
+                            <a href="https://www.keele.ac.uk" class="text-white">
+                                <i class="fas fa-home mr-2"></i>External website
+                            </a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-white">
+                                <i class="fas fa-envelope mr-2"></i>Staff directory
+                            </a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-white">
+                                <i class="fas fa-share-square mr-2"></i>Social media directory
+                            </a>
+                        </p>
+    
+                    </div>
+                    <!-- Grid column -->
+    
+                </div>
+                <!-- Footer links -->
+    
+                <hr>
+    
+                <!-- Grid row -->
+                <div class="row d-flex align-items-center">
+    
+                    <!-- Grid column -->
+                    <div class="col-md-7 col-lg-8">
+    
+                        <!--Copyright-->
+                        <p class="text-center text-md-left">
+                            <a href="#!" class="text-white">
+                                <strong> Keele University</strong>, Keele, Staffordshire, ST5 5BG. United Kingdom
+                            </a>
+                        </p>
+    
+                    </div>
+                    <!-- Grid column -->
+    
+                    <!-- Grid column -->
+                    <div class="col-md-5 col-lg-4 ml-lg-0">
+    
+                        <!-- Social buttons -->
+                        <div class="text-center text-md-right">
+                            <ul class="list-unstyled list-inline">
+                                <li class="list-inline-item">
+                                    <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                                        <i class="fas fa-sun"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                                        <i class="fas fa-umbrella"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                                        <i class="fas fa-cloud-sun"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                                        <i class="fas fa-swimmer"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+    
+                    </div>
+                    <!-- Grid column -->
+    
+                </div>
+                <!-- Grid row -->
+    
+            </div>
+            <!-- Footer Links -->
+    
+        </footer>
+        <!-- Footer -->   
+
+        
+
+
+
+    </div> <!-- .#page-wrapper -->
+
+
+    	<!-- navigation object : k-core-pre-app -->
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.10.4/dist/instantsearch.min.css">
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.10.4/dist/instantsearch-theme-algolia.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.10.4"></script>
+
+    <script src="js/app.js?v=ki"></script>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</body>
+
+</html>

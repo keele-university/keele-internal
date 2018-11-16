@@ -7,7 +7,7 @@ window.Vue = require('vue');
 
 
 console.log(
-    '%cKeele University%c!%cOoooh ⊙.☉, ... hello there! Looks as though you may want to speak to the web team\? support\.web\@keele\.\ac\.uk',
+    '%cKeele University%c!%cOoooh ⊙.☉, ... looks as though you may want to speak to the web team\? support\.web\@keele\.\ac\.uk',
     'color: #008f68; font-weight: bold; font-size: 3rem; text-shadow: 0 0 5px rgba(0,0,0,0.2);',
     'color: hotpink; font-weight: bold; font-size: 3rem; text-shadow: 0 0 5px rgba(0,0,0,0.2);',
     'color: yellowgreen; font-weight: bold; font-size: 3rem; text-shadow: 0 0 5px rgba(0,0,0,0.2);'
@@ -39,6 +39,8 @@ const kiNavboxGridAutoChildren = require('./components/ki-navbox-grid-auto-child
 const kiAlert = require('./components/ki-alert/ki-alert');
 const kiAZ = require('./components/ki-az/ki-az');
 const topButton = require('./utils/ki-scroll-to-top-button');
+// Search imports
+const searchMain = require('./components/search/search-main');
 
 // force devtools to load in prod
 // Vue.config.debug = true;
@@ -75,6 +77,7 @@ const app = new Vue({
                 kiAlert.init();
                 kiAZ.init();
                 topButton.init();
+                searchMain.init();
                 // shieldbannerfix.init();
                 // window.scrollTo(0,0);
             }
