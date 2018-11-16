@@ -6,11 +6,14 @@ function init(){
     const closeOverlay = document.querySelector('.closebtn');
 
     const overLay = document.getElementById("myOverlay");
+    const searchInput = overLay.querySelector('input');
     // Open the full screen search box 
     function openSearch() {
         // overLay.style.display = "block";
         // overLay.style.opacity = ".95";
         vh.addClass(overLay, 'overlay-active');
+        searchInput.focus();
+        
     }
 
     // Close the full screen search box 
