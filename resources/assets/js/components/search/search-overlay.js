@@ -29,6 +29,12 @@ function init(){
         closeSearch();
         // e.preventDefault();
     });
+
+    document.addEventListener('keyup', function(e) {
+        if (e.key === "Escape") { // escape key maps to keycode `27`
+            closeSearch();
+        }});
+
 }
 
 
