@@ -9,7 +9,7 @@ function init(){
     // Open the full screen search box 
     function openSearch() {
         overLay.style.display = "block";
-        overLay.style.opacity = ".8";
+        overLay.style.opacity = ".95";
         vh.addClass(overLay, 'testerbod');
     }
 
