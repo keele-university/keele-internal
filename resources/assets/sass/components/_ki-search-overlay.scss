@@ -34,7 +34,8 @@
 
   /* Close button */
 .overlay .closebtn {
-    position: absolute;
+    // position: absolute;
+    position: fixed;
     // // top: 20px;
     top: 80px;
     right: 45px;
