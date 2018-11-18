@@ -6,7 +6,7 @@ function init(){
     const closeOverlay = document.querySelector('.closebtn');
 
     const overLay = document.getElementById("myOverlay");
-    const searchInput = overLay.querySelector('input');
+    const searchInput = document.querySelector('.ki-js-modal-search-input');
     // Open the full screen search box 
     function openSearch() {
         // overLay.style.display = "block";
