@@ -50,23 +50,6 @@
                         <!-- navigation object : ki-home-9-3-static-links BUTTONS --><t4 type="navigation" id="486"/>
                     </div>
 
-                    <div class="card text-white bg-info mb-3">
-                        <!-- <div class="card-header">Filler header optional</div> -->
-                        <img class="card-img-top" src="https://picsum.photos/960/640?image=767" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Info filler title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the
-                                bulk of the card's content.</p>
-                        </div>
-                    </div>
-                    <div class="card text-white bg-info mb-3">
-                        <!-- <div class="card-header">Filler header</div> -->
-                        <img class="card-img-top" src="https://picsum.photos/960/640?image=363" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Info card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the
-                                bulk of the card's content.</p>
-                        </div>
-                    </div>
+                    <!-- navigation object : ki-home-9-3-card-fillers --><t4 type="navigation" id="504"/>
 
                     </div>
