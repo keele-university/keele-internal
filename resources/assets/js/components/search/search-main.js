@@ -25,7 +25,7 @@ function init() {
             container: '#hits',
             templates: {
                 // empty: 'No results',
-                empty: 'File darwin not exist',
+                empty: 'File darwin not exist 😜',
                 item: `
             <a href="https://www.keele.ac.uk{{urlPath}}">
                 <div class="card">
