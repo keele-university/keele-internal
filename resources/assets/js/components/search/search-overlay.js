@@ -36,7 +36,29 @@ function init(){
     document.addEventListener('keyup', function(e) {
         if (e.key === "Escape") { // escape key maps to keycode `27`
             closeSearch();
-        }});
+        }}
+    );
+
+    // FORM SUBMIT
+
+    var ele = document.querySelector('#ki-js-main-search-modal-form');
+    if(ele.addEventListener){
+        ele.addEventListener("submit", callback, false);  //Modern browsers
+    }else if(ele.attachEvent){
+        ele.attachEvent('onsubmit', callback);            //Old IE
+    }
+
+    function callback(e){
+        e.preventDefault();
+
+        // get user typed string
+        var kQuery = searchInput.value;
+        var searchUrl = 'https://webstage.keele.ac.uk/k-core/intra/search.html?query='
+
+        var destinationSearch = searchUrl + kQuery;
+        // console.log(destinationSearch)
+        window.location = destinationSearch;
+    }
 
 }
 
