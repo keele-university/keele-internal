@@ -43,45 +43,41 @@
 
             <header class="py-3 bg-white">
                 <div class="container">
-                <nav class="navbar navbar-light">
-                    <!-- navigation object : ki-homepage-path -->
-                    <a class="navbar-brand" href="<t4 type="navigation" id="495"/>">
-                        <img src="https://www.keele.ac.uk/media/header/logo.svg" width="" height="" class="d-inline-block align-top" alt="">
-                    </a>
+                    <nav class="navbar navbar-light">
+                        <!-- navigation object : ki-homepage-path -->
+                        <a class="navbar-brand" href="<t4 type="navigation" id="495"/>">
+                            <img src="https://www.keele.ac.uk/media/header/logo.svg" width="" height="" class="d-inline-block align-top" alt="">
+                        </a>
 
-                    <!-- <div class="col-4 text-center">
-                        <h1><a class="blog-header-logo text-dark" href="#">grapevine-project</a></h1>
-                    </div> -->
+                        <!-- <div class="col-4 text-center">
+                            <h1><a class="blog-header-logo text-dark" href="#">grapevine-project</a></h1>
+                        </div> -->
 
-                    <a class="ki-header__title navbar-text text-primary d-none d-lg-block" href="<t4 type="navigation" id="495"/>">
-                            STAFF INTRANET
-                    </a>
+                        <a class="ki-header__title navbar-text text-primary d-none d-lg-block" href="<t4 type="navigation" id="495"/>">
+                                STAFF INTRANET
+                        </a>
 
-                    <!-- <form class="form-inline">
-                            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                    </form> -->
-
-                    <div class="ml-auto d-flex">
-                        <!-- desktop has search input, mobile just a link to search page and select input on load -->
-                            <form class="form-inline d-none d-md-block">
-                                <input type="search" placeholder="Search" aria-label="Search" class="form-control">
-                                <button type="submit" class="btn bg-transparent my-2 my-sm-0">
+                        <div class="ml-auto d-flex">
+                            <!-- desktop has search input, mobile just a link to search page and select input on load -->
+                            <form class="form-inline">
+                                <!-- <input type="search" placeholder="Search" aria-label="Search" class="form-control"> -->
+                                
+                                <button type="submit" class="js-ki-search-overlay btn my-2 my-sm-0 btn-outline-secondary">
+                                    <!-- <span>Search</span> -->
                                     <i class="fas fa-search"></i>
                                 </button>
                             </form>
-                            <form class="form-inline d-block d-md-none">
-                                <button type="submit" class="btn bg-transparent my-2 my-sm-0 btn-outline-primary">
-                                    <i class="fas fa-search"></i>
-                                </button>
-                            </form>
-                        <!-- <ul class="navbar-nav px-3">
-                            <li class="nav-item text-nowrap">
-                                <a href="#" class="nav-link">Sign out</a>
-                            </li>
-                        </ul> -->
-                    </div>
-                </nav>
+                            <!-- <button type="submit" class="btn bg-transparent my-2 my-sm-0 d-block d-lg-none">
+                                <i class="fas fa-search"></i>
+                            </button> -->
+
+                            <!-- <ul class="navbar-nav px-3">
+                                <li class="nav-item text-nowrap">
+                                    <a href="#" class="nav-link">Sign out</a>
+                                </li>
+                            </ul> -->
+                        </div>
+                    </nav>
                 </div> <!-- .container -->
             </header>
 

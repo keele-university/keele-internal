@@ -1,5 +1,4 @@
-
-        <div class="container mt-4">
+<div class="container mt-4">
             <div class="row">
                 <div class="col-12">
                     <h2 class="mb-4">Colour palette during development</h2>
@@ -28,6 +27,23 @@
                 <div class="align-self-center">top</div>
             </a>
     </div>
+
+
+
+    <div id="myOverlay" class="overlay">
+        <span class="closebtn" title="Close Overlay"><!-- span class="esc">esc</span>--><i class="fas fa-times ml-3"></i></span>
+        <div class="overlay-content">
+            <form action="action_page.php">
+                    <div class="input-group mb-3">
+                        <input type="text" placeholder="Search.." name="search" autocomplete="off" aria-label="Search.." aria-describedby="button-main-search" class="ki-js-modal-search-input">
+                        <div class="input-group-append"></div>
+                            <button type="submit" id="button-main-search"><i class="fa fa-search"></i></button>
+                        </div>
+                    </div>
+            </form>
+        </div>
+    </div>
+
 
 
     <!-- Footer -->
