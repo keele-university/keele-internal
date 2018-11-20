@@ -5,6 +5,7 @@
             <div class="card">
                 <a class="h-100" href="<t4 type="content" name="Nav 1: section link" output="linkurl" modifiers=""  /><t4 type="content" name="Nav 1: URL link" output="normal" modifiers=""  />">
                     
+                    <t4 type="content" output="selective-output" process-format="true" modifiers="medialibrary, nav_sections" name="Nav 1: image alt text" format="<img class=&quot;card-img-top&quot; src=&quot;<t4 type=&quot;content&quot; name=&quot;Nav 1: image&quot; output=&quot;file&quot; modifiers=&quot;&quot; />&quot; alt=&quot;$value&quot;>" />
                     
                     <div class="card-body">
                         <div class="card-title">
@@ -37,6 +38,7 @@
             <div class="card">
                 <a class="h-100" href="<t4 type="content" name="Nav 2: section link" output="linkurl" modifiers=""  /><t4 type="content" name="Nav 2: URL link" output="normal" modifiers=""  />">
                     
+                    <t4 type="content" output="selective-output" process-format="true" modifiers="medialibrary, nav_sections" name="Nav 2: image alt text" format="<img class=&quot;card-img-top&quot; src=&quot;<t4 type=&quot;content&quot; name=&quot;Nav 2: image&quot; output=&quot;file&quot; modifiers=&quot;&quot; />&quot; alt=&quot;$value&quot;>" />
                     
                     <div class="card-body">
                         <div class="card-title">
@@ -58,6 +60,7 @@
             <div class="card">
                 <a class="h-100" href="<t4 type="content" name="Nav 3: section link" output="linkurl" modifiers=""  /><t4 type="content" name="Nav 3: URL link" output="normal" modifiers=""  />">
                     
+                    <t4 type="content" output="selective-output" process-format="true" modifiers="medialibrary, nav_sections" name="Nav 3: image alt text" format="<img class=&quot;card-img-top&quot; src=&quot;<t4 type=&quot;content&quot; name=&quot;Nav 3: image&quot; output=&quot;file&quot; modifiers=&quot;&quot; />&quot; alt=&quot;$value&quot;>" />
                     
                     <div class="card-body">
                         <div class="card-title">
@@ -81,6 +84,7 @@
             <div class="card">
                 <a class="h-100" href="<t4 type="content" name="Nav 4: section link" output="linkurl" modifiers=""  /><t4 type="content" name="Nav 4: URL link" output="normal" modifiers=""  />">
                     
+                    <t4 type="content" output="selective-output" process-format="true" modifiers="medialibrary, nav_sections" name="Nav 4: image alt text" format="<img class=&quot;card-img-top&quot; src=&quot;<t4 type=&quot;content&quot; name=&quot;Nav 4: image&quot; output=&quot;file&quot; modifiers=&quot;&quot; />&quot; alt=&quot;$value&quot;>" />
                     
                     <div class="card-body">
                         <div class="card-title">
@@ -103,6 +107,7 @@
             <div class="card">
                 <a class="h-100" href="<t4 type="content" name="Nav 5: section link" output="linkurl" modifiers=""  /><t4 type="content" name="Nav 5: URL link" output="normal" modifiers=""  />">
                     
+                    <t4 type="content" output="selective-output" process-format="true" modifiers="medialibrary, nav_sections" name="Nav 5: image alt text" format="<img class=&quot;card-img-top&quot; src=&quot;<t4 type=&quot;content&quot; name=&quot;Nav 5: image&quot; output=&quot;file&quot; modifiers=&quot;&quot; />&quot; alt=&quot;$value&quot;>" />
                     
                     <div class="card-body">
                         <div class="card-title">
@@ -123,6 +128,7 @@
             <div class="card">
                 <a class="h-100" href="<t4 type="content" name="Nav 6: section link" output="linkurl" modifiers=""  /><t4 type="content" name="Nav 6: URL link" output="normal" modifiers=""  />">
                     
+                    <t4 type="content" output="selective-output" process-format="true" modifiers="medialibrary, nav_sections" name="Nav 6: image alt text" format="<img class=&quot;card-img-top&quot; src=&quot;<t4 type=&quot;content&quot; name=&quot;Nav 6: image&quot; output=&quot;file&quot; modifiers=&quot;&quot; />&quot; alt=&quot;$value&quot;>" />
                     
                     <div class="card-body">
                         <div class="card-title">
@@ -144,6 +150,7 @@
             <div class="card">
                 <a class="h-100" href="<t4 type="content" name="Nav 7: section link" output="linkurl" modifiers=""  /><t4 type="content" name="Nav 7: URL link" output="normal" modifiers=""  />">
                     
+                    <t4 type="content" output="selective-output" process-format="true" modifiers="medialibrary, nav_sections" name="Nav 7: image alt text" format="<img class=&quot;card-img-top&quot; src=&quot;<t4 type=&quot;content&quot; name=&quot;Nav 7: image&quot; output=&quot;file&quot; modifiers=&quot;&quot; />&quot; alt=&quot;$value&quot;>" />
                     
                     <div class="card-body">
                         <div class="card-title">
@@ -164,6 +171,7 @@
             <div class="card">
                 <a class="h-100" href="<t4 type="content" name="Nav 8: section link" output="linkurl" modifiers=""  /><t4 type="content" name="Nav 8: URL link" output="normal" modifiers=""  />">
                     
+                    <t4 type="content" output="selective-output" process-format="true" modifiers="medialibrary, nav_sections" name="Nav 8: image alt text" format="<img class=&quot;card-img-top&quot; src=&quot;<t4 type=&quot;content&quot; name=&quot;Nav 8: image&quot; output=&quot;file&quot; modifiers=&quot;&quot; />&quot; alt=&quot;$value&quot;>" />
                     
                     <div class="card-body">
                         <div class="card-title">
@@ -185,6 +193,7 @@
             <div class="card">
                 <a class="h-100" href="<t4 type="content" name="Nav 9: section link" output="linkurl" modifiers=""  /><t4 type="content" name="Nav 9: URL link" output="normal" modifiers=""  />">
                     
+                    <t4 type="content" output="selective-output" process-format="true" modifiers="medialibrary, nav_sections" name="Nav 9: image alt text" format="<img class=&quot;card-img-top&quot; src=&quot;<t4 type=&quot;content&quot; name=&quot;Nav 9: image&quot; output=&quot;file&quot; modifiers=&quot;&quot; />&quot; alt=&quot;$value&quot;>" />
                     
                     <div class="card-body">
                         <div class="card-title">
@@ -206,6 +215,7 @@
             <div class="card">
                 <a class="h-100" href="<t4 type="content" name="Nav 10: section link" output="linkurl" modifiers=""  /><t4 type="content" name="Nav 10: URL link" output="normal" modifiers=""  />">
                     
+                    <t4 type="content" output="selective-output" process-format="true" modifiers="medialibrary, nav_sections" name="Nav 10: image alt text" format="<img class=&quot;card-img-top&quot; src=&quot;<t4 type=&quot;content&quot; name=&quot;Nav 10: image&quot; output=&quot;file&quot; modifiers=&quot;&quot; />&quot; alt=&quot;$value&quot;>" />
                     
                     <div class="card-body">
                         <div class="card-title">
@@ -227,6 +237,7 @@
             <div class="card">
                 <a class="h-100" href="<t4 type="content" name="Nav 11: section link" output="linkurl" modifiers=""  /><t4 type="content" name="Nav 11: URL link" output="normal" modifiers=""  />">
                     
+                    <t4 type="content" output="selective-output" process-format="true" modifiers="medialibrary, nav_sections" name="Nav 11: image alt text" format="<img class=&quot;card-img-top&quot; src=&quot;<t4 type=&quot;content&quot; name=&quot;Nav 11: image&quot; output=&quot;file&quot; modifiers=&quot;&quot; />&quot; alt=&quot;$value&quot;>" />
                     
                     <div class="card-body">
                         <div class="card-title">
@@ -248,6 +259,7 @@
             <div class="card">
                 <a class="h-100" href="<t4 type="content" name="Nav 12: section link" output="linkurl" modifiers=""  /><t4 type="content" name="Nav 12: URL link" output="normal" modifiers=""  />">
                     
+                    <t4 type="content" output="selective-output" process-format="true" modifiers="medialibrary, nav_sections" name="Nav 12: image alt text" format="<img class=&quot;card-img-top&quot; src=&quot;<t4 type=&quot;content&quot; name=&quot;Nav 12: image&quot; output=&quot;file&quot; modifiers=&quot;&quot; />&quot; alt=&quot;$value&quot;>" />
                     
                     <div class="card-body">
                         <div class="card-title">
