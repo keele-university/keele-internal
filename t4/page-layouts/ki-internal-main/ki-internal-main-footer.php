@@ -1,4 +1,4 @@
-<div class="container mt-4">
+        <!-- <div class="container mt-4">
             <div class="row">
                 <div class="col-12">
                     <h2 class="mb-4">Colour palette during development</h2>
@@ -13,9 +13,9 @@
                     <div class="p-3 mb-2 bg-dark text-white">.bg-dark</div>
                     <div class="p-3 mb-2 bg-white text-dark">.bg-white</div>
                     <div class="p-3 mb-2 bg-transparent text-dark">.bg-transparent</div>
-                </div> <!-- col-12 -->
-            </div> <!-- row -->
-        </div> <!-- container -->
+                </div> <!- - col-12 - ->
+            </div> <!- - row - ->
+        </div> <!- - container - -> -->
 
 
 
