@@ -185,6 +185,16 @@
 
     
     </div> <!-- .#page-wrapper -->
+
+
+
+
+    <!-- navigation object : ki-core-pre-app-js -->
+    <t4 type="navigation" id="505"/>
+
+
+
+
     <script src="/k-core/intra/js/app.js?v=ki"></script>
     <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </body>

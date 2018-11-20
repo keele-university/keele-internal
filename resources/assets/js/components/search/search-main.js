@@ -12,6 +12,11 @@ function init() {
     });
 
 
+    // Hide global search button top right as not needed on this page now
+    var trButton = document.querySelector('.js-ki-search-overlay');
+    trButton.classList.add('d-none'); // bootstrap display none
+
+
     search.addWidget(
         instantsearch.widgets.searchBox({
             container: '#search-box',
