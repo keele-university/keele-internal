@@ -53,15 +53,17 @@
 
                     <div class="ml-auto d-flex">
                         <!-- desktop has search input, mobile just a link to search page and select input on load -->
-                        <form class="form-inline d-none d-lg-block">
-                            <input type="search" placeholder="Search" aria-label="Search" class="form-control">
-                            <button type="submit" class="btn bg-transparent my-2 my-sm-0">
+                        <form class="form-inline">
+                            <!-- <input type="search" placeholder="Search" aria-label="Search" class="form-control"> -->
+                            
+                            <button type="submit" class="js-ki-search-overlay btn my-2 my-sm-0 btn-outline-secondary">
+                                <!-- <span>Search</span> -->
                                 <i class="fas fa-search"></i>
                             </button>
                         </form>
-                        <button type="submit" class="btn bg-transparent my-2 my-sm-0 d-block d-lg-none">
+                        <!-- <button type="submit" class="btn bg-transparent my-2 my-sm-0 d-block d-lg-none">
                             <i class="fas fa-search"></i>
-                        </button>
+                        </button> -->
 
                         <!-- <ul class="navbar-nav px-3">
                             <li class="nav-item text-nowrap">
@@ -158,46 +160,40 @@
             </div>
         </div>
 
-
         <div class="container">
-            <div class="row">
-                <div class="col-12 py-4">
-                    <div id="search-box" class="js-ki-trigger-main-searchmain">
-                        <!-- SearchBox widget will appear here -->
+                <div class="row">
+                    <div class="col-12 py-4">
+                        <div id="search-box" class="js-ki-trigger-main-searchmain">
+                            <!-- SearchBox widget will appear here -->
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-
-        <div class="container">
-            <div class="row mb-3">
-
-                <div class="col-12">
-                    <div id="hits">
-                        <!-- Hits widget will appear here -->
+    
+            <div class="container">
+                <div class="row mb-3">
+    
+                    <div class="col-12">
+                        <div id="hits">
+                            <!-- Hits widget will appear here -->
+                        </div>
+    
                     </div>
-
-                </div>
-
-            </div>
-        </div>
-
-        <div class="container">
-            <div class="row">
-                <div class="col-12 text-center">
-                    <div id="pagination">
-                        <!-- Pagination widget will appear here -->
-                    </div>
+    
                 </div>
             </div>
-        </div>
-
-
-
-
-
-<!-- 
-
+    
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <div id="pagination">
+                            <!-- Pagination widget will appear here -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+    
     <div class="container mt-4">
         <div class="row">
             <div class="col-12">
@@ -213,10 +209,10 @@
                 <div class="p-3 mb-2 bg-dark text-white">.bg-dark</div>
                 <div class="p-3 mb-2 bg-white text-dark">.bg-white</div>
                 <div class="p-3 mb-2 bg-transparent text-dark">.bg-transparent</div>
-            </div> <!- - col-12 - ->
-        </div> <!- - row - ->
-    </div> <!- - container - ->
- -->
+            </div> <!-- col-12 -->
+        </div> <!-- row -->
+    </div> <!-- container -->
+
 
 
     <!-- <footer class="container-fluid bg-primary">
@@ -239,7 +235,19 @@
             </a>
     </div>
 
-
+    <div id="myOverlay" class="overlay">
+        <div class="overlay-content">
+            <span class="closebtn" title="Close Overlay"><!-- span class="esc">esc</span>--><i class="fas fa-times"></i></span>
+            <form action="" id="ki-js-main-search-modal-form">
+                    <div class="input-group mb-3">
+                        <input type="text" placeholder="Search.." name="search" autocomplete="off" aria-label="Search.." aria-describedby="button-main-search" class="ki-js-modal-search-input">
+                        <div class="input-group-append"></div>
+                            <button type="submit" id="button-main-search"><i class="fa fa-search"></i></button>
+                        </div>
+                    </div>
+            </form>
+        </div>
+    </div>
 
 
     <!-- Footer -->
@@ -385,11 +393,11 @@
     </div> <!-- .#page-wrapper -->
 
 
-    	<!-- navigation object : k-core-pre-app -->
-        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.10.4/dist/instantsearch.min.css">
-        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.10.4/dist/instantsearch-theme-algolia.min.css">
-        <script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.10.4"></script>
-
+    <!-- navigation object : k-core-pre-app -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.10.4/dist/instantsearch.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.10.4/dist/instantsearch-theme-algolia.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.10.4"></script>
+    
     <script src="js/app.js?v=ki"></script>
     <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </body>
