@@ -15,6 +15,9 @@
     <meta name="sectionNameSearch" content="<t4 type="navigation" id="502"/>">
     <meta name="keywordsSearch" content="<t4 type="navigation" id="503"/>">
     
+    <!-- SMD selective ki-hide -->
+    <!-- navigation object : ki-hide --><t4 type="navigation" id="506"/>
+    
     <!-- hide during dev-->
     <meta name="robots" content="noindex" />
     
