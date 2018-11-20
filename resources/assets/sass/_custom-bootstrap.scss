@@ -22,12 +22,37 @@
     font-family: 'Source Sans Pro', sans-serif !important;
     margin-left: 205px;
 
+    // transition: transform 0.1s cubic-bezier(0, 1.8, 1, 1.8);
+    &:hover {
+        text-decoration:none;
+        // transform: translateY(-.1rem) rotate(0deg) scale(1.03);
+    }
+}
+
+.navbar-brand {
     transition: transform 0.1s cubic-bezier(0, 1.8, 1, 1.8);
     &:hover {
         text-decoration:none;
         transform: translateY(-.1rem) rotate(0deg) scale(1.03);
     }
 }
+
+.js-ki-search-overlay {
+    transition: transform 0.1s cubic-bezier(0, 1.8, 1, 1.8);
+    &:hover {
+        text-decoration:none;
+        transform: translateY(0rem) rotate(0deg) scale(1.15);
+    } 
+}
+
+#button-main-search:hover svg {
+    transition: transform 0.1s cubic-bezier(0, 1.8, 1, 1.8);
+    
+        text-decoration:none;
+        transform: translateY(0rem) rotate(0deg) scale(1.15);
+    
+}
+
 
 // UEC
 .ki-uec__img {
