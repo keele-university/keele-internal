@@ -14,7 +14,10 @@
 }
 /* md */
 @media (min-width: 992px) {
-
+    // fix for single item on last nav line being full width. This may have unforeseen results so perhaps delete in future!
+    #navBarTogglePrimary .nav-item:last-of-type, #navBarToggleSecondary .nav-item:last-of-type {
+        flex-grow: 0.044;
+    }
 }
 /* lg */
 @media (min-width: 1200px) {
