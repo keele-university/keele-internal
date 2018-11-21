@@ -104,7 +104,9 @@ $theme-colors: (
     "info": #0b9dda
 );
 
-$breadcrumb-divider: quote(">");  // needs replacing with SVG
+// $breadcrumb-divider: quote(">");  // needs replacing with SVG
+$breadcrumb-divider: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4IiBoZWlnaHQ9IjgiPjxwYXRoIGQ9Ik0yLjUgMEwxIDEuNSAzLjUgNCAxIDYuNSAyLjUgOGw0LTQtNC00eiIgZmlsbD0iY3VycmVudENvbG9yIi8+PC9zdmc+);
+
 
 // Color functions see: https://getbootstrap.com/docs/4.1/getting-started/theming/#theme-colors
 @function color($key: "blue") {
