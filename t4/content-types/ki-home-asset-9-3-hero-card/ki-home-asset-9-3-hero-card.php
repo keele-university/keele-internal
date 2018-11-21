@@ -2,7 +2,7 @@
 
                     
                         <!-- Entered twice selective in case of url or section link -->
-                        <t4 type="content" output="selective-output" process-format="true" modifiers="medialibrary, nav_sections" name="Section link" format="<a href=&quot;<t4 type=&quot;content&quot; name=&quot;Section link&quot; output=&quot;linkurl&quot; />&quot;>" class=&quot;ki-home-hero-card card text-white bg-primary mb-5&quot; />
+                        <t4 type="content" output="selective-output" process-format="true" modifiers="medialibrary, nav_sections" name="Section link" format="<a href=&quot;<t4 type=&quot;content&quot; name=&quot;Section link&quot; output=&quot;linkurl&quot; />&quot; class=&quot;ki-home-hero-card card text-white bg-primary mb-5&quot;>" />
                         <t4 type="content" output="selective-output" name="URL link" format="<a href=&quot;$value&quot; class=&quot;ki-home-hero-card card text-white bg-primary mb-5&quot;>" />
     
                             
