@@ -161,7 +161,7 @@ $breadcrumb-divider: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3d
     outline: none;
 }
 
-.fulltext-main-story p::first-letter {
+.fulltext-main-story p:first-of-type:first-letter {
         font-size: 3.5em;
         float: left;
         line-height: .9;
