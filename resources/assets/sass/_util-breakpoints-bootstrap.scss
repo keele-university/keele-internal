@@ -2,21 +2,28 @@
 // THIS FILE IS FOR EDGE CASES e.g. Breaking 'word' or 'all' on
 // Jumbotron display-4 text.
 
+// * * * //
 /* xs */
 // jumbotron global for long words on small screens
 .jumbotron .display-4 {
     word-break: break-word;
     overflow: scroll;
 }
-
 .ki-news-listing-main img {
     max-width: 120px;
     object-fit: cover;
 }
+.event-listings .media img {
+    max-width: 120px;
+    object-fit: cover;
+}
 
+// * * * //
 /* sm */
 @media (min-width: 768px) {
 }
+
+// * * * //
 /* md */
 @media (min-width: 992px) {
     // fix for single item on last nav line being full width. This may have unforeseen results so perhaps delete in future!
@@ -28,7 +35,13 @@
         max-width: 220px;
         object-fit: cover;
     }
+    .event-listings .media img {
+        max-width: 220px;
+        object-fit: cover;
+    }
 }
+
+// * * * //
 /* lg */
 @media (min-width: 1200px) {
 
