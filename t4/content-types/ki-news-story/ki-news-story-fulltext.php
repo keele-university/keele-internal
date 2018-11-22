@@ -19,9 +19,9 @@
                     <t4 type="content" output="selective-output" name="News summary snippet" format="<p class=&quot;ki-story-snippet&quot;>
                         <strong>$value</strong>
                     </p>" />
-
+                <span class="fulltext-main-story">
                     <t4 type="content" name="Main story body" output="normal" modifiers="medialibrary, nav_sections"  />
-                    
+                </span>
             </span>
 
         </div> <!-- .end col-md-9 -->
