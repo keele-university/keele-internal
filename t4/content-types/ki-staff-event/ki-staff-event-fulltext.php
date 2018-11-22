@@ -19,9 +19,10 @@
                     <t4 type="content" output="selective-output" name="Event summary snippet" format="<p class=&quot;ki-story-snippet&quot;>
                         <strong>$value</strong>
                     </p>" />
-
-                    <t4 type="content" name="Main article body" output="normal" modifiers="medialibrary, nav_sections"  />
                     
+                    <span class="fulltext-main-story">
+                    <t4 type="content" name="Main article body" output="normal" modifiers="medialibrary, nav_sections"  />
+                    </span>
             </span>
 
             <div class="card mb-3">
