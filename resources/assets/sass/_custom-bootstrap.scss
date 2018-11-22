@@ -125,14 +125,18 @@ $breadcrumb-divider: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3d
 // BACK TO TOP CSS
 
 .back-to-top-button.is-visible {
-    transform:  rotateX(0deg) translateY(0px);
+    // transform:  rotateX(0deg) translateY(0px) scale(1);
+    transform: translateY(0px) scale(1);
+    transition: all .6s cubic-bezier(.87,-.41,.19,1.44);
     
     opacity: 1;
     visibility: visible;
 }
 
 .back-to-top-button {
-    transform:  rotateX(-90deg) translateY(68px);
+    // transform:  rotateX(0deg) translateY(30px) scale(0);
+    transform: translateY(30px) scale(0);
+    transition: all .6s cubic-bezier(.87,-.41,.19,1.44);
 
     align-items: center;
     background: #fff;
@@ -150,7 +154,6 @@ $breadcrumb-divider: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3d
     outline: 0;
     position: fixed;
     right: 2rem;
-    transition: all .2s ease-out;
     user-select: none;
     visibility: hidden;
     width: 4rem;
