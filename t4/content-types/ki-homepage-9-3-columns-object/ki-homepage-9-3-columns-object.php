@@ -1,7 +1,7 @@
         <!-- 9 / 3 -->
         <div class="container">
-            <div class="row">
-                <div class="col-md-9">
+            <div class="row flex">
+                <div class="col-md-9 order-1 order-md-0">
 
                     <!-- navigation object : ki-home-9-3-hero-card --><t4 type="navigation" id="482"/>
                     <!-- <div class="card text-white bg-primary mb-3">
@@ -135,7 +135,7 @@
 
                 </div> <!-- end col-md-9 of 9 / 3 -->
 
-                <div class="col-md-3 mb-3">
+                <div class="col-md-3 mb-3 order-0 order-md-1">
                     <!-- navigation object : ki-home-9-3-ROOT --><t4 type="navigation" id="487"/>
                 </div> <!-- end col-md-3 in 9 / 3 -->
 
