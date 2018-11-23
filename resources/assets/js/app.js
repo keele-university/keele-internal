@@ -39,6 +39,8 @@ const kiNavboxGridAutoChildren = require('./components/ki-navbox-grid-auto-child
 const kiAlert = require('./components/ki-alert/ki-alert');
 const kiAZ = require('./components/ki-az/ki-az');
 const topButton = require('./utils/ki-scroll-to-top-button');
+const newsStory = require('./components/ki-news-story/ki-news-story');
+
 // Layout and search imports
 const footerGlobal = require('./layout/footer/footer-main');
 const searchOverlay = require('./layout/search/search-overlay');
@@ -86,6 +88,7 @@ const app = new Vue({
                     searchMain.init();
                 }
                 footerGlobal.init();
+                newsStory.init();
                 // shieldbannerfix.init();
                 // window.scrollTo(0,0);
             }
