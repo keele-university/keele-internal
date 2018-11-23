@@ -39,9 +39,10 @@ const kiNavboxGridAutoChildren = require('./components/ki-navbox-grid-auto-child
 const kiAlert = require('./components/ki-alert/ki-alert');
 const kiAZ = require('./components/ki-az/ki-az');
 const topButton = require('./utils/ki-scroll-to-top-button');
-// Search imports
-const searchOverlay = require('./components/search/search-overlay');
-const searchMain = require('./components/search/search-main');
+// Layout and search imports
+const footerGlobal = require('./layout/footer/footer-main');
+const searchOverlay = require('./layout/search/search-overlay');
+const searchMain = require('./layout/search/search-main');
 
 // force devtools to load in prod
 // Vue.config.debug = true;
@@ -84,6 +85,7 @@ const app = new Vue({
                 if (document.querySelector('.js-ki-trigger-main-searchmain')){
                     searchMain.init();
                 }
+                footerGlobal.init();
                 // shieldbannerfix.init();
                 // window.scrollTo(0,0);
             }
