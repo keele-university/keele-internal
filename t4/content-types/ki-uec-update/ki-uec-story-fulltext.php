@@ -9,14 +9,14 @@
                 </small>
                 </p>
 
-            <figure class="figure mb-5 mx-md-3">
+            <figure class="figure mb-4 mx-md-0">
                     <img class="card-img-top" src="<t4 type="content" name="Lead image: 960px x 640px" output="file" modifiers="" />" alt="<t4 type="content" name="News title" output="normal" modifiers=""  />">
                     <figcaption class="figure-caption"><t4 type="content" name="Image caption" output="normal" modifiers=""  /></figcaption>
             </figure>
 
             <span class="ki-story-body">
 
-                    <t4 type="content" output="selective-output" name="News summary snippet" format="<p class=&quot;ki-story-snippet&quot;>
+                    <t4 type="content" output="selective-output" name="News summary snippet" format="<p class=&quot;ki-story-snippet mb-4&quot;>
                         <strong>$value</strong>
                     </p>" />
 
@@ -27,18 +27,6 @@
         </div> <!-- .end col-md-9 -->
 
         <div class="col-md-3">
-
-        <!-- start blockquote -->
-        <t4 type="content" output="selective-output" name="Optional quote block" format="<blockquote class=&quot;blockquote bg-primary text-white rounded p-4&quot;>
-                    <p class=&quot;mb-0&quot;>$value</p>" />
-                
-                    <!-- option quote block citation -->
-                    <t4 type="content" output="selective-output" name="Quote block citation" format="<footer class=&quot;blockquote-footer text-light&quot;><cite title=&quot;Source Title&quot;>$value</cite></footer>" />
-
-        <!-- closing blockquote -->                
-        <t4 type="content" output="selective-output" name="Optional quote block" format="</blockquote>" />        
-
-                <hr />
 
         <!-- navigation object : ki-home-9-3-ROOT --><t4 type="navigation" id="487"/>
 
