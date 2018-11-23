@@ -42,6 +42,7 @@ const topButton = require('./utils/ki-scroll-to-top-button');
 const newsStory = require('./components/ki-news-story/ki-news-story');
 
 // Layout and search imports
+const breadcrumbs = require('./layout/breadcrumbs');
 const footerGlobal = require('./layout/footer/footer-main');
 const searchOverlay = require('./layout/search/search-overlay');
 const searchMain = require('./layout/search/search-main');
@@ -88,6 +89,7 @@ const app = new Vue({
                     searchMain.init();
                 }
                 footerGlobal.init();
+                breadcrumbs.init();
                 newsStory.init();
                 // shieldbannerfix.init();
                 // window.scrollTo(0,0);
