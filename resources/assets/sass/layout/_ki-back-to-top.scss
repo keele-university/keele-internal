@@ -45,8 +45,11 @@
 
 
 // Footer back to top
+.ki-footer-to-top:hover {
+        text-decoration: none;
+}
 .ki-footer-to-top:hover svg {
-    animation: bounce-bottom 1.5s ease-in-out 1 both;
+        animation: bounce-bottom 1.5s ease-in-out 1 both;
 }
 
 @keyframes bounce-bottom {
