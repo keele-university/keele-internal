@@ -9,26 +9,18 @@
                 </small>
                 </p>
 
-                <t4 type="content" output="selective-output" name="News summary snippet" format="<p class=&quot;ki-story-snippet mb-4&quot;>
-                        <strong>$value</strong>
-                    </p>" />
-
             <figure class="figure mb-4 mx-md-0">
                     <img class="card-img-top" src="<t4 type="content" name="Lead image: 960px x 640px" output="file" modifiers="" />" alt="<t4 type="content" name="News title" output="normal" modifiers=""  />">
                     <figcaption class="figure-caption"><t4 type="content" name="Image caption" output="normal" modifiers=""  /></figcaption>
             </figure>
 
-            <!-- start blockquote -->
-            <t4 type="content" output="selective-output" name="Optional quote block" format="<blockquote class=&quot;blockquote bg-primary text-white rounded p-4 m-4 mb-5&quot;>
-                        <p class=&quot;mb-0&quot;>$value</p>" />
-                    
-                        <!-- option quote block citation -->
-                        <t4 type="content" output="selective-output" name="Quote block citation" format="<footer class=&quot;blockquote-footer text-light&quot;><cite title=&quot;Source Title&quot;>$value</cite></footer>" />
 
-            <t4 type="content" output="selective-output" name="Optional quote block" format="</blockquote>" />
-            <!-- closing blockquote -->
 
             <span class="ki-story-body">
+                
+                <t4 type="content" output="selective-output" name="News summary snippet" format="<p class=&quot;ki-story-snippet mb-4&quot;>
+                        <strong>$value</strong>
+                    </p>" />
 
                 <span class="fulltext-main-story">
                     <t4 type="content" name="Main story body" output="normal" modifiers="medialibrary, nav_sections"  />
