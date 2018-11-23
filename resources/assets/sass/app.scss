@@ -3,15 +3,18 @@
 @import './custom-bootstrap';
 @import './util-breakpoints-bootstrap';
 
+// layout
+@import './layout/ki-search-overlay';
+@import './layout/ki-main-navs';
+@import './layout/ki-back-to-top';
+
+// components
 @import './components/ki-home-section-header';
-@import './components/ki-main-navs';
 @import './components/ki_home-pinned-stories';
 @import './components/ki-utility-links';
 @import './components/ki-accordion';
 @import './components/ki-alert';
 @import './components/ki-az';
-@import './components/ki-search-overlay';
-
 
 @import "~bootstrap/scss/bootstrap";
 // @import '../../../node_modules/bootstrap/scss/bootstrap.scss';

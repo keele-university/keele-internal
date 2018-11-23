@@ -122,48 +122,6 @@ $breadcrumb-divider: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3d
 }
 
 
-// BACK TO TOP CSS
-
-.back-to-top-button.is-visible {
-    // transform:  rotateX(0deg) translateY(0px) scale(1);
-    transform: translateY(0px) scale(1);
-    transition: all .6s cubic-bezier(.87,-.41,.19,1.44);
-    
-    opacity: 1;
-    visibility: visible;
-}
-
-.back-to-top-button {
-    // transform:  rotateX(0deg) translateY(30px) scale(0);
-    transform: translateY(0px) scale(0);
-    transition: all .6s cubic-bezier(.87,-.41,.19,1.44);
-
-    align-items: center;
-    background: #fff;
-    border: 1px solid rgba(0,32,128,.1);
-    border-radius: 50%;
-    bottom: 2rem;
-    box-shadow: 0 0.4rem 0.8rem -0.1rem rgba(0,32,128,.15);
-    color: inherit;
-    cursor: pointer;
-    display: flex;
-    font-weight: 700;
-    height: 4rem;
-    justify-content: center;
-    opacity: 0;
-    outline: 0;
-    position: fixed;
-    right: 2rem;
-    user-select: none;
-    visibility: hidden;
-    width: 4rem;
-    z-index: 1;
-}
-
-.back-to-top-button:focus {
-    outline: none;
-}
-
 .fulltext-main-story p:first-of-type:first-letter {
         font-size: 3.5em;
         float: left;
