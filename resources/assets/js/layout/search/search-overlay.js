@@ -53,7 +53,7 @@ function init(){
 
         // get user typed string
         var kQuery = searchInput.value;
-        var searchUrl = 'https://webstage.keele.ac.uk/internal-dev/search/?query='
+        var searchUrl = 'https://www.keele.ac.uk/internal-dev/search/?query='
 
         var destinationSearch = searchUrl + kQuery;
         // console.log(destinationSearch)
