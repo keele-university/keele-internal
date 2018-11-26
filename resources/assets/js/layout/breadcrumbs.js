@@ -11,11 +11,7 @@ function init(){
     // hide breadcrumbs if we're on the homepage.
     var homeQuery = window.location.pathname;
     var breadCrumbs = document.querySelector('.breadcrumb');
-    if ( homeQuery === '/internal/' ) {
-        // Add margin bottom to the header if there's no breadcrumbs beneath it (homepage)
-        var header = document.querySelector('header');
-        vh.addClass(header, 'mb-4');
-    } else {
+    if ( homeQuery !== '/internal/' ) {
         // unhide the breadcrumbs
         vh.removeClass(breadCrumbs, 'd-none'); // remove d-none which is in nav obj markup
     }
