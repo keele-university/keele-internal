@@ -195,7 +195,7 @@
 
 
 
-    <script src="/k-core/intra/js/app.js?v=ki"></script>
+    <script src="/k-core/intra/js/app.js?v=<t4 type="navigation" id="513"/>"></script>
     <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </body>
 </html>
