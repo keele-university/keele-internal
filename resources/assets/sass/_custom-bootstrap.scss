@@ -1,6 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Merriweather:300|Source+Sans+Pro:200,400,600');
 
 
+:root {
+    // --gradient-light: linear-gradient(145deg, rgba(255,255,255,0), rgba(255,255,255,.2));
+    --gradient-dark: linear-gradient(145deg, rgba(0,0,0,0), rgba(0,0,0,.2));
+}
+
+// #footer, .card.bg-primary, .card.bg-info {
+#footer {
+    background-image: var(--gradient-dark);
+}
+
 // need this to override the t4 links for editing the page as they don't allow classes
 #footer a {
     color: white;
