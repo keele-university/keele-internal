@@ -10,8 +10,9 @@ function init(){
 
     // hide breadcrumbs if we're on the homepage.
     var homeQuery = window.location.pathname;
+    var breadCrumbs = document.querySelector('.breadcrumb');
     if ( homeQuery !== '/internal/' ) {
-        vh.removeClass(breadHome, 'd-none'); // remove d-none which is in nav obj markup
+        vh.removeClass(breadCrumbs, 'd-none'); // remove d-none which is in nav obj markup
     }
 
 
