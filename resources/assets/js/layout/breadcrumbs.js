@@ -10,7 +10,7 @@ function init(){
 
     // hide breadcrumbs if we're on the homepage.
     var homeQuery = window.location.pathname;
-    if ( homeQuery === '/internal' ) {
+    if ( homeQuery === '/internal/' ) {
         vh.addClass(breadHome, 'd-none');
     }
 
