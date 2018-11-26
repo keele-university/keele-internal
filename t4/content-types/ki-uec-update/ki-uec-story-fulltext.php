@@ -20,7 +20,9 @@
                         <strong>$value</strong>
                     </p>" />
 
+                <span class="fulltext-main-story">
                     <t4 type="content" name="Main story body" output="normal" modifiers="medialibrary, nav_sections"  />
+                </span>
                     
             </span>
 
