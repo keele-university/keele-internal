@@ -13,7 +13,7 @@ function init(){
     var breadCrumbs = document.querySelector('.breadcrumb');
     if ( homeQuery !== '/internal/' ) {
         // unhide the breadcrumbs
-        vh.removeClass(breadCrumbs, 'd-none'); // remove d-none which is in nav obj markup
+        vh.removeClass(breadCrumbs, 'invisible'); // remove invisible which is in nav obj markup
     }
 
 }
