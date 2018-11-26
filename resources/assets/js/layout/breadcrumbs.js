@@ -10,9 +10,10 @@ function init(){
 
     // hide breadcrumbs if we're on the homepage.
     var homeQuery = window.location.pathname;
-    if ( homeQuery === '/internal/' ) {
-        vh.addClass(breadHome, 'd-none');
+    if ( homeQuery !== '/internal/' ) {
+        vh.removeClass(breadHome, 'd-none'); // remove d-none which is in nav obj markup
     }
+
 
 }
 
