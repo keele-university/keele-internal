@@ -63,7 +63,29 @@
     
 }
 
+// LAZY LOAD IMAGES
+// AFARKAS
+// afarkas see https://afarkas.github.io/lazysizes/#examples and https://github.com/aFarkas/lazysizes
+// the following is set for most all images on the site to calculate the space needed for the image to load
+img[data-sizes="auto"] { display: block; width: 100%; }
+// slight blur-in on lazy loaded image
+.blur-up {
+    -webkit-filter: blur(5px);
+    filter: blur(5px);
+    transition: filter 400ms, -webkit-filter 400ms;
+}
 
+.blur-up.lazyloaded {
+    -webkit-filter: blur(0);
+    filter: blur(0);
+}
+
+// try and give some width for the loading gif. lazyload becomes lazyloaded so this drops after load
+.media img.lazyload {
+    width: 100% !important;
+    height: auto !important;
+}
+// .AFARKAS
 
 
 // UEC
