@@ -7,7 +7,7 @@
 // jumbotron global for long words on small screens
 .jumbotron .display-4 {
     word-break: break-word;
-    overflow: scroll;
+    overflow: visible;
 }
 .ki-news-listing-main img {
     max-width: 120px;
