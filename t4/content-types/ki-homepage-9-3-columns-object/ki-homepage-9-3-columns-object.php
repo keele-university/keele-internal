@@ -140,7 +140,7 @@
                 </div> <!-- end col-md-3 in 9 / 3 -->
 
             </div> <!-- end 9 / 3 row -->
-        </div> <!-- end 9 / 3 container -->
+        <!-- </div> end 9 / 3 container --> <!-- BREAKS PAGE-WRAPPER TOO EARLY ON HOMEPAGE SO COMMENTING OUT -->
 
 
         <div class="jumbotron jumbotron-fluid text-center">
