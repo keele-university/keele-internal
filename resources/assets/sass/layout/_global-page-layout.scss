@@ -1,0 +1,11 @@
+// The following pins the footer to the bottom of the page should the page not be long enough.. only works with flex
+
+#page-wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+footer {
+    flex: 1;
+}
