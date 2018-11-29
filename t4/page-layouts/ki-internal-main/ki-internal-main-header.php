@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>keele-grapevine</title>
+    <title>Keele Staff Intranet - <t4 type="title" /></title>
+    <!-- navigation object : ki-core-global-tracking-head --><t4 type="navigation" id="516"/>
     <link rel="stylesheet" href="/k-core/intra/css/app.css?v=<t4 type="navigation" id="513"/>">
 
     <!-- ki-internal-search -->
