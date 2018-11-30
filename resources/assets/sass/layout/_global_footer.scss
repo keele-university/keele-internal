@@ -1,0 +1,13 @@
+// Most all CSS is bootstrap but here's some hovers
+// try and minimise targeting as can't add class to t4Edit links
+#footer .row ul.list-unstyled {
+    li {
+        svg {
+        transition: .2s transform ease-out;
+        }
+        &:hover svg {
+            transition: .2s transform ease-out;
+            transform: translateX(2px);
+        }
+    }
+}

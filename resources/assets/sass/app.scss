@@ -4,7 +4,8 @@
 @import './util-breakpoints-bootstrap';
 
 // layout
-@import './layout/global-page-layout.scss';
+@import './layout/global-page-layout';
+@import './layout/global_footer';
 @import './layout/ki-search-overlay';
 @import './layout/ki-main-navs';
 @import './layout/ki-back-to-top';
