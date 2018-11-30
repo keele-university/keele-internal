@@ -57,8 +57,13 @@
 
                 <!-- Grid column -->
                 <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-                    <h6 class="text-uppercase mb-4 font-weight-bold">Short message</h6>
-                    <p>Here you can use rows and columns in the footer as required. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <h6 class="text-uppercase mb-4 font-weight-bold">Useful links</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="#!">Share your story</a></li>
+                        <li><a href="#!">Athena SWAN</a></li>
+                        <li><a href="#!">People Strategy</a></li>
+                        <li><a href="#!">Cookies policy</a></li>
+                    </ul>
                 </div>
                 <!-- Grid column -->
 
@@ -81,7 +86,14 @@
 
                 <!-- Grid column -->
                 <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
-                    <h6 class="text-uppercase mb-4 font-weight-bold">Useful links</h6>
+                <h6 class="text-uppercase mb-4 font-weight-bold">Support</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="#!">Needs link</a></li>
+                        <li><a href="#!">Needs link</a></li>
+                        <li><a href="#!">Needs link</a></li>
+                        <li><a href="#!">Needs link</a></li>
+                    </ul>
+                <!-- <h6 class="text-uppercase mb-4 font-weight-bold">Useful links</h6>
                     <p>
                         <a href="#!" class="text-white">Useful link</a>
                     </p>
@@ -93,7 +105,7 @@
                     </p>
                     <p>
                         <a href="#!" class="text-white">Useful link</a>
-                    </p>
+                    </p> -->
                 </div>
 
                 <!-- Grid column -->
