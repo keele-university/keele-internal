@@ -59,10 +59,10 @@
                 <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
                     <h6 class="text-uppercase mb-4 font-weight-bold">Useful links</h6>
                     <ul class="list-unstyled">
-                        <li><a href="#!">Share your story</a></li>
-                        <li><a href="#!">Athena SWAN</a></li>
-                        <li><a href="#!">People Strategy</a></li>
-                        <li><a href="#!">Cookies policy</a></li>
+                        <li><a href="#!">Share your story<svg viewBox="0 0 16 16" width="16" height="16" class="icon-arrow"><path style="fill: #eee;" d="M7.2 12.73l-1.41-1.41 3.29-3.29-3.29-3.29L7.2 3.32l4.71 4.71-4.71 4.7z"></path></svg></a></li>
+                        <li><a href="#!">Athena SWAN<svg viewBox="0 0 16 16" width="16" height="16" class="icon-arrow"><path style="fill: #eee;" d="M7.2 12.73l-1.41-1.41 3.29-3.29-3.29-3.29L7.2 3.32l4.71 4.71-4.71 4.7z"></path></svg></a></li>
+                        <li><a href="#!">People Strategy<svg viewBox="0 0 16 16" width="16" height="16" class="icon-arrow"><path style="fill: #eee;" d="M7.2 12.73l-1.41-1.41 3.29-3.29-3.29-3.29L7.2 3.32l4.71 4.71-4.71 4.7z"></path></svg></a></li>
+                        <li><a href="#!">Cookies policy<svg viewBox="0 0 16 16" width="16" height="16" class="icon-arrow"><path style="fill: #eee;" d="M7.2 12.73l-1.41-1.41 3.29-3.29-3.29-3.29L7.2 3.32l4.71 4.71-4.71 4.7z"></path></svg></a></li>
                     </ul>
                 </div>
                 <!-- Grid column -->
@@ -88,10 +88,10 @@
                 <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
                 <h6 class="text-uppercase mb-4 font-weight-bold">Support</h6>
                     <ul class="list-unstyled">
-                        <li><a href="#!">Needs link</a></li>
-                        <li><a href="#!">Needs link</a></li>
-                        <li><a href="#!">Needs link</a></li>
-                        <li><a href="#!">Needs link</a></li>
+                        <li><a href="#!">Needs link<svg viewBox="0 0 16 16" width="16" height="16" class="icon-arrow"><path style="fill: #eee;" d="M7.2 12.73l-1.41-1.41 3.29-3.29-3.29-3.29L7.2 3.32l4.71 4.71-4.71 4.7z"></path></svg></a></li>
+                        <li><a href="#!">Needs link<svg viewBox="0 0 16 16" width="16" height="16" class="icon-arrow"><path style="fill: #eee;" d="M7.2 12.73l-1.41-1.41 3.29-3.29-3.29-3.29L7.2 3.32l4.71 4.71-4.71 4.7z"></path></svg></a></li>
+                        <li><a href="#!">Needs link<svg viewBox="0 0 16 16" width="16" height="16" class="icon-arrow"><path style="fill: #eee;" d="M7.2 12.73l-1.41-1.41 3.29-3.29-3.29-3.29L7.2 3.32l4.71 4.71-4.71 4.7z"></path></svg></a></li>
+                        <li><a href="#!">Needs link<svg viewBox="0 0 16 16" width="16" height="16" class="icon-arrow"><path style="fill: #eee;" d="M7.2 12.73l-1.41-1.41 3.29-3.29-3.29-3.29L7.2 3.32l4.71 4.71-4.71 4.7z"></path></svg></a></li>
                     </ul>
                 <!-- <h6 class="text-uppercase mb-4 font-weight-bold">Useful links</h6>
                     <p>
