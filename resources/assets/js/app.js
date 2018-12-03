@@ -49,6 +49,7 @@ const breadcrumbs = require('./layout/breadcrumbs');
 const footerGlobal = require('./layout/footer/footer-main');
 const searchOverlay = require('./layout/search/search-overlay');
 const searchMain = require('./layout/search/search-main');
+const globTables = require('./layout/tables');
 
 // force devtools to load in prod
 // Vue.config.debug = true;
@@ -94,6 +95,7 @@ const app = new Vue({
                 footerGlobal.init();
                 breadcrumbs.init();
                 newsStory.init();
+                globTables.init();
                 // shieldbannerfix.init();
                 // window.scrollTo(0,0);
             }
