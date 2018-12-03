@@ -14,13 +14,13 @@
     justify-content: center;
     align-items: center;
     
-    // transform: scale(.2);
+    transform: scale(.2);
     visibility: hidden;
     opacity: 0;
     transition: .2s all ease-in;
 }
 .overlay.overlay-active {
-    // transform: scale(1);
+    transform: scale(1);
     opacity: .96;
     visibility: visible;
     transition: .2s opacity ease-out;
