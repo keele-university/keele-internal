@@ -4,7 +4,6 @@
 .overlay {
     height: 100vh;
     width: 100vw;
-    visibility: hidden;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -16,14 +15,15 @@
     align-items: center;
     
     // transform: scale(.2);
+    visibility: hidden;
     opacity: 0;
-    transition: .2s all ease-out;
+    transition: .2s all ease-in;
 }
 .overlay.overlay-active {
     // transform: scale(1);
     opacity: .96;
     visibility: visible;
-    transition: .2s all ease-in;
+    transition: .2s opacity ease-out;
 }
   /* The content */
 .overlay-content {
