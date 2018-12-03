@@ -10,16 +10,20 @@
     top: 0;
     left: 0;
     background-color: #333;
-    opacity: 0;
-    transition: .2s all ease-out;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
+    transform: scale(.2);
+    opacity: 0;
+    transition: .2s all ease-out;
 }
 .overlay.overlay-active {
+    transform: scale(1);
     opacity: .96;
     visibility: visible;
+    transition: .2s all ease-in;
 }
   /* The content */
 .overlay-content {
