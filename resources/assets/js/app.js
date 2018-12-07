@@ -83,7 +83,9 @@ const app = new Vue({
                 navBarUtils.init();
                 bullets.init();
                 sectionHeader.init();
-                kiNavboxGridAutoChildren.init();
+                if ( document.querySelectorAll('.ki-auto-child-sections a') ) {
+                    kiNavboxGridAutoChildren.init();
+                }
                 kiAlert.init();
                 kiAZ.init();
                 topButton.init();
