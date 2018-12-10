@@ -155,13 +155,13 @@
         <div class="ki-home-3-full-width container">
             <div class="row">
                 
-                <div class="js-ki-home-3-1 col-lg-4 mb-3">
-                    <h2 class="mb-3">Campus developments</h2>
+                <div class="js-ki-home-3-2 col-lg-4 mb-3">
+                    <h2 class="mb-3">Information for new starters</h2>
                     <!-- navigation object : ki-col-9-strategy-developments --><t4 type="navigation" id="493"/>
                 </div>
-                
-                <div class="js-ki-home-3-2 col-lg-4 mb-3">
-                    <h2 class="mb-3">Strategy developments</h2>
+
+                <div class="js-ki-home-3-1 col-lg-4 mb-3">
+                    <h2 class="mb-3">Campus developments</h2>
                     <!-- navigation object : ki-col-9-campus-developments --><t4 type="navigation" id="494"/>
                 </div>
 
