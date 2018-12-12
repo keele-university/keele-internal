@@ -48,7 +48,7 @@ console.log('%c ', styleImg);
 console.log('Web Support - web.support@keele.ac.uk');
 console.log('Web Developer: Chris Beard - c.d.beard@keele.ac.uk');
 
-console.log('%cCoded with %c🍵 %c & %c🐿️ ?', style, style2, style, style3);
+console.log('%cCoded with %c🍵 %c& %c🐿️ ?', style, style2, style, style3);
 // console.log('%c♥ %c & %c🐿️ ?', style2, style, style3);
 
 // Font awesome see:
