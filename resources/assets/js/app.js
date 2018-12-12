@@ -62,8 +62,9 @@ import '../../../node_modules/@fortawesome/fontawesome-free/js/fontawesome.min';
 // Lazy load library
 const lazysizes = require('lazysizes');
 
-// window.$ = require('jquery');
-var $ = require('jquery');
+// var $ = require('jquery');
+import jQuery from 'jquery';
+window.$ = window.jQuery = jQuery;
 
 $(function () {
     $('[data-toggle="tooltip"]').tooltip()
