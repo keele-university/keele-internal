@@ -29,6 +29,7 @@
     "svg4everybody": "^2.1.9",
     "tinysort": "^2.3.6",
     "vue": "^2.4.2",
+    "webpack-bundle-analyzer": "^3.0.3",
     "zenscroll": "^4.0.0"
   },
   "dependencies": {

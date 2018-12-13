@@ -1,6 +1,7 @@
 const { mix } = require('laravel-mix');
 // const SvgStore = require('webpack-svgstore-plugin');
 
+const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 /*
  |--------------------------------------------------------------------------
  | Mix Asset Management
@@ -25,6 +26,7 @@ const { mix } = require('laravel-mix');
 //             })
 //         ]
 //     })
+
     mix.js('resources/assets/js/app.js', 'public/js')
     .sass('resources/assets/sass/app.scss', 'public/css')
     // .sass('resources/assets/sass/pattern.scss', 'public/css')
@@ -33,4 +35,12 @@ const { mix } = require('laravel-mix');
     .browserSync({
         // proxy: 'keele.dev'
         proxy: 'https://keele-internal.dev'
-    });
+    })
+    .webpackConfig({
+        plugins: [
+            new BundleAnalyzerPlugin()
+        ]
+      });
+
+
+    
