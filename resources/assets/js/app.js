@@ -54,9 +54,9 @@ console.log('%cCoded with %c🍵 %c& %c🐿️ ?', style, style2, style, style3)
 // Font awesome see:
 // https://fontawesome.com/how-to-use/on-the-web/setup/using-package-managers#next and
 // https://fontawesome.com/how-to-use/on-the-web/referencing-icons/basic-use
-import '../../../node_modules/@fortawesome/fontawesome-free/js/solid.min';
-import '../../../node_modules/@fortawesome/fontawesome-free/js/brands.min';
-import '../../../node_modules/@fortawesome/fontawesome-free/js/fontawesome.min';
+// import '../../../node_modules/@fortawesome/fontawesome-free/js/solid.min';
+// import '../../../node_modules/@fortawesome/fontawesome-free/js/brands.min';
+// import '../../../node_modules/@fortawesome/fontawesome-free/js/fontawesome.min';
 
 
 // Lazy load library

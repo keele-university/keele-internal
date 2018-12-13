@@ -27,7 +27,11 @@
 	<link rel="icon" type="image/png" href="https://www.keele.ac.uk/k-core/media/favicons/favicon-16x16.png" sizes="16x16">
 	<link rel="manifest" href="https://www.keele.ac.uk/k-core/media/favicons/manifest.json">
 	<link rel="mask-icon" href="https://www.keele.ac.uk/k-core/media/favicons/safari-pinned-tab.svg" color="#f05422">
-	<link rel="shortcut icon" href="https://www.keele.ac.uk/k-core/media/favicons/favicon.ico">
+    <link rel="shortcut icon" href="https://www.keele.ac.uk/k-core/media/favicons/favicon.ico">
+    
+    <script defer src="https://use.fontawesome.com/releases/v5.6.1/js/solid.js" integrity="sha384-8Lgyylu0vfTGCXDKe435hJgX8s96c19R+dvpH0NHKdX47GA7TmMj+BDiZZ76qqhT" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.6.1/js/brands.js" integrity="sha384-rsLJp1pKbmeEMVcdsNJfAWZ9FQP5CrQt6Vikj/usZcTgrD28FhqYqKJn5XIaoXjm" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.6.1/js/fontawesome.js" integrity="sha384-T6YzYwAGZAItTIkYlBzfwqa07o9R1AND3Lgt6Or6c5IdukY7tqShoryqwpKrpeIB" crossorigin="anonymous"></script>
 
 </head>
 <body class="bg-light">
