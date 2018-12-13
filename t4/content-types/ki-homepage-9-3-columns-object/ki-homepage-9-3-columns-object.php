@@ -115,24 +115,6 @@
                     </div> <!- - .row UEC - ->
                     -->
 
-                    <div class="card mb-4 p-md-3 bg-white">
-                        <div class="card-body">
-                            <h1 class="card-title">Forums</h1>
-                            <p class="lead">Direct links to the Keele discussion boards.</p>
-                            <div class="row mt-4">
-                                <div class="col-lg-6 mb-3"><a href="" class="btn btn-primary btn-block">General chat and
-                                        announcements</a></div>
-                                <div class="col-lg-6 mb-3"><a href="" class="btn btn-primary btn-block">Job vacancies</a></div>
-                                <div class="col-lg-6 mb-3"><a href="" class="btn btn-primary btn-block">For sale or wanted</a></div>
-                                <div class="col-lg-6 mb-3"><a href="" class="btn btn-primary btn-block">Accommodation</a></div>
-                            </div>
-                            <!-- <hr class="my-4"> -->
-                            <!-- <p>Keele University discussion boards</p> -->
-                            <!-- <a class="btn btn-primary btn-lg" href="https://forums.keele.ac.uk" role="button">Forums homepage</a> -->
-                        </div>
-                    </div>
-
-
                 </div> <!-- end col-md-9 of 9 / 3 -->
 
                 <div class="col-md-3 mb-3 order-0 order-md-1">
@@ -145,10 +127,32 @@
 
         <div class="jumbotron jumbotron-fluid text-center">
             <div class="container">
+
+                <div class="card mb-0 p-md-3 bg-white">
+                    <div class="card-body">
+                        <h1 class="card-title">Forums</h1>
+                        <p class="lead">Direct links to the Keele discussion boards.</p>
+                        <div class="row mt-4">
+                            <div class="col-lg-6 mb-3"><a href="" class="btn btn-primary btn-block">General chat and
+                                    announcements</a></div>
+                            <div class="col-lg-6 mb-3"><a href="" class="btn btn-primary btn-block">Job vacancies</a></div>
+                            <div class="col-lg-6 mb-3"><a href="" class="btn btn-primary btn-block">For sale or wanted</a></div>
+                            <div class="col-lg-6 mb-3"><a href="" class="btn btn-primary btn-block">Accommodation</a></div>
+                        </div>
+                        <!-- <hr class="my-4"> -->
+                        <!-- <p>Keele University discussion boards</p> -->
+                        <!-- <a class="btn btn-primary btn-lg" href="https://forums.keele.ac.uk" role="button">Forums homepage</a> -->
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- <div class="jumbotron jumbotron-fluid text-center">
+            <div class="container">
                 <h1 class="display-4">University developments</h1>
                 <p class="lead">Details on the strategic development of the University.</p>
             </div>
-        </div>
+        </div> -->
 
         <!-- Full width start -->
 
