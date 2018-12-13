@@ -18,7 +18,6 @@
     "t4proxy": "npm run development && node t4-proxy.js"
   },
   "devDependencies": {
-    "@fortawesome/fontawesome-free": "^5.4.1",
     "axios": "^0.15.3",
     "browser-sync": "^2.18.13",
     "browser-sync-webpack-plugin": "^1.2.0",
