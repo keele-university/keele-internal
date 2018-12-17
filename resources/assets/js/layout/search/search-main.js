@@ -60,6 +60,28 @@ function init() {
 
     search.start();
 
+    // If user wants to go to the main site search, they can click on 'search the external site'. So let's get the search input value and send that with them:
+
+    // get search input value
+    const externalLink = document.querySelector('#search-box-external');
+    
+    externalLink.addEventListener('click', function(e){
+        e.preventDefault();
+
+        // get user typed string
+        const searchTerm = document.querySelector('.js-ki-trigger-main-searchmain input').value;
+        
+        var searchUrl = 'https://www.keele.ac.uk/search/?q='
+
+        var destinationSearch = searchUrl + searchTerm;
+        // console.log(destinationSearch)
+        window.location = destinationSearch;
+    })
+
+    // add event listener to external site link
+
+
+
 }
 
 module.exports = {
