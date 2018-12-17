@@ -28,7 +28,7 @@ function init(){
         e.preventDefault();
     });
 
-    closeOverlay.addEventListener('click', function(e){
+    closeOverlay.addEventListener('click', function(){
         closeSearch();
         // e.preventDefault();
     });
