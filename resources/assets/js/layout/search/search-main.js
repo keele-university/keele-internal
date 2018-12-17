@@ -31,8 +31,8 @@ function init() {
         instantsearch.widgets.hits({
             container: '#hits',
             templates: {
-                // empty: 'No results',
-                empty: 'File darwin not exist 😜',
+                empty: 'Your search did not match any documents',
+                // empty: 'File darwin not exist 😜',
                 item: `
             <a href="https://www.keele.ac.uk{{urlPath}}">
                 <div class="card">
