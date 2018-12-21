@@ -1,4 +1,4 @@
-<div class="ki-utility-links accordion mb-3" id="accordionUtilityLinks">
+<div class="ki-utility-links accordion mb-3 js-accordionUtilityLinks" id="accordionUtilityLinks">
                         <div class="card">
                             <div class="card-header p-0 text-left" id="headingOne">
                                 <h5 class="mb-0">

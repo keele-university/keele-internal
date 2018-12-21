@@ -1,5 +1,5 @@
 const vh = require('../../utils/vanilla-helper');
-// const svg = '<svg viewBox="0 0 16 16" width="16" height="16" class="icon-arrow d-none d-md-inline-block"><path d="M7.2 12.73l-1.41-1.41 3.29-3.29-3.29-3.29L7.2 3.32l4.71 4.71-4.71 4.7z"/></svg>';
+const svg = '<svg viewBox="0 0 16 16" width="16" height="16" class="icon-arrow d-none d-md-inline-block"><path d="M7.2 12.73l-1.41-1.41 3.29-3.29-3.29-3.29L7.2 3.32l4.71 4.71-4.71 4.7z"/></svg>';
 // const svg = '<i class="fas fa-angle-right ml-2 align-middle d-none d-md-inline-block"></i>';
 
 // Note that SVG goes to new line on certain page widths so better to implement it as background? 
@@ -13,8 +13,19 @@ function init() {
     if(quickLinks){
         _.forEach(quickLinks, quickLink => {
             quickLink.classList.add('list-unstyled');
-        }
-    );
+
+            // grab the li in case needed
+            var listItemsLis = quickLink.querySelectorAll('li');
+            _.forEach(listItemsLis, function(listItemLi){
+                    // and now loop through the a href    
+                    // adding the svg to links
+                    var listItemA = listItemLi.querySelector('a');
+                    listItemA.classList.add('d-flex', 'align-items-center');
+                    var old_str = listItemA.innerHTML;
+                    listItemA.innerHTML = old_str + svg;
+                }
+            );
+        })
     }
     // end .col-3 MAIN quicklins
 
