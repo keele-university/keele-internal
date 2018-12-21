@@ -21,7 +21,7 @@ function init() {
                     // adding the svg to links
                     var listItemA = listItemLi.querySelector('a');
                     if (listItemA){
-                    listItemA.classList.add('d-flex', 'align-items-center');
+                    // listItemA.classList.add('d-flex', 'align-items-center');
                     var old_str = listItemA.innerHTML;
                     listItemA.innerHTML = old_str + svg;
                     }

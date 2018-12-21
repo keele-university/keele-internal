@@ -9,3 +9,8 @@
     transform: rotate(180deg);
     transition: .2s all ease-in;
 }
+
+// tidy up the svg's on the list items
+.ki-utility-links svg.icon-arrow.d-none.d-md-inline-block {
+    margin-bottom: 2px;
+}
