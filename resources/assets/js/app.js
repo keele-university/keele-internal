@@ -81,7 +81,7 @@ const kiAlert = require('./components/ki-alert/ki-alert');
 const kiAZ = require('./components/ki-az/ki-az');
 const topButton = require('./utils/ki-scroll-to-top-button');
 const newsStory = require('./components/ki-news-story/ki-news-story');
-const IEfix = require('./utils/ki-internet-explorer-fixer');
+const IEfix = require('./utils/ki-windows-and-ie-fixer');
 
 // Layout and search imports
 const breadcrumbs = require('./layout/breadcrumbs');

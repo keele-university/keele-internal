@@ -175,6 +175,18 @@ $breadcrumb-divider: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3d
     margin-bottom: 0px;
 }
 
+// FIX WINDOWS browser links
+// make links within main copy obvious
+.js-is-windows {
+    .container p a {
+        font-weight: 600;
+    }
+    // ... and try to minimise any other links from being unnecessarily bold
+    #footer a, .col-md-3 a, .ki-auth-bar a, header a {
+        font-weight: initial;
+    }
+}
+
 // :root {
 //     --blue: #007bff;
 //     --indigo: #6610f2;

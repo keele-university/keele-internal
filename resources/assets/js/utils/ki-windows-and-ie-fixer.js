@@ -19,6 +19,20 @@ function init (){
 
     }
 
+    // fix up links on Windows machines as they are not obviously links!
+    // the following will add a class to the body. This can then be targeted with CSS
+    var OSName="Unknown OS";
+    if (navigator.appVersion.indexOf("Win")!=-1) OSName="Windows";
+    else if (navigator.appVersion.indexOf("Mac")!=-1) OSName="MacOS";
+    else if (navigator.appVersion.indexOf("X11")!=-1) OSName="UNIX";
+    else if (navigator.appVersion.indexOf("Linux")!=-1) OSName="Linux";
+    
+    console.log('Your OS is: '+OSName);
+
+    if ( OSName === 'Windows' ){
+        var bod = document.querySelector('body');
+        bod.classList.add('js-is-windows')
+    }
 
 }
 
