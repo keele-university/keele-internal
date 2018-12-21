@@ -45,7 +45,7 @@
             <div class="ki-auth-bar container-fluid bg-light sticky-top">
                 <div class="container d-flex">
                         <div class="pl-2 my-0 py-1 align-left d-block d-lg-none "><small>STAFF INTRANET</small></div>
-                        <div class="ml-auto my-0 py-1 align-middle"><a href="#"><small>Logout</small></a></div>
+                        <div class="ml-auto my-0 py-1 align-middle"><a href="#" class="invisible"><small>Logout</small></a></div>
                 </div>
             </div>
 
