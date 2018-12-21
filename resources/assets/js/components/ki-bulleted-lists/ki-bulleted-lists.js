@@ -20,9 +20,11 @@ function init() {
                     // and now loop through the a href    
                     // adding the svg to links
                     var listItemA = listItemLi.querySelector('a');
+                    if (listItemA){
                     listItemA.classList.add('d-flex', 'align-items-center');
                     var old_str = listItemA.innerHTML;
                     listItemA.innerHTML = old_str + svg;
+                    }
                 }
             );
         })
