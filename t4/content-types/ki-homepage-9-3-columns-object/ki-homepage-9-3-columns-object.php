@@ -133,11 +133,11 @@
                         <h1 class="card-title">Forums</h1>
                         <p class="lead">Direct links to the Keele discussion boards.</p>
                         <div class="row mt-4">
-                            <div class="col-lg-6 mb-3"><a href="" class="btn btn-primary btn-block">General chat and
+                            <div class="col-lg-6 mb-3"><a href="https://forums.keele.ac.uk/viewforum.php?f=2" class="btn btn-primary btn-block">General chat and
                                     announcements</a></div>
-                            <div class="col-lg-6 mb-3"><a href="" class="btn btn-primary btn-block">Job vacancies</a></div>
-                            <div class="col-lg-6 mb-3"><a href="" class="btn btn-primary btn-block">For sale or wanted</a></div>
-                            <div class="col-lg-6 mb-3"><a href="" class="btn btn-primary btn-block">Accommodation</a></div>
+                            <div class="col-lg-6 mb-3"><a href="https://forums.keele.ac.uk/viewforum.php?f=14" class="btn btn-primary btn-block">Job vacancies</a></div>
+                            <div class="col-lg-6 mb-3"><a href="https://forums.keele.ac.uk/viewforum.php?f=3" class="btn btn-primary btn-block">For sale or wanted</a></div>
+                            <div class="col-lg-6 mb-3"><a href="https://forums.keele.ac.uk/viewforum.php?f=6" class="btn btn-primary btn-block">Accommodation</a></div>
                         </div>
                         <!-- <hr class="my-4"> -->
                         <!-- <p>Keele University discussion boards</p> -->

@@ -120,12 +120,12 @@
                         </a>
                     </p>
                     <p>
-                        <a href="#!" class="text-white">
+                        <a href="/telephones" class="text-white">
                             <i class="fas fa-envelope mr-2"></i>Staff directory
                         </a>
                     </p>
                     <p>
-                        <a href="#!" class="text-white">
+                        <a href="/social-media" class="text-white">
                             <i class="fas fa-share-square mr-2"></i>Social media directory
                         </a>
                     </p>
@@ -146,7 +146,7 @@
 
                     <!--Copyright-->
                     <p class="text-center text-md-left">
-                        <a href="#!" class="text-white">
+                        <a href="/connect/contactus" class="text-white">
                             <strong> Keele University</strong>, Keele, Staffordshire, ST5 5BG. United Kingdom
                         </a>
                     </p>
@@ -159,7 +159,7 @@
 
                     <!-- Social buttons -->
                     <div class="text-center text-md-right">
-                        <ul class="list-unstyled list-inline">
+                        <!-- <ul class="list-unstyled list-inline">
                             <li class="list-inline-item">
                                 <a class="btn-floating btn-sm rgba-white-slight mx-1">
                                     <i class="fas fa-sun"></i>
@@ -180,7 +180,7 @@
                                     <i class="fas fa-swimmer"></i>
                                 </a>
                             </li>
-                        </ul>
+                        </ul> -->
                     </div>
 
                 </div>
