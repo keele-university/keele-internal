@@ -14,3 +14,11 @@
 .ki-utility-links svg.icon-arrow.d-none.d-md-inline-block {
     margin-bottom: 2px;
 }
+
+.ki-utility-links li {
+    transition: .2s transform ease-out;
+    &:hover svg {
+        transition: .2s transform ease-out;
+        transform: translateX(2px);
+    }
+}
