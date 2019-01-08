@@ -160,7 +160,7 @@
             <div class="row">
                 
                 <div class="js-ki-home-3-2 col-lg-4 mb-3">
-                    <h2 class="mb-3">Information for new starters</h2>
+                    <h2 class="mb-3">New starters resources</h2>
                     <!-- navigation object : ki-col-9-strategy-developments --><t4 type="navigation" id="493"/>
                 </div>
 
@@ -172,8 +172,7 @@
                 <div class="js-ki-home-3-3 col-lg-4 mb-3">
                     <!-- <h2 class="mb-5">Twitter feed</h2> -->
                     <div class="pt-1">
-                        <a class="twitter-timeline" data-width="" data-height="725" data-theme="light" href="https://twitter.com/KeeleStaff?ref_src=twsrc%5Etfw">Tweets
-                            by KeeleStaff</a>
+                        <a class="twitter-timeline" data-width="" data-height="725" data-theme="light" href="https://twitter.com/KeeleStaff?ref_src=twsrc%5Etfw">Tweets by KeeleStaff</a>
                     </div>
                 </div>
 
