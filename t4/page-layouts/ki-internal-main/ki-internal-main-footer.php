@@ -70,21 +70,6 @@
                 <hr class="w-100 clearfix d-md-none">
 
                 <!-- Grid column -->
-                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-                    <h6 class="text-uppercase mb-4 font-weight-bold">Content tasks</h6>
-
-
-                <ul class="list-unstyled">
-                    <li><t4 type="edit-page" action="add" text="Add new content to this page" /></li>
-                    <li><t4 type="edit-page" action="modify" text="Modify content on this page" /></li>
-                </ul>
-
-                </div>
-                <!-- Grid column -->
-
-                <hr class="w-100 clearfix d-md-none">
-
-                <!-- Grid column -->
                 <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
                 <h6 class="text-uppercase mb-4 font-weight-bold">Support</h6>
                     <ul class="list-unstyled">
@@ -132,6 +117,21 @@
 
                 </div>
                 <!-- Grid column -->
+
+                <hr class="w-100 clearfix d-md-none">
+
+                <!-- Grid column -->
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3 footer-edit-block">
+                    <h6 class="text-uppercase mb-4 font-weight-bold">Admin tasks</h6>
+
+
+                <ul class="list-unstyled">
+                    <li><t4 type="edit-page" action="add" text="Add new content to this page" /></li>
+                    <li><t4 type="edit-page" action="modify" text="Modify content on this page" /></li>
+                </ul>
+
+                </div>
+                <!-- Grid column -->                
 
             </div>
             <!-- Footer links -->
