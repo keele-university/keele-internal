@@ -30,7 +30,8 @@
 .ki-header__title {
     font-size: 2.25rem;
     font-family: 'Source Sans Pro', sans-serif !important;
-    margin-left: 205px;
+    // margin-left: 205px; while we change STAFF INTRANET to 'Welcome to the new Staff Intranet'
+    margin-left: 110px;
 
     // transition: transform 0.1s cubic-bezier(0, 1.8, 1, 1.8);
     &:hover {
