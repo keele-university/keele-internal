@@ -12,6 +12,16 @@
     }
 }
 
+.layout-home-updates .btn {
+    svg {
+        transition: .2s transform ease-out;
+        }
+        &:hover svg {
+            transition: .2s transform ease-out;
+            transform: translateX(2px);
+        }
+}
+
 // t4 edit block
  .footer-edit-block {
      opacity: 0;
