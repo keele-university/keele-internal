@@ -5,5 +5,5 @@
         <t4 type="content" name="News title" output="normal" />
         </a>
     </h5>
-    <p class="font-weight-light"><small><t4 type="content" output="normal" modifiers="nav_sections" name="Display date released" date_format="dd MMMM yyyy" /></small></p>
+    <p class="font-weight-light"><small>Posted <t4 type="content" output="normal" modifiers="nav_sections" name="Display date released" date_format="dd MMMM yyyy" /></small></p>
 </li>
