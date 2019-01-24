@@ -100,13 +100,13 @@
                 <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
                     <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
                     <p>
-                        <a href="https://www.keele.ac.uk" class="text-white">
-                            <i class="fas fa-home mr-2"></i>External website
+                        <a href="mailto:comms.internal@keele.ac.uk" class="text-white">
+                            <i class="fas fa-envelope mr-2"></i>Email the team
                         </a>
                     </p>
                     <p>
                         <a href="/telephones" class="text-white">
-                            <i class="fas fa-envelope mr-2"></i>Staff directory
+                            <i class="fas fa-compass mr-2"></i>Staff directory
                         </a>
                     </p>
                     <p>
