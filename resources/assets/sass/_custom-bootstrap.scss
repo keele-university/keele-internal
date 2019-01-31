@@ -159,18 +159,18 @@ $breadcrumb-divider: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3d
 }
 
 
-.fulltext-main-story > p:first-of-type:first-letter {
-        font-size: 3.5em;
-        float: left;
-        line-height: .9;
-        margin-bottom: -.25em;
-        font-weight: 900;
-        background: theme-color(primary);
-        color: white;
-        display: inline-block;
-        padding: 5px 10px 5px;
-        margin: 5px 10px 0px 0px;
-    }
+// .fulltext-main-story > p:first-of-type:first-letter {
+//         font-size: 3.5em;
+//         float: left;
+//         line-height: .9;
+//         margin-bottom: -.25em;
+//         font-weight: 900;
+//         background: theme-color(primary);
+//         color: white;
+//         display: inline-block;
+//         padding: 5px 10px 5px;
+//         margin: 5px 10px 0px 0px;
+//     }
 
 .fulltext-main-story blockquote p {
     margin-bottom: 0px;
