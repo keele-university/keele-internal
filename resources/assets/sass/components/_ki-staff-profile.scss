@@ -1,19 +1,16 @@
 .layout-staff {
-    .card-header {
-        height: 200px;
-    }
+    // .card-header {
+
+    // }
     .card-body {
-        padding-top: 0px;
+
     }
     .card-img-top {
-        height: 200px;
+     position: absolute;
+     top: 0;
     }
-    
     .avatar {
-        position: relative;
-        top: -100px;
-        margin-bottom: -100px;
-
+        z-index: 22;
         img {
             border-radius: 50%;
             border: 5px solid rgba(255,255,255,0.5);
