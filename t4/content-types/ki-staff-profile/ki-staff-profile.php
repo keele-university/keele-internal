@@ -4,19 +4,20 @@
             <div class="layout-staff card text-center">                        
                 <img class="card-img-top d-none d-md-block" src="/k-core/intra/images/ki-staff-background-c.jpg" alt="Card image cap">
                 <div class="avatar mb-0 mt-3">
-                    <img alt="" src="https://www.keele.ac.uk/mac-staff/staff/Cheryl-200x200.jpg">
+                    <img alt="<t4 type="content" name="First name" output="normal" modifiers=""  /> <t4 type="content" name="Last name" output="normal" modifiers=""  />" src="<t4 type="content" name="Staff image" output="file" modifiers="" formatter="path/*" />">
                 </div>
                 <div class="card-body">
 
                     <div class="col-md-10 offset-md-1">
                         <span class="d-block mb-4">
-                            <h3 class="card-title mb-0">Cheryl Belford</h3>
-                            <p class="font-italic">Senior Graphic Designer</p>
+                            <h3 class="card-title mb-0"><t4 type="content" name="First name" output="normal" modifiers=""  /> <t4 type="content" name="Last name" output="normal" modifiers=""  /></h3>
+                            <p class="font-italic"><t4 type="content" name="Role" output="normal" modifiers=""  /></p>
                         </span>
 
-                        <p class="card-text mb-4">Cheryl leads our creative and cost-effective in-house design service, which is available across print and digital channels. Experience and knowledge in all aspects of developing and improving brand guidelines, concepts, design, print and production. The in-house design team work alongside the marketing team producing a wide range of marketing collateral across the wider University on brand.</p>
+                        <!-- <p class="card-text mb-4"></p> -->
+                        <t4 type="content" name="Responsibilities" output="normal" modifiers="medialibrary, nav_sections"  />
 
-                        <p>Contact Cheryl about Central Marketing Campaigns, Branding, Design, Digital Marketing.</p>
+                        <p>Contact about: <t4 type="content" name="Skills" output="normal" modifiers=""  /></p>
 
                         <div class="row">
                             <div class="col"><hr></div>
@@ -25,7 +26,7 @@
                             </div>
                             <div class="col"><hr></div>
                         </div>
-                        <p>Marketing</p>
+                        <p><t4 type="content" name="Team" output="normal" modifiers=""  /></p>
 
                         <div class="row">
                             <div class="col"><hr></div>
@@ -36,10 +37,10 @@
                         </div>
                         <p class="font-weight-light mb-0">
                             <i class="fa fa-envelope" aria-hidden="true"></i>
-                            <a href="mailto:c.belford@keele.ac.uk">c.belford@keele.ac.uk</a>
+                            <a href="mailto:<t4 type="content" name="Email" output="normal" modifiers=""  />"><t4 type="content" name="Email" output="normal" modifiers=""  /></a>
                         </p>
                         <p class="font-weight-light"><i class="fa fa-phone" aria-hidden="true"></i> 
-                            <span class="mctel"><a href="tel:01782 734749">01782 734749</a></span>
+                            <span class="mctel"><a href="tel:<t4 type="content" name="Telephone number" output="normal" modifiers=""  />"><t4 type="content" name="Telephone number" output="normal" modifiers=""  /></a></span>
                         </p>
                         <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
                     </div><!-- card-body -->
