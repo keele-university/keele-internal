@@ -27,10 +27,15 @@
 
             <div class="card mb-3">
                 <div class="card-body">
-                    <p>Location: <t4 type="content" name="Location" output="normal" modifiers=""  /></p>
-                    <p>Organiser name: <t4 type="content" name="Organiser name" output="normal" modifiers=""  /></p>
-                    <p>Contact email: <a href="<t4 type="content" name="Contact email" output="normal" modifiers=""  />"><t4 type="content" name="Contact email" output="normal" modifiers=""  /></a></p>
-                    <p>Contact phone: <t4 type="content" name="Contact phone" output="normal" modifiers=""  /></p>
+                    
+                    <t4 type="content" output="selective-output" process-format="true" modifiers="medialibrary, nav_sections" name="Location" format="<p>Location: $value</p>" />
+                    
+                    <t4 type="content" output="selective-output" process-format="true" modifiers="medialibrary, nav_sections" name="Organiser name" format="<p>Organiser name: $value</p>" />
+
+                    <t4 type="content" output="selective-output" process-format="true" modifiers="medialibrary, nav_sections" name="Contact email" format="<p>Contact email: <a href=&quot;mailto:$value&quot;>$value</a></p>" />
+
+                    <t4 type="content" output="selective-output" process-format="true" modifiers="medialibrary, nav_sections" name="Contact phone" format="<p>Contact phone: $value</p>" />
+
                 </div>
             </div>
         </div> <!-- .end col-md-9 -->
