@@ -79,6 +79,7 @@ const sectionHeader = require('./utils/ki-section-header');
 const kiNavboxGridAutoChildren = require('./components/ki-navbox-grid-auto-children/ki-navbox-grid-auto-children');
 const kiAlert = require('./components/ki-alert/ki-alert');
 const kiAZ = require('./components/ki-az/ki-az');
+const kiAZstaffProfiles = require('./components/ki-az-staff-profiles/ki-az-staff-profiles');
 const topButton = require('./utils/ki-scroll-to-top-button');
 const newsStory = require('./components/ki-news-story/ki-news-story');
 const IEfix = require('./utils/ki-windows-and-ie-fixer');
@@ -126,6 +127,7 @@ const app = new Vue({
                 }
                 kiAlert.init();
                 kiAZ.init();
+                kiAZstaffProfiles.init();
                 topButton.init();
                 if (document.querySelector('.js-ki-search-overlay ')){
                     searchOverlay.init();
