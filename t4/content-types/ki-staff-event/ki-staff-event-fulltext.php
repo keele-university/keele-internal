@@ -5,7 +5,7 @@
             <h2 class="mb-3"><t4 type="content" name="Event title" output="normal" modifiers=""  /></h2>
             <p class="font-weight-light">
                 
-                    Event date: <time class="date-label" datetime="<t4 type="content" output="normal" modifiers="nav_sections" name="Start date" date_format="yyyy-MM-dd HH:mm" />"><t4 type="content" output="normal" modifiers="nav_sections" name="Start date" date_format="dd MMMM yyyy" /></time> <t4 type="content" output="selective-output" process-format="true" modifiers="medialibrary, nav_sections" name="Optional end date" format=" - <t4 type=&quot;content&quot; output=&quot;normal&quot; modifiers=&quot;nav_sections&quot; name=&quot;Optional end date&quot; date_format=&quot;dd MMMM yyyy&quot; />" />
+                    Event date: <time class="date-label" datetime="<t4 type="content" output="normal" modifiers="nav_sections" name="Start date" date_format="yyyy-MM-dd HH:mm" />"><t4 type="content" output="normal" modifiers="nav_sections" name="Start date" date_format="dd MMMM yyyy" /></time> <t4 type="content" output="selective-output" process-format="true" modifiers="medialibrary, nav_sections" name="Optional end date" format=" - <t4 type=&quot;content&quot; output=&quot;normal&quot; modifiers=&quot;nav_sections&quot; name=&quot;Optional end date&quot; date_format=&quot;dd MMMM yyyy&quot; />" /> <t4 type="content" output="selective-output" process-format="true" modifiers="medialibrary, nav_sections" name="Event time" format=", $value" />
                 
                 </p>
 
@@ -28,6 +28,8 @@
             <div class="card mb-3">
                 <div class="card-body">
                     
+                    <t4 type="content" output="selective-output" process-format="true" modifiers="medialibrary, nav_sections" name="Event time" format="<p>Event time: $value</p>" />
+
                     <t4 type="content" output="selective-output" process-format="true" modifiers="medialibrary, nav_sections" name="Location" format="<p>Location: $value</p>" />
                     
                     <t4 type="content" output="selective-output" process-format="true" modifiers="medialibrary, nav_sections" name="Organiser name" format="<p>Organiser name: $value</p>" />
