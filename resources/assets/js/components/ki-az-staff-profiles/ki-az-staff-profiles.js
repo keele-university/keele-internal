@@ -38,7 +38,8 @@ function init() {
 
         // sort the items in the DOM first
         var toSort = initLi;
-        tinysort(toSort);
+        // tinysort(toSort);
+        tinysort(toSort, 'span.ki-staff-az-lastname');
         
         // var inputsList = [];
         // now get the input and listen on it. Note that the class here just outputs
