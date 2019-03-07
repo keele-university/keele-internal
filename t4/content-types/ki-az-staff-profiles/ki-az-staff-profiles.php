@@ -3,6 +3,9 @@
         <div class="js-ki-az-staff-wrapper col-12 mb-4 unique<t4 type="meta" meta="content_id" />" data-unique="<t4 type="meta" meta="content_id" />">
             <!-- <input type="text" id="kiAzInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name"> -->
 
+            <t4 type="content" output="selective-output" modifiers="medialibrary, nav_sections" name="Heading" format="<h3>$value</h3>" />
+            <t4 type="content" output="selective-output" modifiers="medialibrary, nav_sections" name="Introductory text" format="<p>$value</p>" />   
+
             <div class="input-group mb-1">
                 <input type="text" class="form-control" placeholder="Filter" aria-label="Filter" aria-describedby="kiAzInput">
                 <!-- <div class="input-group-append">
