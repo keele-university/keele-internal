@@ -7,7 +7,7 @@
                     <t4 type="content" output="selective-output" process-format="true" name="Accordion title 1" format="<div class=&quot;card&quot;>
                         <div class=&quot;card-header bg-primary&quot; id=&quot;uniq-<t4 type=&quot;meta&quot; meta=&quot;content_id&quot; />-headingOne&quot;>
                         <h5 class=&quot;mb-0&quot;>
-                            <button class=&quot;btn btn-link btn-block text-white d-flex align-items-center&quot; type=&quot;button&quot; data-toggle=&quot;collapse&quot; data-target=&quot;#uniq-<t4 type=&quot;meta&quot; meta=&quot;content_id&quot; />-collapseOne&quot; aria-expanded=&quot;true&quot; aria-controls=&quot;uniq-<t4 type=&quot;meta&quot; meta=&quot;content_id&quot; />-collapseOne&quot;>
+                            <button class=&quot;btn btn-link btn-block text-white d-flex align-items-center&quot; type=&quot;button&quot; data-toggle=&quot;collapse&quot; data-target=&quot;#uniq-<t4 type=&quot;meta&quot; meta=&quot;content_id&quot; />-collapseOne&quot; aria-expanded=&quot;false&quot; aria-controls=&quot;uniq-<t4 type=&quot;meta&quot; meta=&quot;content_id&quot; />-collapseOne&quot;>
                             $value  <i class=&quot;fas fa-angle-down ml-auto&quot;></i>
                             </button>
                         </h5>
