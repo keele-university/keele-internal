@@ -22,3 +22,8 @@
         transform: translateX(2px);
     }
 }
+
+// Gmail roll over
+.k-email:hover svg {
+    animation: pulsate-bck 0.5s ease-in-out both;
+}
