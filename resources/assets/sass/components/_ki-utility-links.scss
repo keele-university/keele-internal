@@ -23,7 +23,7 @@
     }
 }
 
-// Gmail roll over
+// Gmail roll over NOTE pulsate-bck animations held in _ki-back-to-top.scss
 .k-email:hover svg {
     animation: pulsate-bck 0.5s ease-in-out both;
 }
