@@ -27,3 +27,13 @@
 .k-email:hover svg {
     animation: pulsate-bck 0.5s ease-in-out both;
 }
+
+// Press release highlights RHS
+.ki-home-news-rhs ul {
+    padding-left: 0px;
+    list-style: disc inside;
+    // list-style-type: none;
+    a {
+        color: white;
+    }
+}
