@@ -63,7 +63,7 @@
 
                         <!-- <a class="ki-header__title navbar-text text-primary d-none d-lg-block" href="<t4 type="navigation" id="495"/>"> -->
                         <a class="ki-header__title navbar-text text-primary d-none d-lg-block" href="/intranet/latestupdates/2019/january/welcometothenewkeelestaffintranet">
-                                <!-- STAFF INTRANET -->Welcome to the new Staff Intranet
+                                <!-- STAFF INTRANET -->Staff Intranet
                         </a>
 
                         <div class="ml-auto d-flex">
