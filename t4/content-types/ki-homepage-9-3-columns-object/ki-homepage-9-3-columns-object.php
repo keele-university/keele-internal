@@ -135,11 +135,14 @@
                         <h1 class="card-title">Forums</h1>
                         <p class="lead">Direct links to the Keele discussion boards.</p>
                         <div class="row mt-4">
-                            <div class="col-lg-6 mb-3"><a href="https://forums.keele.ac.uk/viewforum.php?f=2" class="btn btn-primary btn-block">General chat and
+                            <div class="col-lg-6 mb-3"><a href="https://community.keele.ac.uk/phpBB3/viewforum.php?f=3" class="btn btn-primary btn-block">General chat and
                                     announcements</a></div>
-                            <div class="col-lg-6 mb-3"><a href="https://forums.keele.ac.uk/viewforum.php?f=14" class="btn btn-primary btn-block">Job vacancies</a></div>
-                            <div class="col-lg-6 mb-3"><a href="https://forums.keele.ac.uk/viewforum.php?f=3" class="btn btn-primary btn-block">For sale or wanted</a></div>
-                            <div class="col-lg-6 mb-3"><a href="https://forums.keele.ac.uk/viewforum.php?f=6" class="btn btn-primary btn-block">Accommodation</a></div>
+                            <div class="col-lg-6 mb-3"><a href="https://community.keele.ac.uk/phpBB3/viewforum.php?f=4" class="btn btn-primary btn-block">Job vacancies</a></div>
+                            <div class="col-lg-6 mb-3"><a href="https://community.keele.ac.uk/phpBB3/viewforum.php?f=5" class="btn btn-primary btn-block">For sale or wanted</a></div>
+                            <div class="col-lg-6 mb-3"><a href="https://community.keele.ac.uk/phpBB3/viewforum.php?f=6" class="btn btn-primary btn-block">Accommodation</a></div>
+    <div class="col-12">
+                            <p class="text-center"><a href="https://forums.keele.ac.uk/index.php?sid=a357282b919d4363b72d59b2723ed908">Visit the legacy forums - closing 25 September</a></p>
+    </div>                            
                         </div>
                         <!-- <hr class="my-4"> -->
                         <!-- <p>Keele University discussion boards</p> -->
