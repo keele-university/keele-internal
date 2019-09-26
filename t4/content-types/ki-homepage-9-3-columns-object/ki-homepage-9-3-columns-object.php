@@ -94,10 +94,10 @@
 
                     </div> <!-- .row  -->
 
+                    <!-- navigation object : ki- Home university news link --><t4 type="navigation" id="553"/>
 
                     <!-- navigation object : ki-core-latest-update-UEC-homepage --><t4 type="navigation" id="498"/>
 
-                    <!-- navigation object : ki- Home university news link --><t4 type="navigation" id="553"/>
 
                     <!-- UEC dev now in nav object above
 
