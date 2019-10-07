@@ -9,7 +9,7 @@
                 
                 </p>
 
-            <figure class="figure mb-4 mx-md-0">
+            <figure class="ki-event-image figure mb-4 mx-md-0">
                     <img class="card-img-top" src="<t4 type="content" name="Lead image: 960px x 640px" output="file" modifiers="" />" alt="<t4 type="content" name="News title" output="normal" modifiers=""  />">
                     <figcaption class="figure-caption"><t4 type="content" name="Image caption" output="normal" modifiers=""  /></figcaption>
             </figure>
