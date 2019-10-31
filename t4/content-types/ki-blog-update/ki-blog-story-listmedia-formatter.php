@@ -1,7 +1,7 @@
                     <!-- set up for the homepage pinned UEC story. Works in a similar way to standard ki- News story -->
                     <a href="<t4 type="content" output="fulltext" modifiers="nav_sections" use-element="true" filename-element="hyphenated-page-slug-name" name="News title" />">
                         <li class="media">
-                            <img class="mr-3 mb-4 lazyload blur-up" src="data:image/gif;base64,R0lGODlhAQABAIAAAPT09AAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="<t4 type="content" name="Lead image: 960px x 640px" output="file" modifiers="" />" alt="<t4 type="content" name="Image caption" output="normal" modifiers=""  />">
+                            <img class="mr-3 mb-4 lazyload blur-up" src="data:image/gif;base64,R0lGODlhAQABAIAAAPT09AAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="<t4 type="content" name="Lead image: 960px x 300px" output="file" modifiers="" />" alt="<t4 type="content" name="Image caption" output="normal" modifiers=""  />">
                             <div class="media-body">
                                 <h5 class="mt-0 mb-1">
                                     <t4 type="content" name="News title" output="normal" />
