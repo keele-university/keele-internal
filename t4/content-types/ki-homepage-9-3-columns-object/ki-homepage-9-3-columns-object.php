@@ -132,7 +132,7 @@
 
                 <div class="card mb-0 p-md-3 bg-white">
                     <div class="card-body">
-                        <h1 class="card-title"><a href="https://community.keele.ac.uk">Forums</a></h1>
+                        <h1 class="card-title"><a href="https://community.keele.ac.uk">View posts on the Staff Forums</a></h1>
                         <p class="lead">Direct links to the Keele discussion boards.</p>
                         <div class="row mt-4">
                             <div class="col-lg-6 mb-3"><a href="https://community.keele.ac.uk/phpBB3/viewforum.php?f=3" class="btn btn-primary btn-block">General chat and
