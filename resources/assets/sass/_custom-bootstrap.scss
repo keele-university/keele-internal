@@ -188,6 +188,35 @@ $breadcrumb-divider: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3d
     }
 }
 
+
+
+
+
+// Accessibility
+
+// WHAT INPUT - https://github.com/ten1seven/what-input/blob/master/README.md
+// disables focus rings when mouse is detected. Focus still occurs for keyboard users
+/*
+ * only suppress the focus ring once what-input has successfully started
+ */
+/* suppress focus ring on form controls for mouse users */
+[data-whatintent='mouse'] *:focus, [data-whatintent='touch'] *:focus {
+    outline: none !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // :root {
 //     --blue: #007bff;
 //     --indigo: #6610f2;

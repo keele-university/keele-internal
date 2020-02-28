@@ -5,6 +5,8 @@ import 'bootstrap';
 window._ = require('lodash');
 window.Vue = require('vue');
 
+var whatInput = require('what-input');
+
 
 // console.log(
 //     '%cKeele University%c!%cOoooh ⊙.☉, ... looks as though you may want to speak to the web team\? support\.web\@keele\.\ac\.uk',
@@ -83,6 +85,7 @@ const kiAZstaffProfiles = require('./components/ki-az-staff-profiles/ki-az-staff
 const topButton = require('./utils/ki-scroll-to-top-button');
 const newsStory = require('./components/ki-news-story/ki-news-story');
 const IEfix = require('./utils/ki-windows-and-ie-fixer');
+const a11y = require('./utils/a11y');
 
 // Layout and search imports
 const breadcrumbs = require('./layout/breadcrumbs');
@@ -142,6 +145,7 @@ const app = new Vue({
                 IEfix.init();
                 // shieldbannerfix.init();
                 // window.scrollTo(0,0);
+                a11y.init();
             }
         }
     };

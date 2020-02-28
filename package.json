@@ -45,7 +45,8 @@
     "sass-loader": "^6.0.6",
     "scrolldir": "^1.2.13",
     "vue-loader": "^12.2.2",
-    "webpack-svgstore-plugin": "^4.0.1"
+    "webpack-svgstore-plugin": "^4.0.1",
+    "what-input": "^5.2.6"
   },
   "author": "",
   "license": "ISC"
