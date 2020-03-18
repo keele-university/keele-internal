@@ -7,7 +7,7 @@ function init(){
     var globTables = document.querySelectorAll('table');
 
     _.forEach(globTables, function(table){
-        vh.addClass(table, 'table table-bordered table-striped');
+        vh.addClass(table, 'table table-bordered table-striped table-responsive');
     })
 
 }
