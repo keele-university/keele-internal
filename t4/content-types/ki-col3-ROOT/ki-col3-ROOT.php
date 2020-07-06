@@ -5,7 +5,7 @@
 <a href="http://owa.keele.ac.uk/"><button type="button" class="k-email btn btn-dark btn-block mb-2 text-md-left collapsed d-flex align-items-center">Outlook <i class="fas fa-envelope mr-2 ml-auto"></i></button></a>
 
 
-<a href="http://keele.ac.uk/office365"><button type="button" class="k-email btn btn-dark btn-block mb-2 text-md-left collapsed d-flex align-items-center">Outlook <i class="fas fa-briefcase mr-2 ml-auto"></i></button></a>
+<a href="http://keele.ac.uk/office365"><button type="button" class="k-email btn btn-dark btn-block mb-2 text-md-left collapsed d-flex align-items-center">Office 365 Support <i class="fas fa-info mr-2 ml-auto"></i></button></a>
 
 
 <!-- <a href="https://servicedesk.keele.ac.uk/tas/public/ssp/content/serviceflow?unid=6e4579a22ca34a51aeb5fef15db91dd9&from=476af289-9957-4592-952b-708a7cc43219&openedFromService=true"><button type="button" class="k-report-data-breach btn btn-primary btn-block mb-2 text-md-left collapsed d-flex align-items-center">Report a data breach </button></a> -->
