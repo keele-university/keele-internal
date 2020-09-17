@@ -21,7 +21,7 @@
 
 
     
-    <div class="container-fluid d-flex justify-content-center bg-dark mt-3">
+        <div class="container-fluid d-flex justify-content-center bg-dark mt-3">
             <a href="#" class="ki-footer-to-top col-12 py-4 flex-column d-flex justify-content-center text-white">
                 <i class="fas fa-angle-up align-self-center"></i>
                 <div class="align-self-center">top</div>
