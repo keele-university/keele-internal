@@ -1,6 +1,6 @@
 <a href="/intranet/coronavirusupdates"><button type="button" class="btn text-white bg-danger  btn-block mb-2 text-md-left collapsed d-flex align-items-center">Coronavirus information <i class="fas fa-plus-square mr-2 ml-auto"></i></button></a>
 
-<a href="http://mail.keele.ac.uk"><button type="button" class="k-email btn btn-dark btn-block mb-2 text-md-left collapsed d-flex align-items-center">Gmail <i class="fas fa-envelope mr-2 ml-auto"></i></button></a>
+<!-- <a href="http://mail.keele.ac.uk"><button type="button" class="k-email btn btn-dark btn-block mb-2 text-md-left collapsed d-flex align-items-center">Gmail <i class="fas fa-envelope mr-2 ml-auto"></i></button></a> -->
 
 <a href="http://owa.keele.ac.uk/"><button type="button" class="k-email btn btn-dark btn-block mb-2 text-md-left collapsed d-flex align-items-center">Outlook <i class="fas fa-envelope mr-2 ml-auto"></i></button></a>
 
