@@ -5,18 +5,11 @@
                 <div class="card-body">
                     <ul class="nav nav-pills mb-3 rounded border border-light" id="unique<t4 type="meta" meta="content_id" />" role="tablist">
 
-                        <!-- <li class="nav-item">
+                        <li class="nav-item">
                             <a class="nav-link noZensmooth border mr-1 mb-1 active" id="tab-1-unique<t4 type="meta" meta="content_id" />" data-toggle="pill" href="#tabs-one-unique<t4 type="meta" meta="content_id" />" role="tab" aria-controls="tabs-one-unique<t4 type="meta" meta="content_id" />" aria-selected="true">
                             <t4 type="content" name="Tab title 1" output="normal" />
                             </a>
-                        </li> -->
-
-                        <t4 type="content" output="selective-output" process-format="true" modifiers="medialibrary, nav_sections" name="Tab title 1" format="<li class=&quot;nav-item&quot;>
-                            <a class=&quot;nav-link noZensmooth border mr-1 mb-1&quot; id=&quot;tab-1-unique<t4 type=&quot;meta&quot; meta=&quot;content_id&quot; />&quot; data-toggle=&quot;pill&quot; href=&quot;#tabs-one-unique<t4 type=&quot;meta&quot; meta=&quot;content_id&quot; />&quot; role=&quot;tab&quot; aria-controls=&quot;tabs-one-unique<t4 type=&quot;meta&quot; meta=&quot;content_id&quot; />&quot; aria-selected=&quot;false&quot;>
-                            $value
-                            </a>
-                        </li>" />
-
+                        </li>
 
                         <t4 type="content" output="selective-output" process-format="true" modifiers="medialibrary, nav_sections" name="Tab title 2" format="<li class=&quot;nav-item&quot;>
                             <a class=&quot;nav-link noZensmooth border mr-1 mb-1&quot; id=&quot;tab-2-unique<t4 type=&quot;meta&quot; meta=&quot;content_id&quot; />&quot; data-toggle=&quot;pill&quot; href=&quot;#tabs-two-unique<t4 type=&quot;meta&quot; meta=&quot;content_id&quot; />&quot; role=&quot;tab&quot; aria-controls=&quot;tabs-two-unique<t4 type=&quot;meta&quot; meta=&quot;content_id&quot; />&quot; aria-selected=&quot;false&quot;>
