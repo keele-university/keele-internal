@@ -33,9 +33,15 @@ const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPl
     .copy('resources/media', 'public/media')
     .copy('mix-manifest.json', 'public/')
     .browserSync({
-        // proxy: 'keele.dev'
-        proxy: 'https://keele-internal.dev'
-    })
+        proxy: false,
+        server: {
+          baseDir: './public/',
+          directory: true,
+          serveStaticOptions: {
+            extensions: ["html"]
+        }
+        }
+      })
     .webpackConfig({
         plugins: [
             new BundleAnalyzerPlugin()
