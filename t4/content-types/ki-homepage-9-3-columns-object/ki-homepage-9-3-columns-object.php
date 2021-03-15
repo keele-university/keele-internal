@@ -117,14 +117,33 @@
                     </div> <!- - .row UEC - ->
                     -->
 
+
+<!-- navigation object : ki- mid page include pull in --><t4 type="navigation" id="599"/>
+
+
                 </div> <!-- end col-md-9 of 9 / 3 -->
 
                 <div class="col-md-3 mb-3 order-0 order-md-1">
                     <!-- navigation object : ki-home-9-3-ROOT --><t4 type="navigation" id="487"/>
                 </div> <!-- end col-md-3 in 9 / 3 -->
 
+
+
+
+
+
+
+
+
+
             </div> <!-- end 9 / 3 row -->
         <!-- </div> end 9 / 3 container --> <!-- BREAKS PAGE-WRAPPER TOO EARLY ON HOMEPAGE SO COMMENTING OUT -->
+
+
+
+
+
+
 
 
         <div class="jumbotron jumbotron-fluid text-center">
