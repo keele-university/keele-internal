@@ -213,10 +213,11 @@ $breadcrumb-divider: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3d
 
 
 
-
-
-
-
+// Important global rule
+// Allow for any content containing links within paragraphs to have an underline
+p a {
+    text-decoration: underline;
+}
 
 
 
