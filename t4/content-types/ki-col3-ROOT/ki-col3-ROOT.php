@@ -12,6 +12,8 @@
 
 <a href="https://status.keele.ac.uk/"><button type="button" class="k-ids-status btn btn-primary btn-block mb-2 text-md-left collapsed d-flex align-items-center">System status dashboard <i class="fas fa-tachometer-alt mr-2 ml-auto"></i></button></a>
 
+<a href="https://keeleacuk.sharepoint.com/sites/ProfessionalServicesDirectory#"><button type="button" class="k-ids-status btn btn-dark btn-block mb-2 text-md-left collapsed d-flex align-items-center">Professional Services Directory <i class="fas fa-address-book mr-2 ml-auto"></i></button></a>
+
 <div class="ki-utility-links accordion mb-3 js-accordionUtilityLinks" id="accordionUtilityLinks">
                         <div class="card">
                             <div class="card-header p-0 text-left" id="headingOne">
