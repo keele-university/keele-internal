@@ -15,42 +15,42 @@ var whatInput = require('what-input');
 //     'color: yellowgreen; font-weight: bold; font-size: 3rem; text-shadow: 0 0 5px rgba(0,0,0,0.2);'
 //     );
 
-const style = [
-    'background: #000',
-    'color: #fff',
-    'padding: 10px 10px',
-    'line-height: 35px',
-    'font-size: 2rem'
-    ].join(';');
-const style2 = [
-    'background: #000',
-    'color: white',
-    'padding: 10px 0px',
-    'line-height: 35px',
-    'font-size: 2rem'
-    ].join(';');
-const style3 = [
-    'background: #000',
-    'color: #fff',
-    'padding: 10px 20px 10px 0px',
-    'line-height: 35px',
-    'font-size: 2rem'
-    ].join(';');
-const styleImg = [
-    // 'background-image: url("https://www.keele.ac.uk/media/header/logo.svg")',
-    'background-image: url("https://media.giphy.com/media/l0IybQ6l8nfKjxQv6/giphy.gif")',
-    'background-size: cover',
-    'color: #fff',
-    // 'padding: 20px 49px'
-    'padding: 50px 50px'
-    // 'line-height: 35px'
-    ].join(';');
-console.log('%c ', styleImg);
+// const style = [
+//     'background: #000',
+//     'color: #fff',
+//     'padding: 10px 10px',
+//     'line-height: 35px',
+//     'font-size: 2rem'
+//     ].join(';');
+// const style2 = [
+//     'background: #000',
+//     'color: white',
+//     'padding: 10px 0px',
+//     'line-height: 35px',
+//     'font-size: 2rem'
+//     ].join(';');
+// const style3 = [
+//     'background: #000',
+//     'color: #fff',
+//     'padding: 10px 20px 10px 0px',
+//     'line-height: 35px',
+//     'font-size: 2rem'
+//     ].join(';');
+// const styleImg = [
+//     // 'background-image: url("https://www.keele.ac.uk/media/header/logo.svg")',
+//     'background-image: url("https://media.giphy.com/media/l0IybQ6l8nfKjxQv6/giphy.gif")',
+//     'background-size: cover',
+//     'color: #fff',
+//     // 'padding: 20px 49px'
+//     'padding: 50px 50px'
+//     // 'line-height: 35px'
+//     ].join(';');
+// console.log('%c ', styleImg);
 
-console.log('Web Support - web.support@keele.ac.uk');
-console.log('Web Developer: Chris Beard - c.d.beard@keele.ac.uk');
+// console.log('Web Support - web.support@keele.ac.uk');
+// console.log('Web Developer: Chris Beard - c.d.beard@keele.ac.uk');
 
-console.log('%cCoded with %c🍵 %c& %c🐿️ ?', style, style2, style, style3);
+// console.log('%cCoded with %c🍵 %c& %c🐿️ ?', style, style2, style, style3);
 // console.log('%c♥ %c & %c🐿️ ?', style2, style, style3);
 
 // Font awesome see:
