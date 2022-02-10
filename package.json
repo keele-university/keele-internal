@@ -40,7 +40,7 @@
     "flickity": "^2.0.9",
     "jquery": "^3.3.1",
     "lazysizes": "^5.2.2",
-    "node-sass": "^4.5.3",
+    "node-sass": "^7.0.0",
     "popper.js": "^1.14.4",
     "sass-loader": "^6.0.6",
     "scrolldir": "^1.2.13",
